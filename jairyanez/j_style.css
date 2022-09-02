@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
     background-image: linear-gradient(135deg,#FFFFFF,#F3FFFC,#E1E2E3);
     background-size: 800%;
     animation: fanimado 10s infinite;
@@ -16,7 +17,38 @@ body {
         background-position: 0% 50%;
     }
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    align-items: center;
+}
 
+#head-1 {
+    display: flex;
+    align-items: center;
+}
+#head-1 h1 {
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+#back-icon {
+    width: 40px;
+}
+
+#user-log{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#user-log img{
+    width: 40px;
+    padding: 10px;
+}
 #container-list {
     margin-top: 20px;
     display: flex;
@@ -32,5 +64,8 @@ body {
 #link-return {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-style: initial;
+    font-size: 10px;
+    color: red;
+    padding: 10px 10px;
+    margin-left: 10px;
 }
