@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
-    background-image: linear-gradient(135deg,#FFFFFF,#F3FFFC,#E1E2E3);
+    background-image: linear-gradient(135deg,#FFFFFF,#d1f4ff,#d4fbec,#E1E2E3);
     background-size: 800%;
     animation: fanimado 10s infinite;
 }
@@ -74,7 +74,9 @@ header {
 #link-return {
     margin-left: 10px;
 }
-#lista-actividades {
+#container-list li, #lista-actividades {
     text-decoration: none;
     color: #00546F;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
