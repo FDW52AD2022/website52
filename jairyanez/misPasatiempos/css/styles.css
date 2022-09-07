@@ -1,0 +1,82 @@
+body {
+    background-image: url(../img/background.png);
+    background-size: contain;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    align-items: center;
+}
+#head-1 {
+    display: flex;
+    align-items: center;
+}
+#head-1 h1 {
+    font-size: 26px;
+    padding-left: 10px;
+}
+#back-icon {
+    width: 40px;
+    border-radius: 100px;
+}
+#back-icon:hover {
+    box-shadow: 0px 0px 3px 3px rgb(32, 255, 233);
+    transition: 0.2s;
+}
+#link-return {
+    margin-left: 10px;
+}
+#user-log{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+#user-log h4{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#user-log img{
+    border-radius: 100px;
+    width: 40px;
+    padding: 10px;
+}
+#user-log:hover {
+    box-shadow: 0px 0px 4px 2px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#bar-navegation {
+    background-color: orange;
+    padding: 1px 0px 2px;
+    justify-content: space-between;
+}
+#bar-navegation ul {
+    display: flex;
+}
+#bar-navegation li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+#bar-navegation a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#bar-navegation a:hover{
+    background-color: white;
+    color: orange;
+    transition: 0.3s;
+}
