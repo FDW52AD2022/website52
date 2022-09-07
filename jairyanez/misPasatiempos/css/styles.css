@@ -80,3 +80,91 @@ header {
     color: orange;
     transition: 0.3s;
 }
+
+/* CONTENIDO */
+
+
+#about-me {
+    padding-left: 32px;
+}
+
+#about-me #foto {
+    justify-content: right;
+    align-items: right;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#about-me #foto img {
+    float: right;
+    border-radius: 60px;
+    width: 300px;
+    
+}
+
+#data-i{
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    border: gray;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    min-width: 10;
+    box-shadow: 0px 10px 20px grey;
+}
+
+#v1{
+    background-color: rgb(129, 147, 208);
+}
+
+#v2{
+    background-color: rgb(208, 158, 129);
+}
+#v3{
+    background-color: rgb(203, 203, 203);
+}
+
+h4 {
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#futbol h3 {
+    margin-left: 20px;
+    color: rgb(33, 33, 138);
+    text-align: center;
+}
+
+#futbol img {
+    margin: auto;
+    display: block;
+    width: 200px;
+}
+
+#contacto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contacto a {
+    text-decoration: none;
+}
+#contacto img {
+    width: 40px;
+    margin-right:14px;
+    margin-left:14px;
+}
+#copyright {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
