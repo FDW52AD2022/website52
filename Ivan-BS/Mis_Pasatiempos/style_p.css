@@ -5,16 +5,16 @@
     font-weight: 700;
     border-radius: 10%;
     padding: 10px 30px; 
-    background-color:aquamarine;
-    color: white;
+    background-color: #ffff31;
+    color: black;
     text-decoration: none;
 
 }
 
 #Regresar_M:hover {
     background-color: transparent;
-    border: 2px solid aquamarine;
-    color: aquamarine;
+    border: 2px solid #ffff31;
+    color: black;
     
 }
 
@@ -28,13 +28,13 @@ h1{
 }
 ul{
     list-style-type: none;
-    background-color: #457b9d;
+    background-color: transparent;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
 li{
-    float: left;
+    float: right;
 }
 li a{
     display: block;
@@ -44,5 +44,76 @@ li a{
     text-decoration: none;
 }
 li a:hover{
-    background-color: #1d3557;
+    background-color: #1788ff;
+}
+
+@keyframes color {
+	0%   { background: #33CCCC; }
+	20%  { background: #33CC36; }
+	40%  { background: #B8CC33; }
+	60%  { background: #FCCA00; }
+	80%  { background: #33CC36; }
+	100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+}
+h1 {
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    color: white;
+}
+h2{
+    
+}
+
+.caja {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #1788ff;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+    
+}
+.caja img{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    float:inline-start;
+}
+
+.caja2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #1788ff;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+    
+}
+.caja2 img{
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 300px;
+    float:inline-start;
 }
