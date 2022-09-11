@@ -2,8 +2,8 @@ body {
     background-image: url(../img/background.png);
     background-size: contain;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif
-    
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    flex-wrap: wrap;
 }
 header {
     display: flex;
@@ -12,6 +12,7 @@ header {
     color: white;
     padding: 0px;
     align-items: center;
+    min-width: 250px;
 }
 #head-1 {
     display: flex;
@@ -56,6 +57,7 @@ header {
     background-color: orange;
     padding: 1px 0px 2px;
     justify-content: space-between;
+    min-width: 250px;
 }
 #bar-navegation ul {
     display: flex;
@@ -140,17 +142,15 @@ iframe {
 }
 
 #futbol h3 {
-    margin-left: 20px;
     color: rgb(33, 33, 138);
-    text-align: center;
+    text-align: left;
 }
 
 #futbol img {
-    margin: auto;
-    display: block;
     width: 200px;
 }
-
+#futbol p {
+    display: block;}
 #contacto {
     text-align: center;
     margin-bottom: 30px;
@@ -167,4 +167,19 @@ iframe {
     font-size: 20px;
     font-weight: 300;
     font-style: italic;
+}
+#hobbies-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#guitar {
+    width: 250px;
+}
+#keys {
+    width: 400px;
+}
+
+#homestudio {
+    height: 300px;
+    width: 300px;
 }
