@@ -1,0 +1,105 @@
+/* Selector universal 
+
+* {
+    margin: 0;
+    padding: 0;
+}*/
+
+/* Selector por id */
+
+#articulo-1
+{
+    font-size: 8px;
+}
+
+/* Selector por clase */
+
+.rojo {
+    background-color: red;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+/* Selector por tipo */
+
+h2 {
+    font-variant: small-caps;
+}
+
+/* Selector por atributos */
+
+p[lang] {
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+p[lang="es"] {
+    background-color: brown;
+    border: 10px groove darkslateblue;
+}
+
+a[href^="https"]{
+    background-color: green;
+}
+
+a[href$="mx"] {
+    border: 5px dashed darkgoldenrod;
+}
+
+a[href*="you"] {
+    font-size: 30px;
+}
+
+/* Selector por descendientes */
+
+#sel-desc p {
+    font-variant: small-caps;
+    background-color: grey;
+}
+
+/* Selector por hijos directos */
+
+#sel-desc > p {
+    box-shadow: 10px 10px 10px red;
+}
+
+/* Selector por hermano general */
+
+#parrafo-ini ~ p {
+    font-size: 10px;
+}
+
+#parrafo-ini + p {
+    font-size: 10px;
+}
+
+/* Pseudoclases */
+
+#parrafo-ini:hover + p {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#lista li:first-child {
+    background-color: grey;
+}
+
+#lista li:last-child {
+    background-color: red;
+}
+
+#lista li:nth-child(5) {
+    border: 1px solid blue;
+}
+
+#lista-2 li:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+#p-pseudo-elemento::first-letter {
+    background-color: tomato;
+    font-family: monospace;
+    font-size: 50px;
+}
