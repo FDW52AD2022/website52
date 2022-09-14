@@ -1,0 +1,108 @@
+/*Selector universal*/
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/*Selector por id*/
+
+#articulo-1
+{
+    font-size: 28px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+/*Selector por atributo*/
+p[lang] {
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+p[lang="es"] {
+    background-color: brown;
+    border: 10px groove darkslateblue;
+}
+
+a[href^="https"] {
+    background-color: green;
+}
+
+a[href$="mx"] {
+    border: 5px dashed darkgoldenrod;
+}
+
+a[href*="you"] {
+    font-size: 30px;
+}
+
+/*Selector por descendientes*/
+#sel-desc p {
+    font-variant: small-caps;
+    background-color: gray;
+}
+
+/*Selector por hijos directos*/
+#sel-desc > p {
+    box-shadow: 5px 5px 5px red;
+}
+ 
+/*Selector hermano general*/
+#parrafo-ini ~ p {
+    font-size: 3px;
+}
+
+/*Selector hermano adyacente*/
+#parrafo-ini + p {
+    font-size: 30px;
+}
+
+ /* p.hola,span 
+ background azul/ aqui le pone azul al parrafo con clase hola*/
+
+
+/*Pseudoclases*/
+#parrafo-ini:hover {
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#lista li:first-child{
+    background-color: gray;
+}
+
+#lista li:last-child{
+    background-color: black;
+    color: white;
+}
+
+#lista li:nth-child(5){
+    border: 1px solid red;
+}
+
+#lista-2 li:nth-child(odd){
+    background-color: lightgray;
+}
+
+#sel-hgral h2:first-child {
+    border: 20px dotted gold;
+}
+
+#p-pseudo-elemento::first-line{
+    background-color: tomato;
+}
+
+#p-pseudo-elemento::first-letter{
+    font-family: monospace;
+    font-size: 50px;
+}
