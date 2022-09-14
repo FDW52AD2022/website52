@@ -1,0 +1,64 @@
+#titulo {
+    /*50 arriba, 5 derec, 10 abajo, 20 izqu*/
+    padding: 50px 5px 10px 20px;
+
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+    /*50 arriba, 10 der e izq, 20 abajo*/
+    padding: 50px 10px 20px;
+
+    /*50 arriba-abajo, 20 izq-dere*/
+    padding: 50px 20px;
+
+    /*50 cuatro lados*/
+    padding: 50px;
+
+    margin: 30px;
+    
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+}
+
+#titulo{
+    display: inline;
+}
+
+#parrafo {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#verde {
+    background-color: green;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 10px groove black;
+}
+
+#blanco {
+    background-color: white;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 10px groove black;
+}
+
+#rojo {
+    background-color: red;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 10px groove black;
+}
+
+img {
+    display: block;
+}
