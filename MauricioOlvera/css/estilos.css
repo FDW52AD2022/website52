@@ -1,15 +1,18 @@
-/* Selector universal */
-/* * {
+/* Selector universal 
+
+* {
     margin: 0;
     padding: 0;
-} */
+}*/
 
-/* selector por id */
-#articulo-1{
-    font-size: 28px;
+/* Selector por id */
+
+#articulo-1
+{
+    font-size: 8px;
 }
 
-/* selector por clase */
+/* Selector por clase */
 
 .rojo {
     background-color: red;
@@ -19,12 +22,14 @@
     border-radius: 10px;
 }
 
-/* Por tipo */
+/* Selector por tipo */
+
 h2 {
     font-variant: small-caps;
 }
 
-/* Por atributo */
+/* Selector por atributos */
+
 p[lang] {
     background-color: aqua;
     border: 3px solid black;
@@ -35,70 +40,71 @@ p[lang="es"] {
     border: 10px groove darkslateblue;
 }
 
-a[href="https"] {
+a[href^="https"]{
     background-color: green;
 }
 
-a[href="mx"] {
+a[href$="mx"] {
     border: 5px dashed darkgoldenrod;
 }
 
-a[href="you"] {
+a[href*="you"] {
     font-size: 30px;
 }
 
 /* Selector por descendientes */
-#sel-desc  p {
+
+#sel-desc p {
     font-variant: small-caps;
-    background-color: gray;
+    background-color: grey;
 }
 
-/*Selector por hijos directos*/
-#sel-desc  p{
-    box-shadow: 5px 5px 5px red;
+/* Selector por hijos directos */
+
+#sel-desc > p {
+    box-shadow: 10px 10px 10px red;
 }
 
 /* Selector por hermano general */
+
 #parrafo-ini ~ p {
-    font-size: 3px;
+    font-size: 10px;
 }
 
-/*Selector hermano adyascente*/
 #parrafo-ini + p {
-    font-size: 30px;
+    font-size: 10px;
 }
 
-header ~ a {
-    background-color: blue;
-}
+/* Pseudoclases */
 
-/* Pseudoclase */
-
-#parrafo-ini:hover {
+#parrafo-ini:hover + p {
     border: 2px solid green;
     border-radius: 10px;
 }
 
 #lista li:first-child {
-    background-color: black;
-    color: white;
+    background-color: grey;
+}
+
+#lista li:last-child {
+    background-color: red;
 }
 
 #lista li:nth-child(5) {
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 #lista-2 li:nth-child(odd) {
-    background-color: lightgrey;
+    background-color: lightcyan;
 }
 
+/* Pseudoelementos */
 
-#p-seudo-elemento::first-line {
+#p-pseudo-elemento::first-line {
     background-color: tomato;
+    font-family: monospace;
 }
 
-#p-seudo-elemento::first-letter {
-    font-family: monospace;
+#p-pseudo-elemento::first-letter {
     font-size: 50px;
 }
-

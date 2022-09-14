@@ -1,26 +1,26 @@
 /* Selector universal */
 /* * {
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 } */
 
-/* selector por id */
-#articulo-1{
+/* Por id */
+#articulo-1
+{
     font-size: 28px;
 }
 
-/* selector por clase */
-
-.rojo {
+/* Por clase */
+.rojo
+{
     background-color: red;
 }
-
 .round {
     border-radius: 10px;
 }
 
 /* Por tipo */
-h2 {
+h2{
     font-variant: small-caps;
 }
 
@@ -35,70 +35,70 @@ p[lang="es"] {
     border: 10px groove darkslateblue;
 }
 
-a[href="https"] {
+a[href^="https"] {
     background-color: green;
 }
 
-a[href="mx"] {
+a[href$="mx"] {
     border: 5px dashed darkgoldenrod;
 }
 
-a[href="you"] {
+a[href*="you"] {
     font-size: 30px;
 }
 
-/* Selector por descendientes */
-#sel-desc  p {
+/* Selector por descendiente */
+#sel-desc p{
     font-variant: small-caps;
     background-color: gray;
 }
 
-/*Selector por hijos directos*/
-#sel-desc  p{
+/* Selector por hijos directos */
+#sel-desc >p{
     box-shadow: 5px 5px 5px red;
 }
 
 /* Selector por hermano general */
-#parrafo-ini ~ p {
+#parrafo-ini ~p{
     font-size: 3px;
 }
 
-/*Selector hermano adyascente*/
-#parrafo-ini + p {
-    font-size: 30px;
+/* Selector por hermano adyascente */
+#parrafo-ini +p{
+    font-size: 9px;
 }
 
-header ~ a {
-    background-color: blue;
-}
-
-/* Pseudoclase */
-
+/* Pseudoclases */
 #parrafo-ini:hover {
     border: 2px solid green;
-    border-radius: 10px;
+    border-radius: 10px; /*Si no agrego esto el borde se quedaría normal*/
 }
 
 #lista li:first-child {
+    background-color: gray;
+}
+
+#lista li:first-child { /*Solo se cambia de color en esta parte*/
     background-color: black;
     color: white;
 }
 
-#lista li:nth-child(5) {
+#lista:nth-last-child(5){
     border: 1px solid red;
 }
 
-#lista-2 li:nth-child(odd) {
-    background-color: lightgrey;
+#lista-2 li:nth-child(odd) { /*even empieza en impar*/
+    background-color: lightslategray;
 }
 
+#sel-hgral h2:first-child {
+    border: 20px dotted gold;
+}
 
 #p-seudo-elemento::first-line {
     background-color: tomato;
 }
 
 #p-seudo-elemento::first-letter {
-    font-family: monospace;
-    font-size: 50px;
+    background-color: tomato;
 }
-
