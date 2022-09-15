@@ -1,0 +1,48 @@
+#titulo {
+    background-color: cyan;
+    padding: 50px 10px 20px 5px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    border: 10px dotted blue;
+    margin: 30px;
+    border-top: 10px dashed magenta;
+    border-right: 20px dotted magenta;
+    border-left: 30px groove magenta;
+    border-bottom: 40px dashed magenta;
+}
+
+#titulo {
+    display: inline;
+}
+
+#parrafo {
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#verde {
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+}
+
+#blanco {
+    background-color: white;
+    border: dashed black 1px;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+#rojo {
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+}

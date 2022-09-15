@@ -1,0 +1,72 @@
+#titulo {
+    /* 50 arriba, 5 derecha, 10 abajo, 20 izquierda */
+    padding: 50px, 5px, 10px, 20px;
+
+    /* 50 arriba, 10 izq y derecha, 20 abajo */
+    padding: 50px, 10px, 20px dotted red;
+
+    /* 50 arriba y abajo 20 izq y derecha*/
+    padding: 50px, 20px dotted red;
+
+    /* 50 a los 4 lados*/
+    padding: 50px dotted red;
+
+    margin: 30px;
+
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+
+}
+
+#titulo{
+    display: inline;
+}
+
+#parrafo{
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#verde{
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#blanco{
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#escudo{
+    background: #3F2212;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0px auto;
+    padding:5%
+}
+
+#rojo{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

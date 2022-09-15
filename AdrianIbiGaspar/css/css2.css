@@ -1,0 +1,128 @@
+/*h1{
+    color: green;
+}
+*/
+
+#titulo {
+    /* 50 arriba, 5 derecha 10 abajo 20 izq*/ 
+    padding: 50px 5px 10px 20px;
+    /*Esto es igual que la linea de arriba solo que con más desarrollo
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px; */ 
+
+    /* 50 arriba, 10 der iqz 20 abajo*/
+    padding: 50px 10px 20px; 
+
+    /* 50 arriba y abajo, 10 izq-der*/
+    padding: 50px 10px ; 
+
+    /* 50 cuatro lados*/ 
+    padding: 50px;
+    
+    /* Margin es lo mismo que padding*/ 
+    margin: 30px;
+
+    border: 10px dotted red; 
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+}
+
+#titulo {
+    display: inline;
+}
+
+#parrafo {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#franja_verde {
+    padding: 50px;
+    background-color: green;
+    display: inline-block;
+    width: 40; height: 40;
+}
+
+#franja_blanca {
+    padding: 47px;
+    display: inline-block;
+    border: solid black;
+}
+
+#franja_roja {
+    padding: 50px;
+    display: inline-block; 
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#verde {
+    background-color: green;
+    padding: 50px;
+    display: inline;
+    border: 2px solid green;
+    margin-right: 5px;
+}
+ 
+#blanco {
+    background-color: white;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/1200px-Coat_of_arms_of_Mexico.svg.png);
+    background-size: 80px 75px;
+    background-repeat: no-repeat;
+    background-position: 12px;
+    padding: 50px;
+    display: inline;
+    border: 2px solid black;
+     
+ }
+ 
+#rojo {
+    background-color: red;
+    padding: 50px;
+    display: inline;
+    border: 2px solid red;
+    margin-left: 5px;
+ }
+ 
+#bandera {
+    margin-top: 100px;
+}
