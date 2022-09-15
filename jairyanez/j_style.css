@@ -74,7 +74,7 @@ header {
 #link-return {
     margin-left: 10px;
 }
-#container-list li, #lista-actividades {
+#container-list li, a {
     text-decoration: none;
     color: #00546F;
     padding-top: 7px;

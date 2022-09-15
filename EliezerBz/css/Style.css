@@ -1,0 +1,14 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+#titulo{
+    text-align: center;
+    color: red;
+    font-size: 35px;
+}
+
+#ddd{
+    background-color: aquamarine;
+}

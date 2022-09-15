@@ -1,0 +1,11 @@
+*{
+    margin: 1%;
+    padding: 1%;
+
+}
+
+#titulo{
+    text-align: center;
+    color:aqua;
+    font-size: 35px;
+}

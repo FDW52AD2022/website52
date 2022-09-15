@@ -1,0 +1,53 @@
+#Titulo {
+    /* 50 arriba, 5 dar, 10 abajo, 20 izq */
+    padding: 50px 5px 10px 20px;
+
+    padding-top: 50px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    /* 50 aariba, 10 der e izquierda, derecha */
+    padding: 50px 10px 20px;
+    border: 10px dotted red;
+    margin: 30px;
+
+    /* 50 cuatro lados */
+    padding: 50px;
+    margin: 30px;
+    
+
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted  green;
+    
+}
+
+#Titulo{
+    display: inline;
+}
+
+#Parrafo{
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#Verde {
+    padding: 50px;
+    display: inline-block;
+    background-color: green;
+}
+
+#Blanco {
+    padding: 47px;
+    display: inline-block;
+    border: solid black;
+}
+
+#Rojo {
+    padding: 50px;
+    display: inline-block;
+    background-color: red;
+}

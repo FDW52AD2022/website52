@@ -1,0 +1,21 @@
+
+
+#titulo {
+
+    padding: 50px 10px 20px 5px;
+
+    padding-top: 50px;
+
+
+    border: 10px dotted red;
+    margin: 30px;
+
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+    
+
+
+
+}
