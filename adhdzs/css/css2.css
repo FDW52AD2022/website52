@@ -18,11 +18,6 @@ h1 {
      text-align: center;
 }
 
-article #bandera {
-     display: block;
-     margin: 0 auto;
-}
-
 div {
      display: inline-block;
 }
