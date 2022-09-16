@@ -1,0 +1,15 @@
+/* Selector Universal */
+/* * {
+    margin: 0;
+    padding: 0;
+}  */
+
+/* Selector por id */
+#articulo-1 {
+    font-size: 28px;
+}
+/* Selector por clase */
+
+.rojo {
+    background-color: red;
+}
