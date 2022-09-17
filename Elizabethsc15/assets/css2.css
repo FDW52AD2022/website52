@@ -1,0 +1,25 @@
+.Verde{
+    padding: 80px;
+    background-color: darkgreen;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+    
+.Blanco {
+    padding:80px;
+    background-color: rgb(243, 244, 243);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+ }
+ 
+.Rojo{
+    padding: 80px ;
+    background-color: rgb(205, 26, 26);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+ 
+
