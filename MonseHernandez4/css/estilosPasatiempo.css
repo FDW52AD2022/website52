@@ -1,0 +1,73 @@
+body {
+    background-image: url(C:/Users/adrie/Desktop/website52/MonseHernandez4/Recursos/fondo.jpg);
+    background-size: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    margin: 20px;
+}
+
+p.esp {
+    text-align: center;
+
+}
+
+h1 {
+    background-color: rgb(134, 252, 111);
+    font-family: Helvetica;
+    font-size: 60px;
+    color: black;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    margin:10px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    font-size: 35px;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    margin: 20px;
+}
+
+a {
+    background-color: aliceblue;
+}
