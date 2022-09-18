@@ -32,3 +32,14 @@ h4 {
     text-align: center;
     margin: 20px;
 }
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+pre {
+    font-size: 31px
+}
