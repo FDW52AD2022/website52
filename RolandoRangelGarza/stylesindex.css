@@ -3,6 +3,7 @@ body {
     background-image: url(GIFS\ WP.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -39,6 +40,7 @@ h3 {
     font-size: 20px;
     margin-top: 0px;
     padding-bottom: 5px;
+    padding-top: 35px;
 }
 p {
     color: black;
