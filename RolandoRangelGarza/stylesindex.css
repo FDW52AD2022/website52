@@ -59,43 +59,47 @@ li {
     font-size: 15px;
     font-family:monospace ;
     text-decoration: none;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    padding: 10px 15px 10px
 }
 ul, ol {
     list-style: none;
     text-decoration: none;
-    text-align: center;
+    padding: 10px 40px 10px;
+    box-sizing: border-box;
 }
 
 /* Primeros elementos de la navbar */
 .nav li a {
     background-color: transparent;
     color: white;
-    width: 10px;
-    padding: 5px 0px 30px;
     display: inline;
-    margin-left: 45px;
     text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
+/* Hover de la navbar */
 .nav li a:hover {
-    background-color: #434343;
-    padding: 20px
+    padding: 15px 0px 10px;
+    cursor: pointer;
+    color: yellow;
 }
 .nav > li, ul {
     float: left;
+    padding-top: 15px;
 }
 
+/* Submenú "Lista de actividades */
 .nav li ul {
     display: none;
     position: absolute;
-    min-width: 10px;
-
+    padding: 0px 0px 0px;
 }
 
 .nav li:hover > ul {
     display: block;
-    padding-top: 30px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    margin: 0px;
+    color: yellow;
 }
