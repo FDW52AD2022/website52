@@ -42,87 +42,34 @@
     height: 100px;
 }
 
-#franja_verde {
-    padding: 50px;
-    background-color: green;
-    display: inline-block;
-    width: 40; height: 40;
-}
-
-#franja_blanca {
-    padding: 47px;
-    display: inline-block;
-    border: solid black;
-}
-
-#franja_roja {
-    padding: 50px;
-    display: inline-block; 
-    background-color: red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 #verde {
     background-color: green;
-    padding: 50px;
+    padding: 100px;
     display: inline;
     border: 2px solid green;
     margin-right: 5px;
 }
- 
+
 #blanco {
     background-color: white;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/1200px-Coat_of_arms_of_Mexico.svg.png);
-    background-size: 80px 75px;
+    background-size: 130px 130px;
     background-repeat: no-repeat;
-    background-position: 12px;
-    padding: 50px;
+    background-position: 35px;
+    padding: 100px;
     display: inline;
     border: 2px solid black;
-     
- }
- 
+    
+}
+
 #rojo {
     background-color: red;
-    padding: 50px;
+    padding: 100px;
     display: inline;
     border: 2px solid red;
     margin-left: 5px;
- }
- 
+}
+
 #bandera {
-    margin-top: 100px;
+    margin-top: 150px;
 }
