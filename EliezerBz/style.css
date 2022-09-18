@@ -1,3 +1,56 @@
-#linkss{
-    text-align: center;
+body{
+    background-image: url(https://i.pinimg.com/originals/70/67/c2/7067c29f2c2336c23c827cfda44e7c61.gif);
 }
+
+#usuario{
+    padding: 50px;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: larger;
+}
+
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav > li{
+    float: left;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+#bienvenida{
+    color: white;
+    text-align: center;
+    padding-top: 400px;
+}
+
+
