@@ -1,0 +1,27 @@
+body {
+    background: rgb(228, 249, 246);
+}
+
+#Descripcion {
+    background-color: rgb(247, 238, 167);
+} 
+
+.Retorno{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.Retorno:hover{
+    background: rgb(200, 255, 182);
+}
+
+nav {
+    background: rgb(239, 237, 120);
+    padding: 10px;
+    
+
+}
+
