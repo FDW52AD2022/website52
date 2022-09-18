@@ -77,6 +77,13 @@ header {
 #container-list li, a {
     text-decoration: none;
     color: #00546F;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#container-list li a:hover {
+    background-color: rgb(0, 167, 170);
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
 }
