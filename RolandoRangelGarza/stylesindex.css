@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    padding: 130px 300px 0px;
+    padding: 80px 300px 0px;
     text-align: center;
     color: aliceblue;
     font-family: monospace;
@@ -25,19 +25,28 @@ h1 {
 }
 
 h2 {
-    padding: 0px 300px 300px;
+    padding: 0px 300px 120px;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    font-size: 20px ;
+    font-size: 25px ;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-bottom: 5px;
 }
 p {
-    color: aliceblue;
+    color: black;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-style: italic;
+    padding-top: 65px;
 }
 
 #header {
