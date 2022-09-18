@@ -20,6 +20,38 @@ li, a {
     text-decoration: none;
 }
 
+.logo {
+    cursor: pointer;
+}
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s case 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(202, 96, 202);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(202, 96, 202);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s case 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136, 169, 0.8);
+}
 h1 {
     background-color: mediumpurple;
     color: black;
@@ -65,3 +97,51 @@ p {
 pre {
     font-size: 31px
 }
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+address {
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+}
+div{
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 80px;
+    height: 70px;
+  }
+  
+  .fa-youtube {
+    background: rgb(206, 36, 36);
+    color: white;
+    width: 80px;
+    height: 70px;
+  }
