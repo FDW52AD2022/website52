@@ -1,0 +1,56 @@
+#titulo {
+     padding: 50px;
+     border: 10px dotted #000;
+     margin: 30px;
+     background-color: #fcfcfc;
+}
+
+#parrafo {
+     background-color: blue;
+     color: #fff
+}
+
+#titulo, #parrafo {
+     display: inline-block;
+}
+
+h1 {
+     text-align: center;
+}
+
+div {
+     display: inline-block;
+}
+
+#verde, #blanco, #rojo {
+     height: 300px;
+     width: 200px;
+}
+#verde {
+     background-color: green;
+     border: 3px solid black;
+     box-sizing: border-box;
+     border-radius: 5px 0 0 5px;
+}
+#blanco {
+     background-color: #fcfcfc;
+     border: 3px solid black;
+     margin: 0px 5px;
+     box-sizing: border-box;
+     background-image: url("https://www.kindpng.com/picc/m/10-107527_escudo-de-estados-unidos-mexicanos-logo-vector-escudo.png");
+     background-repeat: no-repeat;
+     background-size: 100px;
+     background-position: center;
+}
+#blanco img {
+     display: block;
+     margin: 0px auto;
+     height: 100px;
+     width: 100px;
+}
+#rojo {
+     background-color: red;
+     border: 3px solid black;
+     box-sizing: border-box;
+     border-radius: 0 5px 5px 0;
+}

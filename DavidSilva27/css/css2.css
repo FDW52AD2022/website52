@@ -1,0 +1,69 @@
+#titulo {
+    /* 50 arriba, 5 derecha 10 abajo 20 izq 
+    padding: 50px 5px 10px 20px; */
+
+    /* 50 arriba, 10 der iqz 20 abajo 
+    padding: 50px 10px 20px; */
+
+    /* 50 arriba y abajo, 10 izq-der 
+    padding: 50px 10px ; */
+
+    /* 50 cuatro lados */ 
+    padding: 50px; 
+
+    /* padding-left:;
+    padding-top: ;
+    padding-right: ;
+    padding-bottom: ; */
+
+    /* border: 10px dotted red; */
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+    margin: 30px;
+}
+
+#titulo {
+    display: inline-block ;
+}
+
+#parrafo {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.bloque-verde{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: green;
+}
+
+.bloque-blanco{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-rojo{
+    border: 2px solid black;
+    width: 33%;
+    height: 100%;
+    background-color: red
+}
