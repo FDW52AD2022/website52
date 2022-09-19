@@ -7,7 +7,7 @@
 .unidad-viewport {
     background-color: #B7C4CF;
     width: 90vw;
-    height: 100vh;
+    height: 20vh;
 }
 
 /* 
@@ -33,4 +33,18 @@ body {
     height: 100px;
     /* Barra de scroll (solo vertical) dentro de un elemento desfasado */
     overflow: auto;
+}
+
+/* Imágenes que se muestren dentro de artículos */
+article > img {
+    width: 280px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 30%;
+}
+
+.float-right {
+    float: right;
+    margin-right: 2em;
 }
