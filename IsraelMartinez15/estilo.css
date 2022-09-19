@@ -1,104 +1,121 @@
-/* Selector universal 
-* {
+/*Selector universal*/
+
+/* *{
     margin: 0;
     padding: 0;
-}*/
+} */
 
 /* Selector por id */
-
 #articulo-1
 {
-    font-size: 8px;
+    font-size: 28px;
 }
 
 /* Selector por clase */
-
 .rojo {
     background-color: red;
 }
 
-.round {
-    border-radius: 10px;
+.round{
+    border-radius: 16px;
 }
-
-/* Selector por tipo */
 
 h2 {
     font-variant: small-caps;
 }
 
-/* Selector por atributos */
+/* Selector por atibuto */
 
 p[lang] {
     background-color: aqua;
     border: 3px solid black;
 }
 
-p[lang="es"] {
+p[lang=es] {
     background-color: brown;
-    border: 10px groove darkslateblue;
+    border: 10px groove darkorchid;
 }
 
+/* ^ para el inicio */
 a[href^="https"]{
     background-color: green;
 }
 
-a[href$="mx"] {
-    border: 5px dashed darkgoldenrod;
+/* # para el final */
+a[href$="mx"]{
+    border: 5px dashed blue;
 }
 
-a[href*="you"] {
+/* * para el final */
+a[href*="you"]{
     font-size: 30px;
 }
 
 /* Selector por descendientes */
-
 #sel-desc p {
     font-variant: small-caps;
-    background-color: grey;
+    background-color: gray;
 }
 
 /* Selector por hijos directos */
-
 #sel-desc > p {
-    box-shadow: 10px 10px 10px red;
+    box-shadow: 5px 5px 5px red;
 }
 
-/* Selector por hermano general */
-
+/* Selector por hermanos general */
 #parrafo-ini ~ p {
-    font-size: 10px;
+    font-size: 20px;
 }
 
+/* Selector hermanos adyacentes */
 #parrafo-ini + p {
-    font-size: 10px;
+    font-size: 30px;
 }
 
 /* Pseudoclases */
-
-#parrafo-ini:hover + p {
+#parrafo-ini:hover {
     border: 2px solid green;
     border-radius: 10px;
 }
 
 #lista li:first-child {
-    background-color: grey;
+    background-color: gray;
 }
 
 #lista li:last-child {
-    background-color: red;
+    background-color: blueviolet;
 }
 
-#lista li:nth-child(5) {
-    border: 1px solid blue;
+#lista li:nth-child(5){
+    border: 3px solid red;
 }
 
+/* odd para impares */
 #lista-2 li:nth-child(odd) {
-    background-color: lightgreen;
+    background-color: lightblue;
 }
 
-#p-pseudo-elemento::first-letter {
+#sel-hgral h2:first-child{
+    border:20px dotted gold;
+}
+
+#p-pseudo-elemento::first-line{
     background-color: tomato;
+}
+
+#p-pseudo-elemento::first-letter{
     font-family: monospace;
     font-size: 50px;
 }
+
+/* # para id
+. para clases
+, para agregar, todas
++ hermano adyacente
+> hijos directos
+~ hermano general
+espacio 
+: pseudo clase
+:: pseudo elementos
+[] par buscar atributos 
+strog todos los descendientes de hijos*/
