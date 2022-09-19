@@ -14,10 +14,10 @@
 
 
 body{
-    /* width: 400px; */
     border: 1px solid black;
     padding: 20px;
 }
+
 .u-porcentaje{
     background-color: #3D8361;
     background-color: rgb(80, 80, 80);
@@ -32,11 +32,50 @@ body{
     overflow: auto;
 }
 
-.info img{
-    width: 200px;
-    float: left;
+article > img{
+    width: 280px;
+    float: right;
+    margin-right: 3em;  
+}
+
+
+.float-right {
+    float: right;
     margin-right: 2em;
 }
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav.main ul{
+    background-color: #3D8361;
+    list-style: none;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+#nav-main ul li a{
+    text-decoration: none;
+}
+
+#nav-flex .contenedor{
+    background-color: #D6CDA4;
+    display: flex;
+    flex-direction: column;
+   /*  flex-wrap: wrap;
+    flex-flow: nowrap; */
+
+    justify-content: flex-end;
+    height: 400px;
+
+}
+
 
 .regresar{
     background-color: grey;
