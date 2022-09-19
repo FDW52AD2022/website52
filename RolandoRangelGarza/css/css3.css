@@ -1,0 +1,15 @@
+.unidad-em {
+    font-size: 5em;
+    /* el siguiente toma como referencia los 5em de antes, entonces el 1em empieza con 80px */
+    border: 1em;
+}
+
+.unidad-viewport {
+    background-color: #B7C4CF;
+    width: 90vw;
+    height: 100vh;
+}
+
+/* .unidad-porcentaje {
+
+} */
