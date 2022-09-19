@@ -10,10 +10,27 @@
     height: 100vh;
 }
 
-.unidad-porcentaje {
+/* 
+body {
     background-color: #EEE3CB;
+    width: 400px;
+}
+ */
+
+.unidad-porcentaje {
+    background-color: #D7C0AE;
+    /* Color rojo */
+    /* background-color: rgb(255, 0, 0); */
     width: 90%;
     /* Height con porcentaje no cambia porque toma como referencia el alto de, por ejemplo, p. */
     /* height: 100; */
     height: 200px;
+}
+
+.overflow {
+    background-color: #967E76;
+    width: 200px;
+    height: 100px;
+    /* Barra de scroll dentro de un elemento desfasado */
+    overflow: auto;
 }
