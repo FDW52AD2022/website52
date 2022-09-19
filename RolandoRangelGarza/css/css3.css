@@ -48,3 +48,10 @@ article > img {
     float: right;
     margin-right: 2em;
 }
+
+/* Resolver problema de colapso de contenedor */
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
