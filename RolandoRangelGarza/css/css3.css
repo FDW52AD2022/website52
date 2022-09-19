@@ -55,3 +55,49 @@ article > img {
     content: "";
     display: table;
 }
+
+#nav-main ul {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    list-style: none;
+}
+
+#nav-main ul li{
+    background-color: #967E76;
+    float: left;
+    width: 19%;
+    padding: 10px 0px;
+}
+
+#nav-main ul li a {
+    text-decoration: none;
+    color: black;
+}
+#nav-main ul li:hover {
+    background-color: #D7C0AE;
+}
+
+/* Aqui empieza la nav-flex flexible */
+#nav-flex .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nav-flex ul {
+    background-color: #434343;
+    padding: 5px 16px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#nav-flex ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav-flex ul li:hover {
+    background-color: #565656;
+    transition: 1s;
+}
