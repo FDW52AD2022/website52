@@ -31,6 +31,6 @@ body {
     background-color: #967E76;
     width: 200px;
     height: 100px;
-    /* Barra de scroll dentro de un elemento desfasado */
+    /* Barra de scroll (solo vertical) dentro de un elemento desfasado */
     overflow: auto;
 }
