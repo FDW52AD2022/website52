@@ -1,0 +1,8 @@
+#buttons
+{
+    width: 50px;
+    height: 40px;
+    border: inset 10px black;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+}
