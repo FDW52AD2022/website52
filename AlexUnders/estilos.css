@@ -37,6 +37,18 @@ p[lang="es"] {
     border: 10x groove darkslateblue;
     } 
 
+    a[href^="https"]{
+        background-color: gray;
+    }
+
+    a[href$="face"]{
+        border: 5px dashed blue;
+    }
+    
+    a[href*="this"] {
+        font-size: 30px;
+    }
+    
 /* Selector por descendientes */
 #sel-desc p{
     font-variant: small-caps;
@@ -62,7 +74,39 @@ p.hola {
     background-color: blue;
 }
 
-/* pseudoclases */
+/* Pseudo-Clases */
+
 #parrafo-ini:hover {
-  background-color: red;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+#lista li:first-child {
+    background-color: lightgray;
+}
+
+#lista li:last-child {
+    background-color: black;
+    color: white;
+}
+
+#lista li:nth-child(5) {
+    border: 1px solid red;
+}
+
+#lista-2 li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#sel-hgral h2:first-child {
+    border: 20px dotted gold;
+}
+
+#p-pseudo-elemento::first-line {
+    background-color: tomato;
+}
+
+#p-pseudo-elemento::first-letter {
+    font-family: monospace;
+    font-size: 50px;
 }
