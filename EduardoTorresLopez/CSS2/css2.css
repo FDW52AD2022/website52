@@ -1,0 +1,54 @@
+/* Alumno:Eduardo Missael Torres LOPEZ
+Matricula: #1895450
+Fecha: 5/09/22 */
+
+#titulo{
+
+    padding: 50px 10px 20px;
+
+    padding: 50px 20px;
+
+
+    padding: 50px;
+
+
+    margin: 40px;
+
+    border-top: 10px dashed red;
+    border-bottom: 30px dotted black;
+    border-right: 10px groove green;
+    border-left: 60px inset blue;
+
+    color: blue;
+}
+
+#Verde{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+
+}
+
+#Blanco{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: solid black;
+    width: 150px;
+    height: 150px;
+    margin: 10px black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBflMnwGe2J2GBAOlx7VohibiS8pPDYPNW6sWQp0pR&s);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+#Rojo{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+
+}
