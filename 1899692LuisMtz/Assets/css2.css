@@ -1,0 +1,32 @@
+.Verde{
+    padding:20pxm 40px 20px 40px;
+    border: 10px dotted darkgreen;
+    margin: 30px;
+}
+
+#pverde{
+    background-color: darkgreen;
+    color: darkgreen;
+}
+
+.Blanco{
+    padding: 50pxm 5px 10px 20px;
+    border: 10px dotted white;
+    margin: 30px;
+}
+
+#pverde{
+    background-color: darkgreen;
+    color: darkgreen;
+}
+
+.Rojo{
+    padding: 50pxm 5px 10px 20px;
+    border: 10px dotted red;
+    margin: 30px;
+}
+
+#pverde{
+    background-color: red;
+    color: red;
+}
