@@ -3,88 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectores CSS</title>
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="css1.css">
 </head>
 <body>
     <article>
-        <h2>Selectores de tipo</h2>
-        <p>Se especifica el nombre de una etiqueta</p>
+        <h2>Selectores Universales</h2>
+        <p>Selecciona todos los elementos del 
+        documento htm, se utiliza *</p> 
+    </article>
+
+    <article id="articulo-1">
+        <h2 class="rojo">Selectores por tipo, id y clase</h2>
+        <p class="rojo round">Por tipo se especifica el nomnbre de la etiqueta,
+            id # identifica un solo elemento y clase . identifica
+            a varios elementos
+        </p> 
+    </article>
+
+    <article>
+        <h2>Selectores por atributo</h2>
+
+        <p lang="es">Lorem ipsum dolor sit amet</p>
+        <p lang="en">Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
+        <a href="https://www.youtube.com/">YouTube</a>
+        <a href="subes.becasbenitojuarez.gob.mx">SUBES</a>
     </article>
     
-    <article>
-        <h2>Selector por id</h2>
-        <p>Se especifica el id del elemento
-            anteponiendo a
-        </p>
-
-        <p id = "Parrafo-sel-id" >
-            Soy un parrafo con id
-        </p>
-
-
+    <article id="sel-desc">
+        <h2>Selector por descendientes</h2>
+        <p>Lorem ipsum dolor</p>
+        <blockquote>
+            <p>Lorem ipsum dolor</p>
+        </blockquote>
+        <blockquote>
+            <p>soy otro hijo</p>
+        </blockquote>
     </article>
 
-    <article>
-        <input class="error" type="button"
-        value="Aceptar">
-
-        <h2>Selector de clase</h2>
-        <p>Se especifica la clase 
-            anteponiendo un punto
-        </p>
-
-        <p class="error"
-        id = "otro-parrafo" >
-            Soy un parrafo con id
-            y tengo una clase asignada
-        </p>
-
-
+    <article id="sel-hgral">
+        <h2>Selector hermano general</h2>
+        <p id="parrafo-ini">Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum dolor.</p>
     </article>
 
-    
-    <article>
+    <ul id="lista">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+        <li>Cinco</li>
+        <li>Seis</li>
+        <li>Siete</li>
+    </ul>
 
-        <h2>Selector por atributo</h2>
-        <p>SAtributo del elemento sin importar
-            el valor
-        </p>
+    <ul id="lista-2">
+        <li>Uno</li>
+        <li>Dos</li>
+        <li>Tres</li>
+        <li>Cuatro</li>
+        <li>Cinco</li>
+        <li>Seis</li>
+        <li>Siete</li>
+    </ul>
 
-        <p  lang="en">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, officia iusto 
-            sint nostrum, ab quod laboriosam fugit eos, ratione praesentium 
-            recusandae in nesciunt! Ratione cupiditate corrupti error nostrum totam? Incidunt.
-        </p>
-        <p  lang="es">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, officia iusto 
-            sint nostrum, ab quod laboriosam fugit eos, ratione praesentium 
-            recusandae in nesciunt! Ratione cupiditate corrupti error nostrum totam? Incidunt.
-        </p>
-
-        <a href="https://youtube.com">Ir a youtube</a>
-        <a href="https://empresa.com.mx">Ir a empresa</a>
-
-
-    </article>
-
-    <article>
-        <h2>Selector descendientes</h2>
-        <section>
-            <p id = "p-ini">Parrafo inicial</p>
-            <p>Lorem ipsum dolor sit amet 
-                consectetur, adipisicing elit. Tempore, nobis?
-            </p>
-            <blockquote>
-                <p>lorem, ipsum dolor</p>
-            </blockquote>
-            <p id = "p-fin">Parrafo final</p>
-        </section>
-        
-    </article>
-    
+    <p id="p-pseudo-elemento">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Placeat id porro itaque, vitae laudantium eaque quas, 
+        voluptate doloribus aperiam odit veniam? Debitis nam, error 
+        a numquam nobis rem repudiandae neque?
+    </p>
 
 </body>
-
 </html>
