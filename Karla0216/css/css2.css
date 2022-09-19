@@ -35,29 +35,37 @@
     height: 100px;
 }
 
-#verde {
+
+.cont_bandera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+}
+
+.verde{
     background-color: green;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 2px;
-    box-sizing: border-box;
+    border: 2px solid black;
+    width: 55%;
+    height: 100%;
 }
 
-#blanco {
-/*     border: dotted black ; */
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 2px;
-    box-sizing: border-box;
+
+.blanco{
+    border: 2px solid black;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#rojo {
+.rojo{
     background-color: red;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 2px;
-    box-sizing: border-box;
+    border: 2px solid black;
+    width: 55%;
+    height: 100%
 }
