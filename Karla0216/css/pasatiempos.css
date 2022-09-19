@@ -1,0 +1,81 @@
+.titulo{
+    background-color:lavender;
+    border: 5px double black;
+    font-family: monospace;
+    font-size: 75px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.SM{
+    background-color: #C0C0C0;
+}
+
+.F1 {
+    background: #A9A9A9;
+}
+.img{
+    text-align: center;
+}
+.pf {
+    background: #C0C0C0;
+}
+
+.musica {
+    background: #A9A9A9;
+}
+
+.series {
+    background: #C0C0C0;
+}
+
+.tabla{
+    text-align: center;
+    border: 3px solid black;
+}
+
+h2{
+    font-size: 45px;
+    font-family: Impact;
+}
+
+h3{
+    font-size: 25px;
+    font-family: Impact;
+}
+
+.center{
+    text-align: center;
+}
+
+li{
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Courier New';
+}
+
+nav{
+    background-color: rgb(168, 158, 201);
+    color: black;
+    font-family: sans-serif;
+    font-size:25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.regresar{
+    background-color: grey;
+    color: black;
+    font-family: sans-serif;
+    font-size:15px;
+    padding: 10px;
+}
+
+body{
+    background-color: gray;
+}

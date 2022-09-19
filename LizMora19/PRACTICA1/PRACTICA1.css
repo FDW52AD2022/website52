@@ -1,0 +1,105 @@
+/* Selectores Universales */
+/* * {
+    margin: 0;
+    padding: 0;
+}  */
+
+/* Selectores por id */
+#articulo-1 {
+    font-size: 28px;
+}
+/* Selectores por clase */
+
+.rojo {
+    background-color: lightgreen;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+/* Selector por atributo */
+p[lang] {
+    background-color: white;
+    border: 3px solid black;
+}
+
+p[lang="es"] {
+    background-color: fuchsia;
+    border: 10px groove goldenrod;
+}
+
+a[href^="https"]{
+    background-color: gray;
+}
+
+a[href$="face"]{
+    border: 5px dashed yellowgreen;
+}
+
+a[href*="this"] {
+    font-size: 30px;
+}
+
+/* Selector por descendientes */
+#sel-desc p {
+    font-variant: small-caps;
+    background-color: green;
+}
+
+/* Selector por hijos directos */
+#sel-desc > p {
+    box-shadow: 5px 5px 5px red;
+}
+
+/* Selector hermano general  */
+
+#parrafo-ini ~ p {
+    font-size: 10px;
+}
+
+/* Selector hermano adyacente  */
+#parrafo-ini + p {
+    font-size: 30px;
+}
+
+/* Pseudo-Clase */
+
+#parrafo-ini:hover {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+#lista li:first-child {
+    background-color: pink;
+}
+
+#lista li:last-child {
+    background-color: white;
+    color: black;
+}
+
+#lista li:nth-child(5) {
+    border: 1px solid green;
+}
+
+#lista-2 li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#sel-hgral h2:first-child {
+    border: 20px dotted yellow;
+}
+
+#p-pseudo-elemento::first-line {
+    background-color: honeydew;
+}
+
+#p-pseudo-elemento::first-letter {
+    font-family: monospace;
+    font-size: 50px;
+}

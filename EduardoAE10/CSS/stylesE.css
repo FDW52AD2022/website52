@@ -1,103 +1,129 @@
-/*Selector Universal*/
-/* *{
+/* Selector universal 
+
+* {
     margin: 0;
     padding: 0;
-} */
+}*/
 
-/* Selector id */
+/* Selector por id */
+
 #articulo-1
 {
     font-size: 8px;
 }
 
-/* Este es un selector por clase */
-.rojo{ 
-    background-color: red;
+/* Selector por clase */
+
+h1 {
+    background-color: rgb(118, 196, 28);
 }
+
+.back{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.back:hover{
+    background: rgb(200, 255, 182);
+}
+
+.round {
+    border-radius: 10px;
+}
+
+/* Selector por tipo */
 
 h2 {
     font-variant: small-caps;
 }
 
 /* Selector por atributos */
+
 p[lang] {
-    background-color: aqua;
+    background-color: rgb(235, 195, 19);
     border: 3px solid black;
 }
 
-p[lang='es']{
-    background-color: brown;
-    border: 10px groove darkslateblue;
+p[lang="es"] {
+    background-color: rgb(20, 64, 105);
+    border: 10px groove rgb(93, 207, 241);
 }
 
-a[href^='https']{
-    background-color: green;
+a[href^="https"]{
+    background-color: rgb(201, 61, 61);
 }
 
-a[href$='mx']{
-    border: 5px dashed darkgoldenrod;
+a[href$="mx"] {
+    border: 5px dashed rgb(184, 77, 216);
 }
 
-a[href*='you']{
+a[href*="you"] {
     font-size: 30px;
 }
 
 /* Selector por descendientes */
-#sel-desc p{
+
+#sel-desc p {
     font-variant: small-caps;
-    background-color: gray;
+    background-color: rgb(211, 212, 209);
 }
 
 /* Selector por hijos directos */
-#sel-desc > p{
-    box-shadow: 5px 5px 5px red;
+
+#sel-desc > p {
+    box-shadow: 10px 10px 10px rgb(85, 255, 33);
 }
 
-/* Selector hermano general */
-#parrafo-ini ~ p{
-    font-size: 3px;
+/* Selector por hermano general */
+
+#parrafo-ini ~ p {
+    font-size: 10px;
 }
 
-/* Selector hermano adyascente */
-#parrafo-ini + p{
-    font-size: 3px;
+#parrafo-ini + p {
+    font-size: 10px;
 }
 
-/* Pseudoclase */
-#parrafo-ini:hover{
+/* Pseudoclases */
+
+#parrafo-ini:hover + p {
     border: 2px solid green;
     border-radius: 10px;
 }
 
-/* .gris{
-    background-color: gray;
-} */
-
-#lista li:first-child{
-    background-color: gray;
+#lista li:first-child {
+    background-color: rgb(218, 114, 195);
 }
 
-#lista li:last-child{
-    background-color: yellow;
+#lista li:last-child {
+    background-color: rgb(31, 206, 83);
 }
 
-#lista li:nth-child(5){
-    border: 1px solid red;
+#lista li:nth-child(5) {
+    border: 1px solid blue;
 }
 
-#lista-2 li:nth-child(odd){
-    background-color: lightgray;
+#lista-2 li:nth-child(odd) {
+    background-color: rgb(41, 178, 219);
 }
 
-#sel-hgral h2:first-child{
-    border: 20px dotted gold;
-}
-
-#p-pseudo-elemento::first-line{
-    background-color: tomato;
-}
-
-#p-pseudo-elemento::first-letter{
+#p-pseudo-elemento::first-letter {
+    background-color: rgb(39, 62, 163);
     font-family: monospace;
     font-size: 50px;
+}
+
+.boton{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: rgb(200, 255, 182);
 }

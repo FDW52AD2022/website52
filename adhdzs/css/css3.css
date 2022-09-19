@@ -1,0 +1,80 @@
+/* Unidades de medición */
+
+
+.u-em {
+     font-size: 5em;
+     border: 1rem solid red;
+}
+
+.u-viewport {
+     background-color: #002B5B;
+     color: #fff;
+     width: 90vw;
+     height: 100vh;
+}
+
+.u-porcentaje {
+     background-color: #2B4865;
+     color: #fff;
+     width: 90%;
+     height: 100px;
+}
+
+/* Overflow */
+.overflow {
+     background-color: #8FE3CF;
+     width: 200px;
+     height: 100px;
+     overflow: auto;
+}
+
+/* Propiedad float */
+.info img {
+     width: 200px;
+     float: right;
+     margin: 1rem;
+     border-radius: 50%;
+}
+
+.clearfix::after {
+     clear: both;
+     content: "";
+     display: table;
+}
+
+#nav-main ul {
+     background-color: #2C3333;
+     list-style: none;
+}
+
+#nav-main ul li {
+     float: left;
+     width: 20%;
+}
+
+#nav-main ul li a {
+     color: #fff;
+     text-decoration: none;
+}
+
+
+/* FLEXBOX */
+#nav-flex .contenedor {
+     display: flex;
+     margin: 0;
+     padding: 0;
+     height: 35px;
+     
+     flex-direction: row;
+     background-color: #2C3333;
+     justify-content: space-evenly;
+}
+
+#nav-flex .contenedor li {
+     list-style: none;
+}
+
+#nav-flex .contenedor li a {
+     color: #fff;
+     text-decoration: none;
+}
