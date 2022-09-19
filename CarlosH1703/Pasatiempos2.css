@@ -13,7 +13,7 @@
     animation: fondo-anim 20s infinite alternate;
   }
   @keyframes fondo-anim{
-    0%{background-position: left;} /*por defecto*/
+    0%{background-position: left;} 
     100%{background-position: right;}
   }
 
@@ -64,17 +64,17 @@
 
 
   header {
-	width:100%; 
-	overflow:hidden; 
+	width:100%;
+	overflow:hidden;
 	background:#252932;
 	margin-bottom:20px;
 }
 
 .wrapper {
-	width:90%; 
-	max-width:1000px; 
-	margin:auto; 
-	overflow:hidden; 
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
 }
 
 header .logo {
