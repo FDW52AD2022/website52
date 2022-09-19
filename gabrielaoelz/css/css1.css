@@ -80,11 +80,15 @@ header ~ a {
 }
 
 #lista li:first-child {
+    background-color: lightgray;
+}
+
+#lista li:last-child {
     background-color: black;
     color: white;
 }
 
-#lista li:nth-child(5) {
+#lista-1 li:nth-child(5) {
     border: 1px solid red;
 }
 
@@ -92,6 +96,9 @@ header ~ a {
     background-color: lightgrey;
 }
 
+#sel-hgral h2:first-child {
+    border: 20px dotted gold;
+}
 
 #p-seudo-elemento::first-line {
     background-color: tomato;
