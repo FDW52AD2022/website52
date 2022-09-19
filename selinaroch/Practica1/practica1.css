@@ -1,0 +1,101 @@
+/*
+
+p{font-size: 60px;
+    color: brown;}
+ 
+    /*selector por id*/
+ /*#id_jpd{font-size: 60px;
+         color:green;
+         border-radius: 10px;
+        }
+ 
+     /*selector pot clase*/
+ /*#c1 {font-size: 60px;
+         color:blue;
+         border-radius: 70px;
+         background-color:pink; }*/
+
+         p[lang]{background: green;
+            background-color:aqua;
+            border: 3px solid black
+        }
+        
+        p[lang="es"]{background:yellow;
+            background-color:aqua;
+            border: 3px solid black
+        }
+        
+        
+        a[href^="https"]{ 
+            background-color: green;}
+        
+            /*selector por atributo buscando  un valor si importar la posicion donde se encuentra */
+        a[href$="mx"]{
+                border: 5px dashed blue;
+            }
+        
+        a[href*="you"]{
+            font-size: 30px;
+            }
+            
+        
+        #sel-desc p {
+            font-variant: small-caps;
+            background-color: gray
+        }
+        
+        #sel-desc > p {
+           box-shadow: 5px 5px 5px red;
+        }
+        
+        
+        #parrafo-ini ~ p {
+            font-size: 3px;
+        }
+        
+        #parrafo-ini + p {
+            font-size: 30px;
+        }
+        
+        
+        p.hola, span{
+            background-color: blue;
+        }
+        
+        header + a {
+            background-color: blue;
+        }
+        
+        #parrafo-ini:hover {
+            border: 2px solid greenyellow;
+            border-radius: 10px;
+        }
+        
+        #lista li:first-child{
+            background-color: grey;
+        }
+        
+        #lista li:last-child{
+            background-color: grey;
+        }
+        
+        #lista li:nth-child(5){
+            border: 1px solid red;
+        }
+        
+        #lista-2 li:nth-child(odd){
+            background-color: lightgray;
+        }
+        
+        #sel-hgral h2:first-child{
+            border: 20px dotted gold;
+        }
+        
+        #p-pseudo-elemento:first-line{
+            background-color: tomato
+        }
+        
+        #p-pseudo-elemento::first-letter{
+            font-family: monospace;
+            font-size: 50px;
+        }
