@@ -41,6 +41,7 @@ article > img {
     height: 150px;
     float: right;
     margin-right: 100px;
+    border-radius: 30%;
 }
 
 .float-right {
