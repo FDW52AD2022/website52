@@ -1,0 +1,71 @@
+.u-em {
+    font-size: 5em;
+    border: 1rem solid red; /*si pongo rem cambia a 16*/ /*si pongo em cambia a 80*/
+}
+
+.u-viewport {
+    background-color: #CD104D;
+    width: 90vw; /*Tamaño de la pantalla*/
+    height: 100vh;
+}
+
+/*body {
+    width: 400px;
+}*/
+
+.u-porcentaje{
+    background-color: #E14D2A;
+    background-color: rgb(255,0, 0); /*rgb = rojo, verde, azul*/
+    width: 100%; /*Tamaño del contenedor*/
+    height: 200px; 
+}
+
+.overflow{
+    background-color: #9C2C77;
+    width: 200px;
+    height: 100px;
+    overflow: auto; /*hidden: letras mochas*/ /*scroll: barras espaciadoras*/ /*auto: una barra (derecha)*/
+}
+
+.info img{
+    /*border-radius: 50%; lo hace redonda la foto*/ 
+    width: 200px;
+    float: right; /*derecha tambien*/
+    margin-right: 2em; /*izquierda tambien*/
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-main ul{
+    background-color: aqua;
+    list-style: none;
+}
+
+#nav-main ul li {
+    float: left; /*si le pongo none sale completo*/
+    width: 20px;
+}
+
+#nav-main ul li a{
+    text-decoration: none;
+}
+
+#nav-flex ul{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-flex .contenedor {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Flex Flow */
+    flex-flow: row wrap;
+    justify-content: space-evenly;    
+    height: 400px ;
+}
