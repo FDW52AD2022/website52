@@ -1,0 +1,49 @@
+#titulo {
+
+    padding: 50px; 
+
+  
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+    margin: 30px;
+}
+
+#titulo {
+    display: inline-block ;
+}
+
+#parrafo {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#verde {
+    background-color: green;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+#blanco {
+
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+#rojo {
+    background-color: red;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 2px;
+    box-sizing: border-box;
+}
