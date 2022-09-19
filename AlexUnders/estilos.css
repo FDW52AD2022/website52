@@ -41,11 +41,11 @@ p[lang="es"] {
         background-color: gray;
     }
 
-    a[href$="face"]{
+    a[href$="youtube"]{
         border: 5px dashed blue;
     }
     
-    a[href*="this"] {
+    a[href*="emp"] {
         font-size: 30px;
     }
     
