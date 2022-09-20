@@ -1,32 +1,42 @@
-.Verde{
-    padding:20pxm 40px 20px 40px;
-    border: 10px dotted darkgreen;
+.t1 {
+    padding: 50px 5px 10px 20px;
+    padding: 50px 10px 20px;
+    padding: 50px 10px;
+    padding: 50px;
     margin: 30px;
+    border: 10px dotted rebeccapurple;
+    border-top: 10px dashed rosybrown;
+    border-bottom: 20px groove royalblue;
+    border-right: 50px dotted red;
+    border-left: 40px inset khaki;
+    
 }
 
-#pverde{
+.ColorVerde{
+    padding: 80px;
     background-color: darkgreen;
-    color: darkgreen;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+    
+.ColorBlanco {
+    padding:80px;
+    background-color: rgb(243, 244, 243);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+ }
+ 
+.ColorRojo{
+    padding: 80px ;
+    background-color: rgb(205, 26, 26);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+ 
+img {
+    display: block;
 }
 
-.Blanco{
-    padding: 50pxm 5px 10px 20px;
-    border: 10px dotted white;
-    margin: 30px;
-}
-
-#pverde{
-    background-color: darkgreen;
-    color: darkgreen;
-}
-
-.Rojo{
-    padding: 50pxm 5px 10px 20px;
-    border: 10px dotted red;
-    margin: 30px;
-}
-
-#pverde{
-    background-color: red;
-    color: red;
-}
