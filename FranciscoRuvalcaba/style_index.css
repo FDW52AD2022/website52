@@ -15,7 +15,8 @@ header{
 .navegacion{
 	width: 1000px;
 	margin: 30px auto;
-	background: #fff;
+	background: linear-gradient(to right, #990D35, #275DAD);  
+    border-radius:50px 50px 50px 50px;
 }
 
 .navegacion ul{
@@ -36,6 +37,8 @@ header{
 	font-family: 'Open sans';
 	text-decoration: none;
 }
+
+
 
 /*Animacion de letra para el menu */
 .menu li a:hover{
