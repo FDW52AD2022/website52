@@ -1,50 +1,50 @@
+#titulo{
 
-#titulo {
-    /* 50 arriba, 5 der 10 abajo, 20 izq */
-    padding: 50px 5px 10px 20px;
-    /* 50 arriba, 10 der e izq, 20 abajo */
     padding: 50px 10px 20px;
-    /* 50 arriba-abajo, 20 izq-der */
+
     padding: 50px 20px;
-    /* 50 cuatro lados */
+
+
     padding: 50px;
-    border: 10px dotted red;
-    margin: 30px;
+
+
+    margin: 40px;
 
     border-top: 10px dashed red;
-    border-bottom: 20px groove gold;
-    border-right: 50px dotted blue;
-    border-left: 40px inset purple;
+    border-bottom: 30px dotted black;
+    border-right: 10px groove green;
+    border-left: 60px inset blue;
+
+    color: blue;
 }
 
-#titulo {
-    display: inline;
-}
-#parrafo {
-    background-color: blue;
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-}
-
-#art1 {
+#Verde{
     background-color: green;
-    border: 5px groove black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
     width: 150px;
     height: 150px;
-    display: inline-block;
+
 }
-#art2 {
-    background-color: white;
-    border: 5px groove black;
+
+#Blanco{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border: solid black;
     width: 150px;
     height: 150px;
-    display: inline-block;
+    margin: 10px black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBflMnwGe2J2GBAOlx7VohibiS8pPDYPNW6sWQp0pR&s);
+background-position: center;
+background-repeat: no-repeat;
 }
-#art3 {
+
+#Rojo{
     background-color: red;
-    border: 5px groove black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
     width: 150px;
     height: 150px;
-    display: inline-block;
+
 }
