@@ -43,6 +43,7 @@ article {
     font-family: 'Manga Style', sans-serif;
 }
 
+
 a{
     color: yellow;
 }
@@ -54,4 +55,5 @@ nav {
     text-align: center;
     padding: 20px;
     border: 3px ridge black;
+    font-family: 'Manga Style', sans-serif;
 }
