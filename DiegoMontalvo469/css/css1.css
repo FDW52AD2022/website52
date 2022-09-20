@@ -31,7 +31,7 @@ h2 {
 /* Selector por atributos */
 
 p[lang] {
-    background-color: aqua;
+    background-color: skyblue;
     border: 3px solid black;
 }
 
