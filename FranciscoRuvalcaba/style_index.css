@@ -13,7 +13,7 @@ header{
 }
 
 .navegacion{
-	width: 1000px;
+	width: 100%;
 	margin: 30px auto;
 	background: linear-gradient(to right, #990D35, #275DAD);  
     border-radius:50px 50px 50px 50px;
@@ -33,7 +33,7 @@ header{
 .menu > li > a{
 	display: block;
 	padding: 15px 20px;
-	color: #353535;
+	color: #FCF7F8;
 	font-family: 'Open sans';
 	text-decoration: none;
 }
@@ -42,7 +42,7 @@ header{
 
 /*Animacion de letra para el menu */
 .menu li a:hover{
-	color: #CE7D35;
+	color: #ABA9C3;
 	transition: all .3s;
 }
 
