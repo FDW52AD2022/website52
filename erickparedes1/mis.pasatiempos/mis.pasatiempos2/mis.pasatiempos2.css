@@ -1,0 +1,37 @@
+*{ 
+    padding: 0%;
+    margin: 0;
+    background-color: blueviolet;
+}
+h2{
+    background-color: rgba(41, 143, 211, 0.103);
+    text-align: center;
+    border: 20px;
+    padding: 10px;
+    border-radius: 100px;
+}   
+h3{
+        text-align: left;
+        background-color: rgb(177, 219, 243);
+        color:  rgb(0, 0, 0);
+        padding: 100px;
+}
+
+img {
+    
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+
+
+}
+
+
+
+h12{
+    text-overflow: unset;
+    background-color: rgb(223, 19, 179);
+    color:  rgb(131, 235, 212);
+    padding: 10px;
+}
