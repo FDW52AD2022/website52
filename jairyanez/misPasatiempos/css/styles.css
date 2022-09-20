@@ -1,9 +1,28 @@
 body {
     background-image: url(../img/background.png);
-    background-size: contain;
+    background-size: 200%;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     flex-wrap: wrap;
+    animation: background_animacion 20s infinite;
+}
+
+@keyframes background_animacion{
+    0%{
+        background-position: 0% -50%;
+    }
+    25%{
+        background-position: -100% -50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: -50% 100%;
+    }
+    100%{
+        background-position: 0% -50%;
+    }
 }
 header {
     display: flex;
@@ -78,9 +97,10 @@ header {
 }
 
 #bar-navegation a:hover{
+    padding: 10px 20px;
     background-color: white;
     color: orange;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 /* CONTENIDO */
@@ -88,6 +108,17 @@ header {
 
 #about-me {
     padding-left: 32px;
+}
+
+#about-me > h2{
+    background-color: rgb(37, 192, 10);
+    color: white;
+    margin-right: 50px;
+    padding: 15px;
+    border: 5px solid rgb(121, 255, 172);
+    border-radius: 10px;
+    display: inline-block;
+
 }
 
 #about-me #foto {
@@ -100,7 +131,7 @@ header {
     float: right;
     border-radius: 60px;
     width: 300px;
-    
+    box-shadow: 6px 0px 10px 5px rgb(14, 35, 98);
 }
 
 #data-i{
@@ -157,6 +188,12 @@ iframe {
 }
 #contacto a {
     text-decoration: none;
+}
+
+#contacto a img:hover {
+    box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
 }
 #contacto img {
     width: 40px;

@@ -1,0 +1,56 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(100, 150, 84);
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h2{
+    text-align: center; 
+}
+
+.yo{
+    position: relative;
+    left: 700px;
+}
+
+.game{
+    position: relative;
+    left: 580px;
+}  
+
+.tt{
+    position: relative;
+    left: 820px;
+}
+
+.boton{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+    position: relative;
+    left: 880px;
+}
+
+.boton:hover{
+    background: rgb(200, 255, 182);
+}
+
+.sp{
+    position: relative;
+    left: 690px;
+} 
+
+.back{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.back:hover{
+    background: rgb(200, 255, 182);
+}

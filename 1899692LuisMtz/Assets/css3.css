@@ -1,0 +1,59 @@
+.u-em{
+    font-size: 5em;
+    border: 1rem solid red;
+}
+
+.u-viewport{
+    background-color: blue;
+    width: 90vw;
+    height: 100vh;
+}
+
+.u-porcentaje{
+    background-color: #a8a5a2;
+    background-color: rgb(80,80,80);
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 400px;
+}
+
+.oveflow{
+    background-color: #9c2c77;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+.info img{
+    width: 100px;
+    float: left;
+    margin-right: 2em;
+    border-radius: 2em   ;
+}
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#nav-main ul{
+    background-color: darkgoldenrod;
+    list-style: none;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+#nav-main ul li a{
+    text-decoration: none;
+}
+
+#nav-flex .Contendeor{
+    display: flex;
+    flex-direction: column-reverse;
+
+}

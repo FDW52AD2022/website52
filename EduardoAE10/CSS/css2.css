@@ -1,0 +1,92 @@
+#titulo {
+    /* 50 arriba, 5 derecha, 10 abajo, 20 izquierda */
+    padding: 50px, 5px, 10px, 20px;
+
+    /* 50 arriba, 10 izq y derecha, 20 abajo */
+    padding: 50px, 10px, 20px dotted red;
+
+    /* 50 arriba y abajo 20 izq y derecha*/
+    padding: 50px, 20px dotted red;
+
+    /* 50 a los 4 lados*/
+    padding: 50px dotted red;
+
+    margin: 30px;
+
+    border-top: 10px dashed red;
+    border-bottom: 50px groove gold;
+    border-right: 100px dotted blue;
+    border-left: 40px inset purple;
+
+}
+
+.back{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.back:hover{
+    background: rgb(200, 255, 182);
+}
+
+#titulo{
+    display: inline;
+}
+
+#parrafo{
+    background-color: rgb(51, 255, 0);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#verde{
+    background-color: green;
+    border: 3px solid black;
+    margin: 0px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#blanco{
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#blanco {
+    background-color: #fcfcfc;
+    border: 3px solid black;
+    margin: 0px 5px;
+    box-sizing: border-box;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Escudo_Mexico_2009.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+}
+#blanco img {
+    display: block;
+    margin: 0px auto;
+    height: 50px;
+    width: 50px;
+}
+#rojo{
+    display: inline-block;
+    border: 3px solid black;
+    margin: 0px 5px;
+    box-sizing: border-box;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

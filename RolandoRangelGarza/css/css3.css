@@ -1,0 +1,103 @@
+.unidad-em {
+    font-size: 5em;
+    /* el siguiente toma como referencia los 5em de antes, entonces el 1em empieza con 80px */
+    border: 1em;
+}
+
+.unidad-viewport {
+    background-color: #B7C4CF;
+    width: 90vw;
+    height: 20vh;
+}
+
+/* 
+body {
+    background-color: #EEE3CB;
+    width: 400px;
+}
+ */
+
+.unidad-porcentaje {
+    background-color: #D7C0AE;
+    /* Color rojo */
+    /* background-color: rgb(255, 0, 0); */
+    width: 90%;
+    /* Height con porcentaje no cambia porque toma como referencia el alto de, por ejemplo, p. */
+    /* height: 100; */
+    height: 200px;
+}
+
+.overflow {
+    background-color: #967E76;
+    width: 200px;
+    height: 100px;
+    /* Barra de scroll (solo vertical) dentro de un elemento desfasado */
+    overflow: auto;
+}
+
+/* Imágenes que se muestren dentro de artículos */
+article > img {
+    width: 280px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 30%;
+}
+
+.float-right {
+    float: right;
+    margin-right: 2em;
+}
+
+/* Resolver problema de colapso de contenedor */
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav-main ul {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    list-style: none;
+}
+
+#nav-main ul li{
+    background-color: #967E76;
+    float: left;
+    width: 19%;
+    padding: 10px 0px;
+}
+
+#nav-main ul li a {
+    text-decoration: none;
+    color: black;
+}
+#nav-main ul li:hover {
+    background-color: #D7C0AE;
+}
+
+/* Aqui empieza la nav-flex flexible */
+#nav-flex .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#nav-flex ul {
+    background-color: #434343;
+    padding: 5px 16px;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#nav-flex ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav-flex ul li:hover {
+    background-color: #565656;
+    transition: 1s;
+}
