@@ -1,0 +1,24 @@
+h1 {
+    background-color: brown;
+    color: beige;
+}
+
+a{
+    color: blue;
+}
+
+li {
+    color: black;               
+}
+
+#equipotigres {
+    color: darkgoldenrod; 
+}
+
+#cancion{
+    background-color: darkviolet;
+}
+
+#estadio {
+    color: blue;
+}

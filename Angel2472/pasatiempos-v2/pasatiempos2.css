@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://thumbs.gfycat.com/BitesizedGlamorousAyeaye-size_restricted.gif);
+    padding: 20px;
+}
+
+header h1{
+    padding: 10px;
+    border: 10px;
+    border-radius: 50px;
+    border-color: red;
+    background-color: aqua;
+    text-align: center;
+}
+
+#sobre-mi h1{
+    text-align:center;
+    color: white;
+}
+
+#sobre-mi img{
+    position: relative;
+    left: 500px;
+    border-radius: 100px;
+}
+
+#links{
+    text-align: center;
+}
+
+#links a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: brown;
+    border: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+iframe{
+    position: relative;
+    left: 680px;
+}
+
+#centrar{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}

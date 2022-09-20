@@ -1,0 +1,42 @@
+.Verde{
+    padding: 80px;
+    background-color: darkgreen;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+    
+.Blanco {
+    padding:80px;
+    background-color: rgb(243, 244, 243);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+ }
+ 
+.Rojo{
+    padding: 80px ;
+    background-color: rgb(205, 26, 26);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+ 
+img {
+    display: block;
+}
+
+.TITULO-H1 {
+    padding: 50px 5px 10px 20px;
+    padding: 50px 10px 20px;
+    padding: 50px 10px;
+    padding: 50px;
+    margin: 30px;
+    border: 10px dotted rebeccapurple;
+    border-top: 10px dashed rosybrown;
+    border-bottom: 20px groove royalblue;
+    border-right: 50px dotted red;
+    border-left: 40px inset khaki;
+    
+}
+

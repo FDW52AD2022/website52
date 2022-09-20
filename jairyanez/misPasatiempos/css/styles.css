@@ -1,0 +1,222 @@
+body {
+    background-image: url(../img/background.png);
+    background-size: 200%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    flex-wrap: wrap;
+    animation: background_animacion 20s infinite;
+}
+
+@keyframes background_animacion{
+    0%{
+        background-position: 0% -50%;
+    }
+    25%{
+        background-position: -100% -50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: -50% 100%;
+    }
+    100%{
+        background-position: 0% -50%;
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    align-items: center;
+    min-width: 250px;
+}
+#head-1 {
+    display: flex;
+    align-items: center;
+}
+#head-1 h1 {
+    font-size: 26px;
+    padding-left: 10px;
+}
+#back-icon {
+    width: 40px;
+    border-radius: 100px;
+}
+#back-icon:hover {
+    box-shadow: 0px 0px 3px 3px rgb(32, 255, 233);
+    transition: 0.2s;
+}
+#link-return {
+    margin-left: 10px;
+}
+#user-log{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+#user-log h4{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#user-log img{
+    border-radius: 100px;
+    width: 40px;
+    padding: 10px;
+}
+#user-log:hover {
+    box-shadow: 0px 0px 4px 2px rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#bar-navegation {
+    background-color: orange;
+    padding: 1px 0px 2px;
+    justify-content: space-between;
+    min-width: 250px;
+}
+#bar-navegation ul {
+    display: flex;
+}
+#bar-navegation li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+#bar-navegation a{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+#bar-navegation a:hover{
+    padding: 10px 20px;
+    background-color: white;
+    color: orange;
+    transition: 0.3s ease;
+}
+
+/* CONTENIDO */
+
+
+#about-me {
+    padding-left: 32px;
+}
+
+#about-me > h2{
+    background-color: rgb(37, 192, 10);
+    color: white;
+    margin-right: 50px;
+    padding: 15px;
+    border: 5px solid rgb(121, 255, 172);
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+#about-me #foto {
+    justify-content: right;
+    align-items: right;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#about-me #foto img {
+    float: right;
+    border-radius: 60px;
+    width: 300px;
+    box-shadow: 6px 0px 10px 5px rgb(14, 35, 98);
+}
+
+#data-i{
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    border: gray;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    min-width: 10;
+    box-shadow: 0px 10px 20px grey;
+}
+
+#v1{
+    background-color: rgb(129, 147, 208);
+}
+
+#v2{
+    background-color: rgb(208, 158, 129);
+}
+#v3{
+    background-color: rgb(203, 203, 203);
+}
+
+h4 {
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#futbol h3 {
+    color: rgb(33, 33, 138);
+    text-align: left;
+}
+
+#futbol img {
+    width: 200px;
+}
+#futbol p {
+    display: block;}
+#contacto {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contacto a {
+    text-decoration: none;
+}
+
+#contacto a img:hover {
+    box-shadow: 0px 0px 3px 3px rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#contacto img {
+    width: 40px;
+    margin-right:14px;
+    margin-left:14px;
+}
+#copyright {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
+#hobbies-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#guitar {
+    width: 250px;
+}
+#keys {
+    width: 400px;
+}
+
+#homestudio {
+    height: 300px;
+    width: 300px;
+}

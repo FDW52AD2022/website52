@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    padding: 10px;
+    font-size: larger;
+    border: dashed red 10px;
+}
+
+.mi-nombre{
+    text-align: center;
+    color: white;
+}
+
+.sobremi{
+    background-color: beige;
+    text-align: center;
+    border: 20px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#describirme{
+    text-align: center; 
+}
+
+#sobremi2 img{
+    position: relative;
+    left: 700px;
+    border-radius: 30px;
+}
+
+#actividades img{
+    border-radius: 40px;
+}
+
+#actividades video{
+    border-radius: 40px;
+}
+
+.mis-acts{
+    background-color: beige;
+    text-align: center;
+    border: 20px;
+    padding: 10px;
+    border-radius: 100px;
+}

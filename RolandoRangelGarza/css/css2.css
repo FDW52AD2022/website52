@@ -1,0 +1,54 @@
+#titulo {
+    /* Arriba, abajo izq y derecha */
+    padding: 50px 5px 10px 20px;
+
+    /* border: 10px dotted red; */
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+    box-sizing: border-box;
+
+    margin: 30px;
+
+    background-color: aquamarine;
+
+    display: inline-block;
+}
+
+#parrafo {
+    display: inline-block;
+    background-color: gold;
+    width: 100px;
+    height: 100px
+}
+
+#verde {
+    background-color: green;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    border: 4px dashed black;
+}
+
+#blanco {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    border: 4px dashed black;
+}
+
+#rojo {
+    background-color: red;
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    border: 4px dashed black;
+}
+
+img {
+    display:block;
+    padding-top: 150px;
+    padding-left: 50px;
+}

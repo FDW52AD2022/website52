@@ -1,0 +1,51 @@
+#Titulo {
+    /* 50 arriba, 5 dar, 10 abajo, 20 izq */
+    padding: 50px 10px 20px 5px;
+
+    /* 50 aariba, 10 der e izquierda, derecha */
+    padding: 50px 10px 20px;
+    margin: 30px;
+
+    /* 50 cuatro lados */
+    padding: 50px 20px;
+
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;    
+}
+
+#Titulo{
+    display: inline-block;
+}
+
+#Parrafo{
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#Verde {
+    padding: 50px;
+    display: inline-block;
+    background-color: green;
+}
+
+#Blanco {
+    background-color: white;
+    background-image: url(https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/01/escudo_nacional_mexicano.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 20px;
+    padding: 46px;
+    display: inline-block;
+    border: solid black;
+    
+}
+
+#Rojo {
+    padding: 50px;
+    display: inline-block;
+    background-color: red;
+}
