@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(249, 249, 30);
+    padding: 10px;
+    border: 10px dashed;
+}
+
+#titulo{
+    text-align: center;
+    font-size: x-large;
+}
+
+#osv{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 10px;
+    border-radius: 40px;
+}
+
+#desc{
+    text-align: center;
+    font-size: larger;
+}
+
+#principal img{
+    position: relative;
+    left: 600px;
+    border-radius: 200px;
+}
+
+#videos-imagenes img{
+    border-radius: 50px;
+}
+
+#videos-imagenes iframe{
+    border-radius: 50px;
+    padding-bottom: 50px;
+}
