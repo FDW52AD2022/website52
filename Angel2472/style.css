@@ -1,0 +1,35 @@
+body{
+    padding: 20px;
+    background-image: url(https://c.tenor.com/IrUuJA9J_JoAAAAC/trippy-color.gif);
+}
+
+header{
+    display: flex;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    background-color: rgb(234, 255, 0);
+    border-radius: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#angel{
+    text-align: center;
+    position: relative;
+    top: 360px;
+    color: white;
+    font-size: xx-large;
+}
+
+u{
+    color: white;
+}
