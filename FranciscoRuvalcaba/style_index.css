@@ -22,4 +22,17 @@ header{
 	list-style: none;
 }
 
+/* Se determina el posicionamiento del header */
 
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
