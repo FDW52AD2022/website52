@@ -36,3 +36,9 @@ header{
 	font-family: 'Open sans';
 	text-decoration: none;
 }
+
+/*Animacion de letra para el menu */
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
