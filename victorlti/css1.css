@@ -1,0 +1,112 @@
+/*Selector Universal */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    */
+
+
+/* Selector por id */
+#articulo-1 {
+    font-size: 28px;
+}
+
+/* Selector por clase */
+
+.rojo {
+    background-color: red;    
+}
+
+.round {
+    border-radius: 18px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+/* Selector por atriuto */
+
+p[lang] {
+background-color: aqua;
+border: 3px solid black;
+}
+
+p[lang="es"] {
+    background-color: brown;
+    border: 10x groove darkslateblue;
+    } 
+
+    a[href^="https"]{
+        background-color: gray;
+    }
+
+    a[href$="youtube"]{
+        border: 5px dashed blue;
+    }
+    
+    a[href*="emp"] {
+        font-size: 30px;
+    }
+    
+/* Selector por descendientes */
+#sel-desc p{
+    font-variant: small-caps;
+    background-color: gray;
+}
+
+/* Selector por hijos directos */
+#sel-desc >p{
+    box-shadow: 5px 5px 5px red;
+}
+
+/* Selector por hermano general */
+#parrafo-ini ~p {
+    font-size: 5px;
+}
+
+/* Selector por hermano adyacente */
+#parrafo-ini +p {
+    font-size: 30px;
+}
+
+p.hola {
+    background-color: blue;
+}
+
+/* Pseudo-Clases */
+
+#parrafo-ini:hover {
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+#lista li:first-child {
+    background-color: lightgray;
+}
+
+#lista li:last-child {
+    background-color: black;
+    color: white;
+}
+
+#lista li:nth-child(5) {
+    border: 1px solid red;
+}
+
+#lista-2 li:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#sel-hgral h2:first-child {
+    border: 20px dotted gold;
+}
+
+#p-pseudo-elemento::first-line {
+    background-color: tomato;
+}
+
+#p-pseudo-elemento::first-letter {
+    font-family: monospace;
+    font-size: 50px;
+}
