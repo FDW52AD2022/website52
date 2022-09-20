@@ -67,7 +67,7 @@ a[href*="this"] {
     font-size: 30px;
 }
 
-/* Pseudo-Clase */ 
+/* Pseudo-Clase */
 
 #parrafo-ini:hover {
     border: 2px solid lightblue;
