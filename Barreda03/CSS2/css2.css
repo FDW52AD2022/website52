@@ -1,0 +1,56 @@
+
+#titulo{
+    /* 50 arriba,5 der,10 bajo, 20 izq*/
+    padding: 50px 10px 20px;
+
+    padding: 50px 20px;
+
+    padding: 50px;
+
+
+   
+
+
+    margin: 30px;
+
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+}
+
+
+#parrafo{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#color-v{
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+
+#color-b{
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/1129px-Coat_of_arms_of_Mexico.svg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+#color-r{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+}

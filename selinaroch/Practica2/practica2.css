@@ -1,0 +1,47 @@
+#titulo {
+    padding: 50px 5px 10px 20px;
+
+    border-top: 10px dashed rgb(51, 202, 139);
+    border-bottom: 20px groove pink;
+    border-right: 50px dotted purple;
+    border-left: 40px inset red;
+    box-sizing: border-box;
+
+    margin: 30px;
+
+    background-color: aquamarine;
+
+    display: inline-block;
+}
+
+#parrafo {
+    display: inline-block;
+    background-color: gold;
+    width: 100px;
+    height: 100px
+}
+
+
+#verde{
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+
+}
+
+#white{
+    display: inline-block;
+    text-align: center;
+}
+
+#rojo {
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    display: inline-block;
+}
