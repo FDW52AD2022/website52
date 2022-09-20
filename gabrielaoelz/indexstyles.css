@@ -1,8 +1,16 @@
-#buttons
-{
-    width: 50px;
-    height: 40px;
-    border: inset 10px black;
-    font-size: larger;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifs;
+h1{
+    background-color: rgb(217, 152, 243);
+    color: black;
+}
+
+.boton{
+    display: inline-block;
+    color: black;
+    background: rgb(162, 219, 143);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: rgb(200, 255, 182);
 }
