@@ -38,6 +38,7 @@ li, a {
 
 .nav_links li a:hover {
     color: rgb(202, 96, 202);
+    transition: 0.4s;
 }
 
 button {
@@ -46,56 +47,34 @@ button {
     border: none;
     border-radius: 50px;
     cursor:pointer;
-    transition: all 0.3s case 0s;
+    transition: 0.4s;
 }
 
 button:hover {
     background-color: rgba(0,136, 169, 0.8);
 }
 h1 {
-    background-color: mediumpurple;
-    color: black;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    display: block;
+    font-size: 35px;
+    background-color: rgb(202, 96, 202);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 h2 {
-    margin:10px;/* esto le quita el espacio al elemento */
-    background-color: white;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 35px;
-}
-
-h3{
-    font-size: 35px;
-    background-color: rgb(202, 96, 202);
-    font-family: monospace;
-    text-align: center;
-}
-
-h4 {
     font-size: 35px;
     color: wheat;
     text-align: center;
     margin: 20px;
+    font-family: monospace;
 }
+
 
 p {
     font-size: 30px;
     text-align: center;
     color: white;
     margin: 20px;
-}
-
-pre {
-    font-size: 31px
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img.center {
