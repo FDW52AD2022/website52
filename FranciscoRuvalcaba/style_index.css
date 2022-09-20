@@ -6,3 +6,20 @@ body {
     color: #FFFFFF;
     
 }
+
+/*Edicion de cuadro para header*/
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+
