@@ -1,0 +1,10 @@
+h2{
+    background-color: orange;
+}
+
+section{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+}
