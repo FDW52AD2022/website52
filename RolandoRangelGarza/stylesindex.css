@@ -4,7 +4,6 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 header {
@@ -89,6 +88,7 @@ ul, ol {
     padding: 15px 0px 10px;
     cursor: pointer;
     color: yellow;
+    transition: 0.4s;
 }
 .nav > li, ul {
     float: left;
