@@ -1,0 +1,30 @@
+#fotos {
+    border: 5px solid black;
+    background-color: grey;
+}
+
+.b {
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.tamaño{
+    height: 300px;
+    width: 200px;
+}
+
+#colores{
+    border: 5px solid black;
+    background-color: grey;
+}
+
+.azul{
+    border: 5px solid black;
+    background-color: #002B5B;
+}
