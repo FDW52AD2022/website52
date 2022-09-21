@@ -1,18 +1,22 @@
 #fotos {
     border: 2px solid black;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+
 }
 
 .borde {
     border: 2px solid black;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
+    margin: 10px;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 30px;
-    
 }
+
+.t {
+    height: 200px;
+    justify-content: center;
+}
+
 
 .bordet {
     border: 2px solid black;
@@ -22,70 +26,68 @@
     justify-content: right;
     align-items: right;
     margin: 30px;
+    text-align: center;
     
-}
-
-.bordea {
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
-.t {
-    height: 200px;
-    justify-content: center;
 }
 
 #texto {
     border: 2px solid black;
-    background-color: palegreen;
+    display: flex;
+    justify-content: right;
+    margin: 5px;
 }
 
 #rojo {
-    padding: 90px;
     background-color: red;
-    display: inline-block;
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
 }
 
 #verde {
-    padding: 90px;
     background-color: green;
-    display: inline-block;
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
 }
 
 #rosa {
-    padding: 90px;
     background-color: pink;
-    display: inline-block;
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
 }
 
 #azul {
-    padding: 90px;
     background-color: blue;
-    display: inline-block;
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
 }
 
 #morado {
-    padding: 90px;
     background-color: palevioletred;
-    display: inline-block;
-    margin: 0px;
-    box-sizing: border-box;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+
 }
 
 #colores {
     border: 2px solid black;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5px;
 }
