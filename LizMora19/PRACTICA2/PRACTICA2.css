@@ -1,0 +1,49 @@
+#titulo {
+
+    padding: 50px; 
+
+  
+    border-top: 10px dashed red;
+    border-bottom: 20px groove gold;
+    border-right: 50px dotted blue;
+    border-left: 40px inset purple;
+    margin: 30px;
+}
+
+#titulo {
+    display: inline-block ;
+}
+
+#parrafo {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#v {
+
+    padding: 80px;
+
+    background-color: green;
+
+    display: inline-block;
+
+    margin: 0px;
+
+    box-sizing: border-box;
+
+}
+
+
+#r {
+
+    padding: 80px;
+
+    background-color: red;
+
+    display: inline-block;
+
+    margin: 0px;
+
+}
