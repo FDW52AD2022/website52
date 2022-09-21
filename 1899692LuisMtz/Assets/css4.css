@@ -1,0 +1,12 @@
+body{
+    background: rgb(109, 109, 109);
+}
+
+#nav-flex2 .contenedor{
+    text-align: center;
+    background-color: #103ccd;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
