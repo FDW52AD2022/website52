@@ -1,0 +1,35 @@
+.bloque1 {
+    margin: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px; 
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text1 {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+.text2 {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+.text3 {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+.contenedor {
+    display: flex;
+   justify-content: flex-end;
+}
+
+.seccion2 {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+.bloque3 {
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+
