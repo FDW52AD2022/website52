@@ -207,29 +207,3 @@ h1 {
 .gallery li:nth-child(even) .box {
 	background: #eee;
 }
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:992px) {
-
-	.gallery {
-		width: auto;
-	}
-
-}
-
-@media screen and (max-width:768px) {
-
-	.gallery li {
-		width: 50%;
-	}
-
-}
-
-@media screen and (max-width:468px) {
-
-	.gallery li {
-		width: 100%;
-	}
-
-}
