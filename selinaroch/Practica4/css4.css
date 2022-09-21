@@ -1,0 +1,13 @@
+#nav-flex .contenedor{
+    background-color: #CD104D;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*flex-flow: column wrap;*/
+
+    justify-content: center;
+    
+    
+}
