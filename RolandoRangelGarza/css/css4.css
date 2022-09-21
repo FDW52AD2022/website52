@@ -4,11 +4,44 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 7px;
 }
 
+body {
+    background-color: grey;
+}
 #primera-caja img {
     width: 200px;
     height: 200px;
     padding: 10px 20px;
     
 }
+
+#segunda-caja {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 7px;
+}
+
+#texto1, #texto2, #texto3 {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#vinculo {
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: yellow;
+}
+
+
