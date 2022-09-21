@@ -1,0 +1,123 @@
+/* Alumno:Eduardo Missael Torres LOPEZ
+Matricula: #1895450
+Fecha: 21/09/22 */
+.borde1{
+    font-size: 5em;
+    border: 1rem solid rgb(50, 200, 200);
+    justify-content: center;
+}
+.borde {
+    font-size: 1em;
+    border: 1rem solid rgb(87, 230, 30);
+    justify-content: center;
+    height: 300px;
+}
+#cajas{
+    padding-bottom: 350px;
+}
+
+#caja1{
+    background-color: rgb(81, 169, 37);
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    float: right;
+    border: 10px;
+    margin: 10px;
+}
+
+#caja2{
+    background-color: rgb(100, 90, 212);
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    float: right;
+    border: 10px;
+    margin: 10px;
+}
+
+#caja3{
+    background-color: rgb(138, 23, 138);
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    float: right;
+    border: 10px;
+    margin: 10px;
+}
+
+.borde2 {
+    font-size: 1em;
+    border: 1rem solid rgb(229, 25, 25);
+    height: 150px;
+    width: 350px;
+}
+
+#cajitas{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+#c1{
+    background-color: rgba(149, 255, 0, 0.736);
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#c2{
+    background-color: rgb(56, 97, 179);
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#c3{
+    background-color: rgb(149, 42, 163);
+    text-align: center;
+    padding: 10px;
+    width: 80px;
+    height:20px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#c4{
+    background-color: rgb(243, 200, 12);
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#c5{
+    background-color: rgb(165, 29, 195);
+    text-align: center;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
