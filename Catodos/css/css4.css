@@ -29,7 +29,46 @@
 }
 
 .bloque3 {
-    margin: 10px 10px 10px 10px;
+    margin: 10px 1000px 10px 10px;
     border: 2px solid black;
 }
 
+.rojo {
+    padding: 90px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cafe {
+    padding: 90px;
+    background-color: brown;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.azul {
+    padding: 90px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.amarillo {
+    padding: 90px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.verde {
+    padding: 90px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
