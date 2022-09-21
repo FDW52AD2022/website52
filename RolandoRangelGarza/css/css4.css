@@ -1,0 +1,14 @@
+#primera-caja {
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#primera-caja img {
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px;
+    
+}

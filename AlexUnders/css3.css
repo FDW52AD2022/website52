@@ -27,7 +27,7 @@
     overflow: auto;
 }
 
-.info img {
+article > img { 
     border-radius: 50%;
     width: 100px;
     float: left;
@@ -37,6 +37,10 @@
     clear: both;
     content: "";
     display: table;
+}
+.float-right {
+    float: right;
+    margin-right: 2em;
 }
 #nav-main ul {
     background-color: #FD841F;
