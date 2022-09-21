@@ -1,6 +1,7 @@
 #fotos {
     border: 5px solid black;
     background-color: grey;
+    margin: 15px;
 }
 
 .b {
@@ -18,6 +19,17 @@
     height: 300px;
     width: 200px;
 }
+
+#texto {
+    border: 5px solid black;
+    margin: 15px;
+}
+
+.tex1{
+    border: 5px solid black;
+    margin: 15px;
+}
+
 
 #colores{
     border: 5px solid black;
