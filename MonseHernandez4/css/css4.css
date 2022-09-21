@@ -1,0 +1,91 @@
+#fotos {
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+.borde {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.bordet {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 30px;
+    
+}
+
+.bordea {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.t {
+    height: 200px;
+    justify-content: center;
+}
+
+#texto {
+    border: 2px solid black;
+    background-color: palegreen;
+}
+
+#rojo {
+    padding: 90px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#verde {
+    padding: 90px;
+    background-color: green;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#rosa {
+    padding: 90px;
+    background-color: pink;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#azul {
+    padding: 90px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#morado {
+    padding: 90px;
+    background-color: palevioletred;
+    display: inline-block;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#colores {
+    border: 2px solid black;
+    background-color: white;
+}
