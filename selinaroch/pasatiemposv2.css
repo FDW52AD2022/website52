@@ -1,0 +1,34 @@
+.h1titulo{
+    background-color:pink;
+    border: 5px solid black;
+    font-family: "Times New Roman";
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+h2{
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+li{
+    font-size: 25px;
+    font-family: "Century", Times, serif;
+}
+
+p{
+    font-size: 30px;
+    font-family: "Century", Times, serif;
+}
+
+nav{
+    background-color: grey;
+    color: black;
+    font-family: "sans-serif";
+    font-size:25px;
+    text-align: center;
+    padding: 20px;
+}
