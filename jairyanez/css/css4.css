@@ -1,0 +1,97 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/36642wide.jpg);
+    border: 10px solid rgb(137, 178, 202);
+    border-radius: 60px;
+    padding: 10px;
+}
+#contenedor-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 20px 10px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#titulo {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(4, 4, 128);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+#foto {
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 10px;
+    margin: 6px 10px 6px;
+    width: 170px;
+    height: 170px;
+}
+
+#contenedor-2 {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+#boton img{
+    width: 40px;
+    
+}
+#text-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+#contenedor-3 {
+    display: flex;
+    margin: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.color-box {
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 40px 70px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}

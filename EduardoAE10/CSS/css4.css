@@ -1,0 +1,113 @@
+#pic{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.borde {
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    height: 200px;
+    justify-content: center;
+}
+
+
+.btext {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 30px;
+    text-align: center;
+    
+}
+
+#text {
+    border: 2px solid black;
+    display: flex;
+    justify-content: right;
+    margin: 5px;
+}
+
+.bordec {
+    border: 2px solid black;
+    height: 300px;
+    width: 350px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 30px;
+    text-align: center;
+    
+}
+
+#cajasnum{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+#cajita1{
+    background-color: rgba(131, 30, 226, 0.736);
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#cajita2{
+    background-color: rgb(59, 221, 37);
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#cajita3{
+    background-color: rgb(218, 174, 33);
+    text-align: center;
+    padding: 10px;
+    width: 80px;
+    height:20px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#cajita4{
+    background-color: rgb(223, 57, 28);
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+#cajita5{
+    background-color: rgb(95, 199, 224);
+    text-align: center;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 10px;
+    margin: 10px;
+}

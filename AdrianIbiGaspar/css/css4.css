@@ -1,6 +1,6 @@
 #primera-caja {
     display: flex;
-    background-color: blue;
+    background-color: white;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -8,8 +8,9 @@
 }
 
 body {
-    background-color: grey;
+    background-color: black;
 }
+
 #primera-caja img {
     width: 200px;
     height: 200px;
@@ -36,17 +37,17 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: blue;
 }
 #vinculo {
-    margin-left: 70px;
-    margin-right: 70px;
-    background-color: yellow;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: lightgrey;
 }
 
 #tercera-caja {
     display: flex;
-    background-color: black;
+    background-color: white;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -84,4 +85,3 @@ a {
     padding: 40px 70px;
     margin: 20px;
 }
-
