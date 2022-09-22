@@ -1,0 +1,61 @@
+.u-em{
+    font-size: 5em;
+    border: 1rem solid red;
+}
+
+.u-viewport {
+    background-color: aquamarine;
+    width: 90vw;
+    height: 100vh;
+}
+
+/*body {
+    width: 400px;
+}*/
+
+.u-porcentaje {
+    background-color: aqua;
+    width: 90%;
+    height: 200px;
+}
+
+.overflow {
+    background-color: purple;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.info img {
+    width: 200px;
+    padding-right: 20px;
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+#nav-main ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-main ul li {
+    float: left;
+    width: 20%;
+}
+
+#nav-flex .contenedor {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex-flow: row wrap;
+
+    justify-content: space-evenly;
+}

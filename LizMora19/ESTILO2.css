@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#borde {
+        border: 20px solid lightsalmon;
+    }
+#borde1 {
+        border: 20px solid plum;
+    }
+#borde2 {
+        border: 20px solid lightseagreen;
+    }
+#borde3 {
+        border: 20px solid yellow;
+    }
+#borde4 {
+        border: 20px solid pink;
+    }
+
+    
+body { 
+    background-color: lightgreen;
+}

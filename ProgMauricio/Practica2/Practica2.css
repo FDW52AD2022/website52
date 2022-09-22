@@ -1,0 +1,56 @@
+
+#titulo {
+    /* padding es el relleno  */
+    /* 50 arriba, 5 der, 10 abajo, 20 izq */
+    padding: 50px 5px 10px 20px;
+
+    border-top: 10px dashed rgb(51, 202, 139);
+    border-bottom: 20px groove pink;
+    border-right: 50px dotted purple;
+    border-left: 40px inset red;
+    box-sizing: border-box;
+
+    margin: 30px;
+
+    background-color: cadetblue;
+
+    display: inline-block;
+}
+
+#parrafo{
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#verde{
+
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+#blanco{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+#rojo{
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
