@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    border: 10px solid darkcyan;
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/36642wide.jpg);
+    border: 10px solid rgb(137, 178, 202);
     border-radius: 60px;
     padding: 10px;
 }
@@ -9,13 +9,14 @@ body {
     flex-wrap: wrap;
     margin: 10px;
     padding: 20px 10px;
-    border: 2px solid black;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 10px;
     justify-content: center;
 }
 
 #foto {
-    border: 2px solid black;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 10px;
     margin: 6px 10px 6px;
     width: 170px;
     height: 170px;
@@ -25,7 +26,7 @@ body {
     display: flex;
     margin: 10px;
     padding: 10px;
-    border: 2px solid black;
+    border: 5px solid rgb(255, 255, 255);
     justify-content: flex-end;
     flex-wrap: wrap;
     border-radius: 10px;
@@ -36,8 +37,10 @@ body {
     
 }
 #text-box {
+    background-color: black;
+    color: white;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px 20px;
     margin: 10px;
     font-size: 10px;
@@ -46,7 +49,7 @@ body {
 #contenedor-3 {
     display: flex;
     margin: 10px;
-    border: 3px solid black;
+    border: 5px solid rgb(255, 255, 255);
     justify-content: flex-start;
     flex-direction: row ;
     flex-wrap: wrap;
@@ -74,4 +77,8 @@ body {
 
 .blue {
     background-color: blue;
+}
+
+.orange {
+    background-color: orange;
 }
