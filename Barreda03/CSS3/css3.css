@@ -58,20 +58,17 @@
 }
 
 
-#nav-flex ul {
+#nav-flex {
     margin: 0;
     padding: 0;
 }
 
 
 #nav-flex .contenedor {
-    background-color: gray;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    flex-flow: column wrap;
-
-    justify-content: flex-end;
-    height: 400px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    
+    justify-content: space-between;
 }

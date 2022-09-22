@@ -1,0 +1,57 @@
+#contenedor-1 {
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#foto {
+    border: 2px solid black;
+    margin: 6px 10px 6px;
+    width: 110px;
+    height: 110px;
+}
+
+
+#contenedor-2 {
+    padding: 50px 10px 30px 100px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+}
+
+#text-box {
+    text-align: center;
+    border: 2px solid black;
+}
+
+#contenedor-3 {
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+    flex-direction: column ;
+}
+
+.color-box {
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
