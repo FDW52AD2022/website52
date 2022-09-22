@@ -1,0 +1,116 @@
+.margen1 {
+    font-size: 1em;
+    height: 150px;
+    padding: 50px;
+    border: 1rem solid green;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+.margen2 {
+    font-size: 1em;
+    border: 1rem solid olive;
+    border-radius: 15px;
+    justify-content: center;
+    height: 220px;
+}
+#text{
+    padding-bottom: 350px;
+}
+
+#text1{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+#text2{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+#text3{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+    float: right;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.margen3 {
+    margin: 10px 1000px 10px 10px;
+    border: 1rem solid aqua;
+    border-radius: 15px;
+    
+}
+
+.amarillo {
+    padding: 50px;
+    background-color: yellow;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 70px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.verde {
+    padding: 50px;
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 70px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.azul {
+    padding: 50px;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.naranja {
+    padding: 50px;
+    background-color: orange;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.cafe {
+    padding: 50px;
+    background-color: brown;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border: 5px solid black;
+    margin: 10px;
+}
