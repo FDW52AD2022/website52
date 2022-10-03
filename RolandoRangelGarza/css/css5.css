@@ -1,5 +1,7 @@
 #menu-site {
     display: flex;
+    background-color: orchid;
+    height: 40vh;
 }
 
 #l1 {
@@ -10,6 +12,9 @@
 #l2 {
     /* flex-grow: 2;
     order: 2; */
+    width: 400px;
+    flex-shrink: 0;
+    align-self: center;
 }
 
 #l3 {
