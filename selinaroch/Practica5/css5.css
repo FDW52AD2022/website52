@@ -83,5 +83,5 @@
     gap: 0.3em;
     grid-template-areas:    "enc enc"
                             "cont barra"
-                            "pie pie";
+                            "pie barra";
 }
