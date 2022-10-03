@@ -32,6 +32,7 @@
 
 #mini-page header{
     background-color: yellow;
+    grid-column: 1 / -1;
 }
 
 #mini-page article{
@@ -44,9 +45,43 @@
 
 #mini-page footer{
     background-color: green;
+    grid-column:  1 / -1;
 }
 
 #mini-page{
     display: grid;
     grid-template-columns: 4fr 1fr ;
+    gap: 0.3em;
+}
+
+
+/*empieza la mini-page2*/
+
+#mini-page2 header{
+    background-color: yellow;
+    grid-area: enc;
+}
+
+#mini-page2 article{
+    background-color: orange;
+    grid-area: cont;
+}
+
+#mini-page2 aside{
+    background-color: yellowgreen;
+    grid-area: barra;
+}
+
+#mini-page2 footer{
+    background-color: green;
+    grid-area: pie;
+}
+
+#mini-page2{
+    display: grid;
+    grid-template-columns: 4fr 1fr ;
+    gap: 0.3em;
+    grid-template-areas:    "enc enc"
+                            "cont barra"
+                            "pie pie";
 }
