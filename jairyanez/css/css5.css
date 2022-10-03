@@ -1,0 +1,20 @@
+#menu-site {
+    display: flex;
+}
+
+#l1 {
+    /* flex-grow: 1;
+    order: 3; */
+}
+
+#l2 {
+    /* flex-grow: 2;
+    order: 2; */
+
+    width: 400px;
+    flex-shrink: 0;
+}
+
+#l3 {
+    /* order: 1; */
+}
