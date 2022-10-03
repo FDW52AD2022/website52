@@ -3,6 +3,71 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+/*Edicion de cuadro para header*/
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 100%;
+	margin: 30px auto;
+	background: linear-gradient(to right, #990D35, #275DAD);  
+    border-radius:50px 50px 50px 50px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/* Se determina el posicionamiento del header */
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #FCF7F8;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+
+
+/*Animacion de letra para el menu */
+.menu li a:hover{
+	color: #ABA9C3;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+/* Animacion para transicion de menu */
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
  
 .inicio {
 	background:#000;
@@ -28,8 +93,8 @@ h1 {
     font-size: 50px;
 }
 
+
 .Peliculas_favoritas {
-	background: linear-gradient(to bottom right, purple,blue,red);
 	width:90%;
 	max-width:1000px;
 	margin:auto;
@@ -39,8 +104,20 @@ h1 {
 	flex-flow:row wrap;
 }
  
+.VideoYoutube {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	padding: 10px;
+ 
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
 .main2 {
 	background:#fff;
+	color: #000;
 	padding:20px;
  
 	flex:1 1 70%;
@@ -69,7 +146,10 @@ h1 {
 	box-shadow:0px 0px 50px rgba(0,0,0,.7);
 } 
 
-
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
 
 
 
