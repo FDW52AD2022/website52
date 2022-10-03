@@ -1,0 +1,29 @@
+#menu-site {
+    display: flex;
+    background-color: grey;
+    height: 40vh;
+    align-self: center;
+}
+
+#l1 {
+    /* flex-grow: 1; 
+    order: 3; */
+    align-self: flex-start;
+}
+
+#l2 {
+    /* flex-grow: 5; */
+    width: 400px;
+    flex-shrink: 0;
+    align-self: center;
+    
+}
+
+#l3 {
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}
+
+
+/* flex: 0 0 20%
+flex-grow flex-shrink flex-basis */
