@@ -27,3 +27,24 @@
 
 /* flex: 0 0 20%
 flex-grow flex-shrink flex-basis */
+
+#mini-page header{
+    background-color: yellow;
+}
+
+#mini-page article{
+    background-color: pink;
+}
+
+#mini-page aside{
+    background-color: purple;
+}
+
+#mini-page footer{
+    background-color: turquoise;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
