@@ -11,3 +11,24 @@
     
     
 }
+
+
+.overflow{
+    background-color: #e90f54;
+    width: 200px;
+    height: 100px;
+    clear: right;
+}
+
+
+
+.a { float: left; }
+.b { float: right; }
+.c { float: right; }
+.d { float: none; clear: both; }
+
+
+#c1 {font-size: 60px;
+    color:blue;
+    border-radius: 70px;
+    background-color:pink; }
