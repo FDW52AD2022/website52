@@ -1,5 +1,7 @@
 #menu-site {
     display: flex;
+    background-color: gray;
+    height: 40vh;
 }
 
 #l1 {
@@ -13,8 +15,10 @@
 
     width: 400px;
     flex-shrink: 0;
+    align-self: center;
 }
 
 #l3 {
     /* order: 1; */
+    align-self: flex-end;
 }
