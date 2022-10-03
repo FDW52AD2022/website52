@@ -1,0 +1,43 @@
+#menu-site{
+    display:flex;
+    background-color: gray;
+    height: 40vh;
+}
+
+#l1{
+    flex-grow: 1;
+
+}
+
+#l2{
+    flex-grow: 2;
+    width: 400px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#l3{
+    order: 1;
+    align-self: flex-end;
+}
+
+#mini-page header{
+    background-color: yellow;
+}
+
+#mini-page article{
+    background-color: rosybrown;
+}
+
+#mini-page aside{
+    background-color: purple;
+}
+
+#mini-page footer{
+    background-color: turquoise;
+}
+
+#mini-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
