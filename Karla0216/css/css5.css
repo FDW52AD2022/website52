@@ -30,6 +30,7 @@ flex-grow flex-shrink flex-basis */
 
 #mini-page header{
     background-color: yellow;
+    grid-column: 1 / -1;
 }
 
 #mini-page article{
@@ -47,4 +48,5 @@ flex-grow flex-shrink flex-basis */
 #mini-page {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
 }
