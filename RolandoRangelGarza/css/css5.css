@@ -1,0 +1,18 @@
+#menu-site {
+    display: flex;
+}
+
+#l1 {
+    /* flex-grow: 1;
+    order: 3; */
+}
+
+#l2 {
+    /* flex-grow: 2;
+    order: 2; */
+}
+
+#l3 {
+    /* flex-grow: 3;
+    order: 1; */
+}
