@@ -8,3 +8,10 @@ console.log(`El resultado de la operacion de:
 ${!3>1||3==2}`);
 
 //&& es and, || es or, ! es not//
+
+console.log(!3> 2 ?"Verdadero":"Falso");
+
+//Declaracion de variables
+let variable;
+
+const UNI= "UANL";
