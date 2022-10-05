@@ -1,0 +1,12 @@
+#nav-flex .contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.overflow div{
+    width: 200px;
+    height: 100px;
+    overflow: visible;
+    display: flex;
+}
