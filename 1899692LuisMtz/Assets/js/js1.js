@@ -8,7 +8,6 @@ console.warn("Hola soy un warn");
 console.error("hola soy un error");
 console.log(`El tipo de dato 
             de false ${typeof false}`);
-
 console.log(`El tipo de dato
             de 5.5 ${typeof 5.5}`);
 
