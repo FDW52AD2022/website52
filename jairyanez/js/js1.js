@@ -1,0 +1,13 @@
+// alert("Que onda Perrillos");
+console.log("Hola Javascript");
+console.warn("Warning")
+console.error("Mensaje de Error");
+console.log(`El tipo de dato de false es ${typeof false}`);
+console.log(`El tipo de dato de js es ${typeof 'js'}`);
+
+console.log(`El resultado de la operación de:
+${!3 > 1 || 3 == 2}`);
+
+console.log( 3 > 2 ? "Verdadero" : "Falso");
+
+let 
