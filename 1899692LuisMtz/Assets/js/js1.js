@@ -22,3 +22,5 @@ console.log(!3>2? "Verdadero": "Falso");
 no_tocar=222;
 
 const no_tocar="UANL";
+
+UNI = "patito"
