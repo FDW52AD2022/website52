@@ -1,10 +1,10 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 body {
     background-image: url(GIFS\ WP.gif);
-    background-size: 100vh 100 vh;
+    background-size: 100vh 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -63,8 +63,8 @@ p {
 
 .navegacion {
     width: 73.5vh;
-    margin: 5vh 5vh;
-    background-color: #251B37;
+    margin: 5vh 2vh;
+    background-color: transparent;
     font-size: 2.4vh;
 }
 
@@ -73,6 +73,7 @@ p {
     list-style: none;
     padding-inline-start: 0%;
     padding-inline-end: 0%;
+    padding-top: 0vh;
 }
 
 
@@ -86,7 +87,7 @@ p {
 /* texto del menú principal */
 .menu-principal > li > a {
         display: block;
-        padding: 3.5vh 5vh;
+        padding: 2vh 5vh;
         color: whitesmoke;
         text-decoration: none;
         font-family: monospace;
@@ -96,13 +97,13 @@ p {
 .menu-principal li a:hover {
     transition: 1.5s;
     color: yellow;
-    padding: 3.5vh 5vh;
+    padding: 2vh 5vh;
     background-color: #47365d;
 }
 
 .submenu-actividades {
     position: absolute;
-    width: 16%;
+    width: 16.5%;
     background-color: #372948;
     visibility: hidden;
     transition: opacity 1.4s;
@@ -110,10 +111,14 @@ p {
     padding-left: 0;
 }
 
+.submenu-actividades ul {
+    padding-top: 0%;
+}
+
 /* texto del submenu */
 .submenu-actividades li a {
     display: block;
-    padding: 3.5vh 5vh;
+    padding: 2vh 2vh;
     color: whitesmoke;
     text-decoration: none;
     font-family: monospace;
