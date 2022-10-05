@@ -1,0 +1,16 @@
+#Yo {
+    font-size: 20px;
+    background-color: #256D85;
+}
+
+.musica-favorita {
+    font-size: 20px;
+    background-color: #A5C9CA;
+}
+
+
+#lista-pasatiempos {
+    font-size: 20px;
+    background-color: #647E68;
+    list-style: none;
+}
