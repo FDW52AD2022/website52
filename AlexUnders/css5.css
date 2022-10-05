@@ -1,0 +1,68 @@
+#menu-site{
+    display: flex;
+    background-color: gray;
+    height: 40vh;
+}
+
+#l1{
+    flex-grow: 1;
+    order: 3;
+}
+
+#l2{
+    flex-grow: 3;
+    order: 2;
+    width: 400px;
+    flex-shrink: 0;
+    align-self:center;
+}
+
+#l3{
+    order: 1;
+    align-self: end;
+}
+
+#mini-page header {
+    background-color: yellow;
+}
+#mini-page article {
+    background-color: rgb(255, 0, 179);
+}
+#mini-page aside {
+    background-color: rgb(255, 0, 0);
+}
+#mini-page footer {
+    background-color: turquoise;
+    grid-column: 1/-1;
+}
+#mini-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
+}
+
+#mini-page2 header {
+    background-color: rgb(145, 145, 0);
+    grid-area: enc;
+}
+#mini-page2 article {
+    background-color: rgb(255, 0, 179);
+    grid-area: cont;
+}
+#mini-page2 aside {
+    background-color: rgb(0, 255, 170);
+    grid-area: barra;
+}
+#mini-page2 footer {
+    background-color: turquoise;
+    grid-column: 1/-1;
+    grid-area: pie;
+}
+#mini-page2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
+    grid-template-areas:  "enc enc"
+                            "cont barra"
+                            "pie pie";
+}
