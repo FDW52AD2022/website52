@@ -1,0 +1,87 @@
+#menu-site {
+    display: flex;
+    background-color: lightgreen;
+    height: 3vh;
+}
+
+#l1 {
+    flex-grow: 1;
+    order: 3;
+}
+
+#l2 {
+    flex-shrink: 0;
+    width: 400px;
+    align-self: center;
+}
+
+#l3 {
+    flex-grow: 1;
+    order: 1;
+}
+
+#l4 {
+    order: 4;
+}
+
+#mini-page header {
+    background-color: purple;
+    grid-column: 1 / -1;
+    height: 10vh;
+}
+
+#mini-page article {
+    background-color: pink;
+    height: 10vh;
+}
+
+#mini-page aside {
+    background-color: salmon;
+    height: 10vh;
+}
+
+#mini-page footer {
+    background-color: lightpink;
+    grid-column: 1 / -1;
+    height: 10vh;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+}
+
+/* Otra Minipagina */
+
+#mini-page-2 header {
+    background-color: purple;
+    height: 10vh;
+    grid-area: enc;
+}
+
+#mini-page-2 article {
+    background-color: pink;
+    height: 10vh;
+    grid-area: cont;
+}
+
+#mini-page-2 aside {
+    background-color: salmon;
+    grid-area: barra;
+}
+
+#mini-page-2 footer {
+    background-color: lightpink;
+    height: 10vh;
+    grid-area: pie;
+}
+
+#mini-page-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc"
+                         "cont barra"
+                         "pie barra";
+}
