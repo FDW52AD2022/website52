@@ -15,3 +15,9 @@ console.log(`El tipo de dato
 console.log(`El resultado es:
 ${!3 > 1 || 3 == 2}`);
 console.log(! 3 > 2 ? "verdadero " : "falso");
+
+const UNI="UANL";
+
+let numero=1;
+
+UNI="patito";
