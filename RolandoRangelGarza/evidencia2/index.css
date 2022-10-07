@@ -73,3 +73,10 @@
                          "article aside"
                          "footer footer";
 }
+
+#mini-page > #presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
