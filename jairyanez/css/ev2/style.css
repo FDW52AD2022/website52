@@ -1,28 +1,53 @@
-body {
-    margin: 0;
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #24252A;
 }
 .head {
     display: flex;
-    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
 }
 #logo {
-    width: 100px;
-    margin-left: 10px;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
 }
-.head h1 {
+
+#logo img{
+    width: 100px;
+}
+
+#logo h1 {
     color: white;
+    font-size: 4vh;
 }
 
 nav{
-    background-color: orange;
     padding: 1px 0px 2px;
     justify-content: space-between;
     min-width: 250px;
 }
-nav ul {
-    display: flex;
-}
-nav ul li {
+#links-nav {
     list-style: none;
-    margin: 0 10px;
+}
+#links-nav li {
+    display: inline-block;
+    padding: 12px 10px;
+}
+
+#links-nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px ;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+#links-nav li a:hover{
+    background-color: #ffce2f;
+    color: black;
 }
