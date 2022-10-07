@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.head {
+    display: flex;
+    background-color: black;
+}
+#logo {
+    width: 100px;
+    margin-left: 10px;
+}
+.head h1 {
+    color: white;
+}
+
+nav{
+    background-color: orange;
+    padding: 1px 0px 2px;
+    justify-content: space-between;
+    min-width: 250px;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
