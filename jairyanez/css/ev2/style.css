@@ -6,30 +6,35 @@
     background-color: #24252A;
 }
 .head {
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 5px 10px;
+    margin: 5px 10px;
 }
+
 #logo {
     display: flex;
+    width: 30%;
     margin-right: auto;
     align-items: center;
 }
 
 #logo img{
-    width: 100px;
+    width: 70px;
+    margin-right: 10px;
 }
 
 #logo h1 {
     color: white;
-    font-size: 4vh;
+    font-size: 20px;
 }
 
 nav{
+    margin-right: 1vw;
     padding: 1px 0px 2px;
     justify-content: space-between;
-    min-width: 250px;
+
 }
 #links-nav {
     list-style: none;
