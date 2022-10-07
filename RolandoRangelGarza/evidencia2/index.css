@@ -44,7 +44,7 @@
     background-color:#F999B7;
     grid-column: 1 / -1;
     grid-area: header;
-    height: 70vh;
+    height: 80vh;
 }
 
 #mini-page article {
@@ -79,4 +79,41 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* presentacion */
+
+#presentacion {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-liso-degradado-rosa_53876-143892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#presentacion-texto {
+    width: 300px;
+    padding: 100px 10px;
+}
+
+#presentacion-texto > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #372948;
+    font-size: 37px;
+}
+
+#presentacion-imagen {
+    padding: 50px 10px;
+}
+
+#presentacion-imagen > img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+#presentacion-imagen > h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #F999B7;
+    padding: 10px 0px;
 }
