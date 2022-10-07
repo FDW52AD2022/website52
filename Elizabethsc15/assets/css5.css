@@ -1,0 +1,77 @@
+#menu-site{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    height: 400px;
+}
+
+#uno{
+    flex-grow: 1;
+    order: 3;
+}
+
+#dos{
+    flex-grow: 1;
+    order: 3;
+    width: 400px;
+    flex-shrink: 8;
+    align-self: center;
+}
+
+#tres{
+    flex-grow: 1;
+    order: 3;
+}
+
+#cuatro{
+    flex-grow: 1;
+    order: 3;
+    align-self: flex-end;
+}
+
+#mini-page header{
+    background-color: yellow;
+}
+
+#mini-page article{
+    background-color: aqua;
+}
+
+#mini-page aside{
+    background-color: blueviolet;
+}
+
+#mini-page footer{
+    background-color: rgb(227, 10, 10);
+}
+
+#mini-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+/*Pagina2*/
+#mini-page2 header{
+    background-color: yellow;
+}
+
+#mini-page2 article{
+    background-color: aqua;
+
+}
+
+#mini-page2 aside{
+    background-color:blueviolet;
+    
+}
+
+#mini-page2 footer{
+    background-color: rgb(227, 10, 10);
+   
+}
+
+#mini-page2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+   
+}

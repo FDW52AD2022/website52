@@ -1,0 +1,70 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* bara de navegacion */
+#logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    background-color: #937DC2;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#menu > #Inicio:hover, #Menu:hover, #Promociones:hover, #Sucursales:hover, #Contacto:hover {
+    background-color: #BEAEE2;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+
+#menu li > a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+/* estilos de mini page */
+
+#mini-page header {
+    background-color:#FEE3EC;
+    grid-column: 1 / -1;
+    grid-area: header;
+    height: 70vh;
+}
+
+#mini-page article {
+    background-color: #F999B7;
+    grid-area: article;
+    height: 45vh;
+}
+
+#mini-page aside {
+    background-color: #F2789F;
+    grid-area: aside;
+}
+
+#mini-page footer {
+    background-color: #372948;
+    /* Abarca todo el ancho de las columnas */
+    grid-area: footer;
+    height: 15vh;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 0;
+    grid-template-areas: "header aside"
+                         "article aside"
+                         "footer footer";
+}
