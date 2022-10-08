@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: teal;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 3px;
+}
+
+nav a:hover {
+    color: mediumturquoise;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer {
+    margin-top: 200px;
+    height: 250px;
+    background-color: #3C3C3C;
+    text-align: center;
+}
+
+.footer p{
+    color: white;
+    line-height: 10px;
+}
+
+div.footer > #copyr {
+    margin: 10px;
+    border-radius: 10px;
+}
