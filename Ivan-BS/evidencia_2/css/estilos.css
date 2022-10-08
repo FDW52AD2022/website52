@@ -114,7 +114,7 @@ p, a{
 .navegacion a:hover{
     background-color: var(--azulClaro);
     color: var(--blanco);
-    width: 67px;
+    width: 120px;
     font-weight: 700;
     border-radius: 10%;
 }
