@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* bara de navegacion */
+#logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    background-color: #937DC2;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#menu > #Inicio:hover, #Menu:hover, #Promociones:hover, #Sucursales:hover, #Contacto:hover {
+    background-color: #BEAEE2;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+#menu > #logo, #cake {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#menu li > a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+/* estilos de mini page */
+
+#mini-page header {
+    background-color:#F999B7;
+    grid-column: 1 / -1;
+    grid-area: header;
+    height: 80vh;
+}
+
+#mini-page article {
+    background-color: #FEE3EC;
+    grid-area: article;
+    height: 45vh;
+}
+
+#mini-page aside {
+    background-color: #F2789F;
+    grid-area: aside;
+}
+
+#mini-page footer {
+    background-color: #372948;
+    /* Abarca todo el ancho de las columnas */
+    grid-area: footer;
+    height: 15vh;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 0;
+    grid-template-areas: "header header"
+                         "article aside"
+                         "footer footer";
+}
+
+#mini-page > #presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* presentacion */
+
+#presentacion {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-liso-degradado-rosa_53876-143892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#presentacion-texto {
+    width: 300px;
+    padding: 100px 10px;
+}
+
+#presentacion-texto > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #372948;
+    font-size: 37px;
+}
+
+#presentacion-imagen {
+    padding: 50px 10px;
+}
+
+#presentacion-imagen > img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+#presentacion-imagen > h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #F999B7;
+    padding: 10px 0px;
+}
