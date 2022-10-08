@@ -62,7 +62,7 @@ header {
 #container-list {
     margin: 20px;
     margin-top: 30px;
-    display: flex;
+    display: block;
     background-color: white;
     border: gray;
     border-radius: 10px;
@@ -73,6 +73,15 @@ header {
 }
 #link-return {
     margin-left: 10px;
+}
+#container-list h3{
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-left: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(140, 189, 245);
 }
 #container-list li, a {
     text-decoration: none;
@@ -87,3 +96,8 @@ header {
     color: white;
     transition: 0.2s;
 }
+
+#ev-list, #practica-list {
+    display: block;
+}
+
