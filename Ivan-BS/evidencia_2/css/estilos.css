@@ -325,5 +325,18 @@ p, a{
     border: none;
     background-color: var(--azulClaro);
     color: var(--blanco);
-
 }
+
+@media(min-width: 768px) {
+    .footer{
+        display: block;
+        align-items: flex-start;
+
+    }
+}
+
+.footer{
+    text-align: center;
+}
+
+
