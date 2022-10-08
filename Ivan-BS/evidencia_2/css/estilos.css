@@ -1,3 +1,4 @@
+/* Se utiliza la La pseudo-clase Root para declarar variables */
 :root{
     --oscuro:#07070A;
     --azulOscuro:#0A1128;
@@ -146,6 +147,7 @@ p, a{
         display: none;
     }
 }
+
 /*Contenido Del Encabezado*/
 
 @media(min-width: 768px) {
@@ -193,4 +195,27 @@ p, a{
         text-align: center;
     }
 
+}
+
+/* Caja y Frase*/
+@media(min-width: 768px) {
+    .caja-frase{
+        display: block;
+        gap: 2rem;
+    }
+}
+.caja{
+    padding: 5rem;
+    background-color: var(--azulOscuro);
+}
+
+.frase{
+    color: var(--blanco);
+    text-align: center;
+}
+
+
+.frase h3{
+    font-size: 2.5rem;
+    text-align: center;
 }
