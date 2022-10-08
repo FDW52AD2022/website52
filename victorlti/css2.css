@@ -1,0 +1,36 @@
+    #titulo{
+        display:inline;
+    }
+    #parrafo{
+        background-color:blue;
+        display:inline-block;
+        width:100px;
+        height:100px;
+    }
+
+#verde{
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: dashed 10px black;
+
+}
+
+#blanco{
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: dashed 10px black;
+    
+}
+#rojo{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: dashed 10px black;
+    
+}
+img{display: block;}

@@ -1,0 +1,7 @@
+#nav-flex .caja {
+    display: flex;
+    flex-flow: wrap;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-around;
+    border: 10px black;
+}
