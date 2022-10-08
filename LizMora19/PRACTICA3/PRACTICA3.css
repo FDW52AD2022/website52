@@ -1,0 +1,69 @@
+.u-em{
+    font-size: 5em;
+    text-align: center;
+    background-color: lightblue;
+    
+}
+
+
+.u-viewport{
+    background-color: lightcoral;
+    width: 90vw;
+    height: 100vh;
+}
+
+.u-porcentaje{
+    background-color: lightgray;
+    background-color:  yellow;
+    width: 100%;
+    height: 200px;
+}
+
+.overflow{
+    background-color: #ec711f;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+/*la imagen se mostrara dentro de los articulos */
+article > img{
+    width: 200px;
+    float: right;
+    margin-right: 3em;  
+}
+
+
+.float-right {
+    float: right;
+    margin-right: 2em;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#nav.main ul{
+    background-color: purple;
+    list-style: none;
+}
+
+#nav-main ul li{
+    float: left;
+    width: 20%;
+}
+
+#nav-main ul li a{
+    text-decoration: none;
+}
+
+#nav-flex .contenedor{
+    background-color: #fa0f98;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+
+}
