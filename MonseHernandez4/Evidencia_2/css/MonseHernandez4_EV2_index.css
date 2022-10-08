@@ -1,9 +1,9 @@
-* {
+body {
     background-color: rgb(235, 190, 76);
 }
 
 #nav-main ul li {
-    background-color: #fd6b47;
+    background-color: #be1e2d;
     list-style: none;
     float: right;
     width: 20%;
@@ -11,10 +11,16 @@
 }
 
 #nav-main li a {
-    color: black;
-    font-family: Helvetica;
+    color: white;
+    font-family:'Tahoma';
     font-size: 20px;
-    background-color: #fd6b47;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+#nav-main li a:hover{
+    background-color: rgba(255, 251, 28, 0.979);
+    color: black;
 }
 
 img.centro {
@@ -28,12 +34,26 @@ header {
 }
 
 h1 {
-    background-color: #fd6b47;
-    font-family: sans-serif;
-    font-size: 40px;
-    color: rgb(255, 255, 255);
+    background-color: #be1e2d;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     text-align: center;
     margin: 0px;
+}
+
+#foot{
+    text-align: center;
+    font-family: 'Courier New';
+    background-color: rgb(255, 127, 22);
+    padding: 5px;
+}
+
+#Copy{
+    background-color: black;
+    padding:10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
 }
