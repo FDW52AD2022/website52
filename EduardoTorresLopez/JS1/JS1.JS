@@ -1,3 +1,5 @@
+/* Alumno:Eduardo Missael Torres LOPEZ
+Matricula: #1895450 */
 console.log("Hola javascrip");
 console.warn("Hola a todos")
 console.error("Saludos")
