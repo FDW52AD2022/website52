@@ -34,3 +34,56 @@ nav a:hover {
     height: 50px;
     margin-right: 10px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Open Sans', sans-serif;
+}
+
+.forms{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.forms h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.forms p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-right: 110px;
+    text-align: justify;
+}
+
+.forms ul {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: teal;
+    font-weight: 500;
+}
+
+form .campo, textarea{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 15px;
+    border: 1px solid teal;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.boton-enviar:hover {
+    outline: 4px solid teal;
+}
