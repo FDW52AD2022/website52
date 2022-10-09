@@ -100,7 +100,7 @@ input{
 #fig1 {
     display: flex;
     justify-content: center;
-    background-image: url("../../assets/fondo_madera.jpeg") ;
+    background-image: url("../../recursos/fondo_madera.jpeg") ;
     background-size: contain;
     border-radius: 15px;
     
@@ -127,7 +127,7 @@ figcaption {
     grid-area: contenido;
     width: 100%;
     margin-bottom: 18px;
-    background-image: url("../../assets/burger_wallpaper.png");
+    background-image: url("../../recursos/burger_wallpaper.png");
     filter: brightness(99%);
     background-repeat: no-repeat;
     background-attachment: fixed;
