@@ -101,13 +101,14 @@
 }
 
 #presentacion-imagen {
-    padding: 2vh 1vh;
+    padding: 8vh 3vh;
 }
 
 #presentacion-imagen > img {
     width: 45vh;
     height: 45vh;
-    padding: 8vh 3vh;
+    border: 5px solid #372948;
+ 
 }
 
 #presentacion-imagen > h2 {
@@ -115,6 +116,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     background-color: #EE6983;
-    padding: 3vh 0px;
+    padding: 4vh 0px;
     font-size: 4vh;
+    margin-top: 5vh;
 }
