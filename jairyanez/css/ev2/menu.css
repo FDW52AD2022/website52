@@ -1,0 +1,76 @@
+#menu {
+    transition: all 0.5s;
+    background-color: #ffce2f;
+    color: black;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+#sencillo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(94, 255, 0);
+    
+}
+
+#burger {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.contenedor-comida {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 10px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+.contenedor-comida img{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#texto h2 {
+    margin: 16px;
+    font-size: 22px;
+}
+#texto #precio{
+    margin: 20px;
+    color: #daa700;
+    font-size: 20px;
+
+}
+
+#texto #descripcion{
+    margin: 20px;
+}
+
+#combo {
+    background-color: rgb(16, 101, 51);
+    width: 100%;
+    height: 100%;
+}
+
