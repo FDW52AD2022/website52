@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-/* bara de navegacion */
+/* barra de navegacion */
 #logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
     align-self: center;
     padding: 3vh 10.5vh;
@@ -48,9 +48,9 @@
 }
 
 #mini-page article {
-    background-color: #FEE3EC;
+    background-color: #FFF5E4;
     grid-area: article;
-    height: 45vh;
+    height: 70.5vh;
 }
 
 #mini-page aside {
@@ -74,12 +74,35 @@
                          "footer footer";
 }
 
+/* display de todas las secciones de la pagina */
 #mini-page > #presentacion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+#mini-page > #general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #ladito {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 /* presentacion */
 
@@ -119,4 +142,29 @@
     padding: 4vh 0px;
     font-size: 4vh;
     margin-top: 5vh;
+}
+
+/* general */
+
+#general {
+    padding:0px;
+}
+
+#general-imagen > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #281e34;
+    margin: 0% 4vh;
+ 
+}
+
+#general-texto > h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EE6983;
+    background-color: #FFC4C4;
+    padding: 3.5vh 0px;
+    font-size: 5vh;
+    margin-top: 0vh;
+    width: 181vh;
 }
