@@ -4,7 +4,7 @@
 main {
     display: grid;
     grid-template-columns: 0.3fr 1fr;
-    gap: 0;
+    gap: 10px;
     grid-template-areas: "header header"
                          "aside vista"
                          "contenido contenido"
@@ -29,7 +29,6 @@ aside {
 
 .content {
     grid-area: vista;
-    padding: 30px 20px 30px 0px;
 }
 
 .content h2{
@@ -47,10 +46,14 @@ aside {
 }
 
 .aside-2 {
-    margin: 20px 10px 10px 10px;
-    background-color: #822727;
-    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
     padding: 10px;
+    background-color: #822727;
+    border-radius: 20px;
     color: #ffffff;
 }
 .aside-2 h3{
@@ -79,7 +82,6 @@ input{
 #boton-enviar {
     width: 70%;
     height: 35px;
-    margin-left: 2.7em;
     border: none;
     border-radius: 20px;
     color: black;
@@ -121,17 +123,57 @@ figcaption {
 
 }
 
-#ll {
+#preferencia-cliente {
     grid-area: contenido;
     width: 100%;
-    height: 100%;
-    background-color: #68c114;
+    margin-bottom: 18px;
+    background-image: url("../../assets/burger_wallpaper.png");
+    filter: brightness(99%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+#preferencia-cliente h4 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 50px 0px;
+    text-shadow: 7px 7px 8px black;
+}
 
+.card-2 { 
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0px 10px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-2 h5 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.card-2 img {
+    width: 150px;
+    height: 140px; 
+}
+.card-2 p {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
-
-
+#contenendor-preferencia {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
 
 
 footer {
@@ -139,17 +181,18 @@ footer {
     box-shadow: 1px -5px 7px white;
     background-color: #560000; 
 }
+
 footer p:nth-child(1) {
     text-align: center;
     color: white;
     margin: 26px;
 }
 
-footer p:nth-child(2){
+footer p:nth-child(2), address{
     text-align: center;
     color: white;
     margin: 10px 0px 20px 0px;
-    
+    font-weight: 300;
 }
 
 
