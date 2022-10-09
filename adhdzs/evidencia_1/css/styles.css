@@ -82,13 +82,12 @@ nav ul li a:hover:not(.activo) {
      color: #ff672e;
 }
 
-#menu-contenedor {
+/* #menu-contenedor {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      gap: 5px;
      grid-template-areas: "encabezado encabezado encabezado"
-                          "producto1 producto2 producto3"
-                          "producto4 producto5 producto6";
+                          "producto producto producto";
 }
 .encabezado {
      grid-area: encabezado;
@@ -111,18 +110,19 @@ nav ul li a:hover:not(.activo) {
 }
 
 .menu {
-     display: flex;
-     flex-wrap: wrap;    
+     grid-area: producto;
 }
 
 .alimentoX {
-     width: 250px;
-     height: 350px;
-     background-color: rgba(255, 255, 255, 0.15);
+     display: inline-block;
+     width: 220px;
+     height: 300px;
+     background-color: rgba(255, 255, 255, 0.3);
      border-radius: 10px;
-     padding: 15px;
      box-sizing: border-box;
 }
 .alimentoX img {
-     width: 250px;
-}
+     display: block;
+     margin: auto;
+     width: 150px;
+} */
