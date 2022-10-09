@@ -14,25 +14,31 @@ main {
 
 #sencillo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(94, 255, 0);
-    
+    background-color: rgb(71, 1, 1);   
+}
+
+#sencillo h1 {
+    color: white;
+    font-size: 30px;
+    margin: 25px 0px;
 }
 
 #burger {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
 .contenedor-comida {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 350px;
     margin: 10px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -41,6 +47,7 @@ main {
 }
 
 .contenedor-comida img{
+    margin-top: 8px;
     width: 200px;
     height: 100px;
     border-radius: 20px;
@@ -50,22 +57,30 @@ main {
 #texto {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 #texto h2 {
-    margin: 16px;
+    margin: 12px;
     font-size: 22px;
 }
+
+#texto h3 {
+    font-weight: 200;
+}
+#texto span {
+    color: #bc1f1f;
+}
 #texto #precio{
-    margin: 20px;
+    margin: 10px;
     color: #daa700;
     font-size: 20px;
 
 }
 
 #texto #descripcion{
-    margin: 20px;
+    margin: 0px 15px 10px 15px;
 }
 
 #combo {
@@ -74,3 +89,21 @@ main {
     height: 100%;
 }
 
+footer {
+    grid-area: pie;
+    box-shadow: 1px -5px 7px white;
+    background-color: #000000; 
+}
+
+footer p:nth-child(1) {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+footer p:nth-child(2), address{
+    text-align: center;
+    color: white;
+    margin: 10px 0px 20px 0px;
+    font-weight: 300;
+}
