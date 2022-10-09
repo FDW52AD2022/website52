@@ -17,7 +17,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(71, 1, 1);   
+    background-color: rgb(71, 1, 1); 
+    width: 100%;  
 }
 
 #sencillo h1 {
@@ -28,7 +29,8 @@ main {
 
 #burger {
     display: grid;
-    grid-template-columns: auto auto auto;
+    width: 85%;  
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     justify-content: space-evenly;
     gap: 10px;
 }
@@ -38,7 +40,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    
     margin: 10px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -80,7 +82,10 @@ main {
 }
 
 #texto #descripcion{
-    margin: 0px 15px 10px 15px;
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+    margin: 0px 15px 0px 15px;
 }
 
 #combo {
@@ -106,4 +111,26 @@ footer p:nth-child(2), address{
     color: white;
     margin: 10px 0px 20px 0px;
     font-weight: 300;
+}
+
+#extra {
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#extra h3 {
+    font-weight: 400;
+}
+#extra table{
+    width: 100%;
+    text-align: left;
+}
+
+#extra table tr td{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 200;
 }
