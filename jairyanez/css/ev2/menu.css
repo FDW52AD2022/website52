@@ -11,13 +11,20 @@ main {
     margin-top: 10px;
 }
 
+.red {
+    background-color: #470101;
+}
 
-#sencillo {
+.gold {
+    background-color: #c6a500;
+}
+#sencillo, #combo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(71, 1, 1);   
+    width: 100%;  
+    padding-bottom: 20px;
 }
 
 #sencillo h1 {
@@ -26,9 +33,10 @@ main {
     margin: 25px 0px;
 }
 
-#burger {
+#burger, #postre, #bebida, #lista-combo {
     display: grid;
-    grid-template-columns: auto auto auto;
+    width: 85%;  
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     justify-content: space-evenly;
     gap: 10px;
 }
@@ -38,7 +46,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
     margin: 10px;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -68,6 +75,7 @@ main {
 
 #texto h3 {
     font-weight: 200;
+    margin: 20px;
 }
 #texto span {
     color: #bc1f1f;
@@ -79,31 +87,65 @@ main {
 
 }
 
-#texto #descripcion{
-    margin: 0px 15px 10px 15px;
+#extra {
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#combo {
-    background-color: rgb(16, 101, 51);
-    width: 100%;
-    height: 100%;
+#extra h3 {
+    font-weight: 400;
+    margin: 0px;
 }
+#extra table{
+    width: 100%;
+    text-align: left;
+}
+
+#extra > ol, table tr td{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+#texto #descripcion{
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+    margin: 0px 15px 0px 15px;
+}
+
+
+#combo h1 {
+    color: white;
+    margin: 20px;
+}
+
+.combo1 {
+    background: linear-gradient(rgba(5, 7, 12, 0.436),rgba(5, 7, 12, 0.371)),url(../../recursos/menu/combo-1.jpg);
+}
+
+.combo2 {
+    background: linear-gradient(rgba(5, 7, 12, 0.436),rgba(5, 7, 12, 0.371)),url(../../recursos/menu/combo-2.png);
+}
+.combo-card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto-combo {
+    color: white;
+}
+
+.precio-combo {
+    font-size: 50px;
+}
+
 
 footer {
-    grid-area: pie;
-    box-shadow: 1px -5px 7px white;
-    background-color: #000000; 
+    background-color: #472c01; 
 }
 
-footer p:nth-child(1) {
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-
-footer p:nth-child(2), address{
-    text-align: center;
-    color: white;
-    margin: 10px 0px 20px 0px;
-    font-weight: 300;
-}

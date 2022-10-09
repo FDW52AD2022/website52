@@ -239,6 +239,10 @@ a {
 .frase img{
     width: 280px;
 }
+
+.frase video{
+    width: 290px;
+}
 /*Formulario Index*/
 .contacto {
     padding-top: 5rem;
