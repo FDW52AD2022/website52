@@ -147,7 +147,11 @@
 /* general */
 
 #general {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/493/327/non_2x/white-and-pink-gradient-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding:0px;
+
 }
 
 #general-imagen > img {
