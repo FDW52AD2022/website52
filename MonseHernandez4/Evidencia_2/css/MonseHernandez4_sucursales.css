@@ -102,3 +102,18 @@ p {
 div.fondo {
     background-color: white;
 }
+
+#estadoZ {
+    border: 2px solid black;
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    background-color: rgb(193, 255, 187);
+}
+
+#Copy{
+    background-color:#000000;
+    padding: 11px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
