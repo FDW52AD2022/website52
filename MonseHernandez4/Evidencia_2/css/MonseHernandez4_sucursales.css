@@ -36,3 +36,69 @@ header {
     background-color: #be1e2d;
 
 }
+
+h1{
+    background-color: #be1e2d;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#estadoN {
+    border: 2px solid black;
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    background-color: rgb(187, 219, 255);
+}
+
+.borde {
+    border: 2px solid black;
+    height: 430px;
+    width: 600px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;   
+}
+
+iframe {
+    display: block;
+    height: 330px;
+    width: 600px;
+    justify-content: center;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(90, 2, 2);
+}
+
+p {
+    font-family: Impact;
+    font-size: 27px;
+    text-align: center;
+    color: #be1e2d;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+div.fondo {
+    background-color: white;
+}
