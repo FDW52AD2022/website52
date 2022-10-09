@@ -175,26 +175,6 @@ figcaption {
     justify-content: center;
 }
 
-
 footer {
-    grid-area: pie;
-    box-shadow: 1px -5px 7px white;
     background-color: #560000; 
 }
-
-footer p:nth-child(1) {
-    text-align: center;
-    color: white;
-    margin: 26px;
-}
-
-footer p:nth-child(2), address{
-    text-align: center;
-    color: white;
-    margin: 10px 0px 20px 0px;
-    font-weight: 300;
-}
-
-
-
-
