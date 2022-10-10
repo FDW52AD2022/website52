@@ -4,7 +4,6 @@ let horas = 41;
 
 let pago_hora = 20;
 
-
 /* Si no tiene horas extras */
 if( horas <= 40 ) {
     let salario_total = horas * pago_hora;
