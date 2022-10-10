@@ -1,0 +1,49 @@
+#ofertas {
+    transition: all 0.5s;
+    background-color: #ffce2f;
+    color: black;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-self: center;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+
+}
+
+.contenedor h1 {
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 4px rgba(255, 206, 47, 0.64);
+    padding: 30px;
+}
+
+.contenedor-ofertas {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
+    gap: 10px;
+    place-items: start;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+#promo_habanero {
+    grid-column: span 2;
+}
+#proximamente {
+    
+}
+footer {
+    background-color: rgb(112, 34, 34);
+}
