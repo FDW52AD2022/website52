@@ -58,11 +58,12 @@ nav a:hover {
 }
 
 .forms p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 30px;
     margin-right: 110px;
     text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .forms ul {

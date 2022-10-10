@@ -3,7 +3,7 @@
     padding: 0%;
 }
 
-/* bara de navegacion */
+/* barra de navegacion */
 #logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
     align-self: center;
     padding: 3vh 10.5vh;
@@ -48,9 +48,9 @@
 }
 
 #mini-page article {
-    background-color: #FEE3EC;
+    background-color: #FFF5E4;
     grid-area: article;
-    height: 45vh;
+    height: 70.5vh;
 }
 
 #mini-page aside {
@@ -62,7 +62,7 @@
     background-color: #372948;
     /* Abarca todo el ancho de las columnas */
     grid-area: footer;
-    height: 15vh;
+    height: 25vh;
 }
 
 #mini-page {
@@ -74,6 +74,7 @@
                          "footer footer";
 }
 
+/* display de todas las secciones de la pagina */
 #mini-page > #presentacion {
     display: flex;
     flex-direction: row;
@@ -81,6 +82,26 @@
     justify-content: center;
 }
 
+#mini-page > #general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #ladito {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /* presentacion */
 
 #presentacion {
@@ -98,6 +119,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #372948;
     font-size: 6.5vh;
+    text-shadow: 2px 2px 2px #5f467e;
 }
 
 #presentacion-imagen {
@@ -119,4 +141,134 @@
     padding: 4vh 0px;
     font-size: 4vh;
     margin-top: 5vh;
+}
+
+/* general */
+
+#general {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/493/327/non_2x/white-and-pink-gradient-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0px;
+
+}
+
+#general-imagen > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #281e34;
+    margin: 0% 4vh;
+ 
+}
+
+#general-texto > h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EE6983;
+    background-color: #FFC4C4;
+    padding: 3.5vh 0px;
+    font-size: 5vh;
+    margin-top: 0vh;
+    width: 181vh;
+}
+
+/* aside */
+
+#ladito {
+    padding: 0px;
+}
+
+#ladito-texto {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #EE6983;
+    padding-top: 5vh;
+    font-size: 3.5vh;
+}
+
+#ladito-red > a > img {
+    width: 15vh;
+    height: 15vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 6vh;
+}
+
+/* footer */
+
+#final > #final-copyright {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+
+#final > #final-infocontacto {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+
+#final > #final-horario {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+#final-copyright > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+}
+
+#final-copyright > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 10px;
+}
+
+#final-infocontacto > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#final-infocontacto > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 10px;
+}
+
+#final-horario > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#final-horario > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 24px;
+
+}
+
+/* datos de contacto abajo del footer */
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
 }

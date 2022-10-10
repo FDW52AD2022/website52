@@ -44,6 +44,8 @@ nav a:hover {
 
 #introduccion{
     text-align:center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 h1{
@@ -77,3 +79,4 @@ h1{
     text-align: justify;
     
 }
+

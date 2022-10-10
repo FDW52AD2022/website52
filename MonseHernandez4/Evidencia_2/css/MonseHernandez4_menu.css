@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(235, 190, 76);
+}
+
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: #be1e2d;
+}
+
+#nav-main li a {
+    color: white;
+    font-family:'Tahoma';
+    font-size: 20px;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+#nav-main li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #be1e2d;
+
+}
+
+#fondo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menu1 menu2"
+    "menu3 menu4";
+    gap: 1em;
+    
+}
+
+#menu1{
+    grid-area: menu1;
+    background-color: rgb(121, 38, 0);
+    margin: 30px;
+    border-radius: 20px;
+    color: #F0FFCE;
+    
+}
+
+#menu2{
+    grid-area: menu2;
+    background-color:rgba(255, 0, 0, 0.719);
+    margin: 30px;
+    border-radius: 20px;
+    color: #F0FFCE;
+}
+#menu3{
+    grid-area: menu3;
+    background-color:rgba(255, 60, 0, 0.719);
+    margin: 30px;
+    border-radius: 20px;
+    color: #F0FFCE;
+}
+#menu4{
+    grid-area: menu4;
+    background-color: rgb(155, 101, 0);
+    margin: 30px;
+    border-radius: 20px;
+    color: #F0FFCE;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    background-color: #be1e2d;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+p.arriba{
+    font-family: Impact;
+    font-size: 27px;
+    text-align: center;
+    color: #be1e2d;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+
+#Copy{
+    background-color:#000000;
+    padding: 11px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
