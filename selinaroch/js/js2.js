@@ -83,7 +83,7 @@ switch (numero) {
 }
 
 
-for (let i=1; i<=100;i++){
+/*for (let i=1; i<=100;i++){
     let codigo = "<marquee>" + i + "</marquee>";
     document.write(codigo);
 }
@@ -92,10 +92,10 @@ for (let i=1; i<=100;i++){
 for (let i=1; i<=1;i--){
     document.write(i + "<br>");
 }
-
+*/
 
 let ht=28;
-let pagoxhora=30;
+let pagoxhora= Number(prompt("Cuantas horas trabajaste"));
 
 
 
@@ -106,8 +106,8 @@ if(ht <= 40){
 
 else{
     he=ht-40;
-    she=he*40;
-    pago=she+40*pagoxhora;
+    she=pagoxhora*3*he;
+    pago=she+ht*pagoxhora;
     console.log(pago);
 
 }
