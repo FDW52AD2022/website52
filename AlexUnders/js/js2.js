@@ -95,7 +95,7 @@ switch (numero) {
 }
 
 /*Ciclo for*/
-
+/* 
 for(let i=1; i<100; i++){
     let codigo = "<marquee>"+i+"</marquee>";
     document.write(codigo);
@@ -104,3 +104,21 @@ for(let i=1; i<100; i++){
 for(let i=10; i>1 ; i--){
     document.write(i + "<br>");
 }
+ */
+
+let horas = 45;
+let pagohora = 200;
+
+if(horas>40){
+    let horasextra = horas-40;
+    let pagoextra = horasextra*pagohora*3;
+    let pagototal = pagohora*40 + pagoextra;
+    console.log(pagototal)
+}
+else{
+    pagototal = horas*pagohora;
+    console.log(pagototal)
+}
+
+
+
