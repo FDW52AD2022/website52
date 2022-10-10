@@ -258,10 +258,11 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
     font-size: 2.6vh;
-    padding-top: 10px;
+    padding-top: 24px;
 
 }
 
+/* datos de contacto abajo del footer */
 .datos-autor {
     width:100%;
     background-color: rgb(38, 38, 38);
