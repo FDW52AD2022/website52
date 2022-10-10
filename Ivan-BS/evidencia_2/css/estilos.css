@@ -387,33 +387,32 @@ a {
     text-align: center;
 }
 
-/* Nosotros */
-/*ventajas*/
-/* @media(min-width: 768px) {
-    .contenido-nosotros{
+/*Sercivios*/
+@media(min-width: 768px) {
+    .seccion-servicios{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 1rem;
     }
 }
-.caja{
+.servicios{
     padding: 5rem;
-    background-color: var(--azulOscuro);
+    background-color: var(--oscuro);
 }
 
-.nosotros{
+.servicio{
     color: var(--blanco);
     text-align: center;
 }
 
-.nosotros i{
+.servicio i{
     font-size: 4rem;
 }
 
-.nosotros h3{
+.servicio h3{
     font-size: 2.5rem;
 }
 
-.nosotros p{
+.servicio p{
     font-size: 2rem;
-} */
+}
