@@ -75,8 +75,21 @@ else {
     console.log("No excelente D:")
 }
 
+// sentencia condicional múltiple switch
 
+let estadoCivil = "casado";
 
-
-
+switch (estadoCivil) {
+    case "soltero":
+        //sentencias
+        break;
+    case "casado":
+        //sentencias
+        break;
+    case "viudo":
+        //sentencias
+    default:
+        //sentencias
+        break;
+}
 
