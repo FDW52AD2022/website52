@@ -30,6 +30,10 @@
     align-self:center;
     padding: 10px 0px;
 }
+#video_conca_2011{
+    display: flex;
+    justify-content: center;
+}
 #menu-site_P1 {
     display: flex;
     background-color: rgb(219, 219, 224);
