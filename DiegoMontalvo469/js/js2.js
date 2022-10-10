@@ -77,19 +77,22 @@ else {
 
 // sentencia condicional múltiple switch
 
-let estadoCivil = "casado";
+let numero = 2
 
-switch (estadoCivil) {
-    case "soltero":
-        //sentencias
+switch (numero) {
+    case 1:
+        console.log("uno")
         break;
-    case "casado":
-        //sentencias
+    case 2:
+        console.log("dos")
         break;
-    case "viudo":
-        //sentencias
+    case 3:
+        console.log("tres")
+        break;
+    case 4:
+        console.log("cuatro")
+        break;
     default:
-        //sentencias
+        console.log("error")
         break;
 }
-
