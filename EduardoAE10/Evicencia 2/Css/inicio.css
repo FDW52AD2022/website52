@@ -1,6 +1,12 @@
 body {
     margin: 0;
 }
+.boton{
+    font-weight: 600;
+    padding-right: 1000px;
+}
+
+
 
 a {
     text-decoration: none;
