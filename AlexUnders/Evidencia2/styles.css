@@ -1,3 +1,13 @@
 * {
-    background-color: orange;
+    text-align: center;
+    background-color: rgb(75, 13, 100);
+    color: white;
+}
+#nav-flex ul{
+    margin: 0;
+    padding: 0;
+}
+#nav-flex .contenedor {
+    display: flex;
+    justify-content: space-evenly;
 }
