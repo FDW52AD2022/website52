@@ -1,0 +1,30 @@
+h1{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(25, 47, 94);
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.ctext {
+    border: 2px solid rgb(255, 254, 254);
+    height: 100px;
+    width: 700px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 45px;
+    text-align: justify;
+    font-size: 1.5em;
+    margin-left: 13em;
+    
+}
+
+.img{
+    width: 600px;
+    float: right;
+    margin-right: 15em;
+    margin-top: 2em;
+}
