@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+h2 {
+    text-align: center;
+}
+
+.header {
+    grid-column: span 6;
+    grid-row: span 1;
+}
+/* El nav lo meti dentro del header
+.nav {
+    grid-column: span 6;
+    grid-row: span 1;
+}
+*/
+
+nav {
+    background-color: teal;
+    border-top: 10px solid teal;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: sans-serif;
+}
+
+nav a:hover {
+    color: mediumturquoise;
+}
+
+header > h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+header > h3,p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+header > img {
+    margin-top: 10px;
+    width: 500px;
+    height: 250px;
+    float: right;
+    margin-right: 1em;
+}
+
+.reglas-fut {
+    grid-column: span 2;
+    grid-row: span 1;
+    text-align: justify;
+}
+
+.reglas-fut > h2 {
+    color: red;
+}
+
+.req-estadios {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.req-estadios > h2 {
+    color: royalblue;
+}
+
+.req-estadios > p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: cornflowerblue;
+}
+
+.equipo-1era {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.equipo-1era h2 {
+    color: blueviolet;
+}
+
+.his-fifa {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.his-fifa > h3 {
+    margin-left: 10px;
+}
+
+.copa {
+    grid-column: span 3;
+    grid-row: span 1;
+    color: goldenrod;
+}
+
+.copa > img{
+    width: 100%;
+}
+
+.footer {
+    grid-column: span 6;
+    grid-row: span 1;
+}
+.footer {
+    background-color: #3c3c3c;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+}
+
+.footer > img {
+    margin: 10px;
+    border-radius: 10px;
+}
