@@ -11,6 +11,7 @@
     justify-self: center;
     padding-bottom: 50px;
     margin-bottom: 10px;
+    background-color: rgba(122, 73, 0, 0.396);
 
 }
 
@@ -41,9 +42,7 @@ img{
 #promo_habanero {
     grid-column: span 2;
 }
-#proximamente {
-    
-}
+
 footer {
     background-color: rgb(112, 34, 34);
 }
