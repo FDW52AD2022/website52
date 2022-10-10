@@ -7,25 +7,219 @@
     <meta name="author" content="Jesus Jair Yañez Moreno">
     <meta name="description" content="Pagina del Menu">
     <link rel="stylesheet" href="../css/ev2/style.css">
-    <title>Menu - Burguer Restaurant</title>
+    <link rel="stylesheet" href="../css/ev2/menu.css">
+    <link rel="shortcut icon" href="../recursos/favicon.ico" type="image/x-icon">
+    <title>Menú | Cheese Burger</title>
 </head>
 <body>
+    <!-- Encabezado (general) -->
     <header class="head">
         <div id="logo">
-            <img src="../assets/Logo_restaurant.png" alt="">
-            <h1>Burguer Restaurant</h1>
+            <img src="../recursos/Logo_restaurant.png" alt="">
+            <h1>Cheese Burger Restaurant</h1>
         </div>
-        
         <nav>
-            <ul id="links-nav">
-                <li><a href="../jairyanez_EV2_index.html">Inicio</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Contacto</a></li>
+            <ul class="links-nav">
+                <li><a id="inicio" href="../jairyanez_EV2_index.html">Inicio</a></li>
+                <li><a id="menu" href="../pages/jairyanez_menu.html">Menu</a></li>
+                <li><a id="ofertas" href="../pages/jairyanez_ofertas.html">Ofertas</a></li>
+                <li><a id="videos" href="#">Videos</a></li>
+                <li><a id="contacto" href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <!-- Apartado de comida sencilla -->
+        <article id="sencillo" class="red">
+            <h1>Hamburguesas Sencillas</h1>
+            <!-- Seccion de hamburguesas -->
+            <section id="burger">
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/burger_clasica.png" alt="">
+                    <div id="texto">
+                        <h2>The Classic Chesse Burger</h2>
+                        <p id="precio"><strong>$ 89.00</strong></p>
+                        <p id="descripcion"><em>Hamburguesa sencilla con queso Monterrey Jack y Mozarella </em></p>
+                        <div id="extra">
+                            <h3>Complementos</h3>
+                            <table>
+                                <tr>
+                                    <td>Extra Queso</td><td>+ $18</td>
+                                </tr>
+                                <tr>
+                                    <td>Doble Carne</td><td>+ $20</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/burger_doble.jpeg" alt="">
+                    <div id="texto">
+                        <h2>Big Meet Double</h2>
+                        <p id="precio"><strong>$ 129.00</strong></p>
+                        <p id="descripcion"><em>Hamburguesa Doble carne, queso Monterrey Jack </em></p>
+                        <div id="extra">
+                            <h3>Complementos</h3>
+                            <table>
+                                <tr>
+                                    <td>Extra Queso</td><td>+ $18</td>
+                                </tr>
+                                <tr>
+                                    <td>Jalapeño Popper</td><td>+ $34</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/burger_habanero.png" alt="">
+                    <div id="texto">
+                        <h2><span>Habanero</span> Cheese Burger</h2>
+                        <p id="precio"><strong>$ 189.00</strong></p>
+                        <p id="descripcion"><em>¿Te atreves a probarla?</em></p>
+                    </div>
+                    <div id="extra">
+                        <h3>Complementos</h3>
+                        <table>
+                            <tr>
+                                <td>Extra Queso</td><td>+ $18</td>
+                            </tr>
+                            <tr>
+                                <td>Refresco</td><td>+ $20</td>
+                            </tr>
+                            <tr>
+                                <td>Papas</td><td>+ $15</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/burger_BBQ.png" style="width: 150px;" alt="">
+                    <div id="texto">
+                        <h2>Bacon + BBQ Burger</h2>
+                        <p id="precio"><strong>$ 189.00</strong></p>
+                        <p id="descripcion"><em>Hamburguesa especial con Tocino, queso fundido, en salsa Barbecue</em></p>
+                    </div>
+                    <div id="extra">
+                        <h3>Complementos</h3>
+                        <table>
+                            <tr>
+                                <td>Extra Queso</td><td>+ $18</td>
+                            </tr>
+                            <tr>
+                                <td>Refresco</td><td>+ $20</td>
+                            </tr>
+                            <tr>
+                                <td>Papas</td><td>+ $15</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Seccion de Postres -->
+            <h1>Postres</h1>
+            <section id="postre">
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/malteadas.png" style="width: 100px;" alt="">
+                    <div id="texto">
+                        <h2>Malteadas</h2>
+                        <h3>Vainilla | Chocolate | Fresa</h3>
+                        <p id="precio"><strong>$ 75.00</strong></p>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="../recursos/menu/macarrones.png" style="width: 100px;" alt="">
+                    <div id="texto">
+                        <h2>Macarrones</h2>
+                        <h3>Fresa | Durazno | Limon | Pastel</h3>
+                        <p id="precio"><strong>$ 30.00</strong></p>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Seccion de Bebidas -->
+            <h1>Bebidas</h1>
+            <section id="bebida">
+                <div class="contenedor-comida">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coca-Cola_bottle_cap.svg/1024px-Coca-Cola_bottle_cap.svg.png"  style="width: 100px;" alt="">
+                    <div id="texto">
+                        <h2>Coca-Cola 350ml</h2>
+                        <p id="precio"><strong>$ 30.00</strong></p>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="https://www.coca-colamexico.com.mx/content/dam/journey/mx/es/private/brand-detail/ciel/cielLogo_png.png"  style="width: 150px;" alt="">
+                    <div id="texto">
+                        <h2>Agua Ciel 500ml</h2>
+                        <p id="precio"><strong>$ 20.00</strong></p>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida">
+                    <img src="https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2018/09/beneficios-del-agua-de-jamaica-que-tal-vez-no-conocias-salud180.jpg"  style="width: 100px;" alt="">
+                    <div id="texto">
+                        <h2>Agua de Jamaica 750ml</h2>
+                        <p id="precio"><strong>$ 35.00</strong></p>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Apartado de Combos -->
+        <article id="combo" class="gold">
+            <h1>Combos Especiales</h1>
+            <section id="lista-combo">
+                <div class="contenedor-comida combo-card combo1">
+                    <div id="texto" class="texto-combo">
+                        <h2>Combo #1</h2>
+                        <p id="precio"><strong>$ 140.00</strong></p>
+                        <p id="descripcion"><em> Combo Sencillo </em></p>
+                    </div>
+                    <div id="extra" class="texto-combo">
+                        <h3>Incluye</h3>
+                        <ol>
+                            <li>The Classic Cheese Burger (1)</li>
+                            <li>Papas (1)</li>
+                            <li>Refresco (1)</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="contenedor-comida combo-card combo2">
+                    <div id="texto" class="texto-combo">
+                        <h2>Combo #2</h2>
+                        <p id="precio"><strong>$ 170.00</strong></p>
+                        <p id="descripcion"><em> Para compartir en Pareja </em></p>
+                    </div>
+                    <div id="extra" class="texto-combo">
+                        <h3>Incluye</h3>
+                        <ol>
+                            <li>Bacon + BBQ Burguer (2)</li>
+                            <li>Papas (1)</li>
+                            <li>Papas Crisscut (1)</li>
+                            <li>Refresco (2)</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+
+
+    </main>
+    <footer>
+        <img src="../recursos/Logo_restaurant.png" alt="">
+        <p>Copyright © 2022 Cheese Burger | All rights reserved</p>
+        <p><em><strong>Realizado por: </strong>Jesús Jair Yáñez Moreno</em></p>
+        <address> Dirección: Rio Missouri 555, Del Valle, San Pedro Garza García, N.L.</address>
+    </footer>
 </body>
 </html>
