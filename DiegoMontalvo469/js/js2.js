@@ -47,4 +47,36 @@ console.log("Primer materia:",
 console.log("Primer materia:",
              grupo52.materias[0] );
 
+grupo52.facultad = "facpya";
+
+console.log(grupo52);
+
+// let carrera = prompt("¿Cuál es tu carrera?")
+
+
+document.write("<marquee>Hola</marquee>");
+
+document.write(`<ul>
+                    <li>LTI</li>
+                    <li>LA</li>
+                    <li>CP</li>
+                    <li>LNI</li>
+                </ul>`);
+
+// Ejemplo if
+
+let calif = 90;
+
+
+if (calif >= 95 && calif <=100) {
+    console.log("Excelente :D");
+}
+else {
+    console.log("No excelente D:")
+}
+
+
+
+
+
 
