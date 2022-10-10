@@ -1,6 +1,12 @@
 body {
     margin: 0;
 }
+.boton{
+    font-weight: 600;
+    padding-right: 1000px;
+}
+
+
 
 a {
     text-decoration: none;
@@ -22,7 +28,7 @@ a {
 #header{
     display: flex;
     height: 70px;
-    background-color: rgb(15, 56, 5);
+    background-color: rgb(25, 47, 94);
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -35,7 +41,7 @@ nav a{
 }
 
 nav a:hover {
-    color: rgb(0, 255, 76);
+    color: rgb(143, 183, 236);
 }
 
 .portada{
@@ -46,6 +52,7 @@ nav a:hover {
     text-align:center;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 1.3em;
 }
 
 h1{
@@ -77,6 +84,7 @@ h1{
     align-items: right;
     margin: 45px;
     text-align: justify;
+    font-size: 1em;
     
 }
 
