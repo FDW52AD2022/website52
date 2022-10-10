@@ -1,13 +1,29 @@
 * {
     text-align: center;
-    background-color: rgb(75, 13, 100);
+    background-color: rgb(22, 1, 22);
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #nav-flex ul{
     margin: 0;
     padding: 0;
 }
-#nav-flex .contenedor {
+#nav-flex .objeto {
     display: flex;
     justify-content: space-evenly;
+}
+#index-img {
+ width: 250px;
+ height: 150px;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

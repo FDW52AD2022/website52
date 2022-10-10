@@ -45,6 +45,10 @@ img{
     box-shadow: 10px 0px 15px 4px rgba(0, 0, 0, 0.3);
 }
 
+.oferta img:hover {
+    filter: brightness(0.8);
+}
+
 #promo_habanero {
     grid-column: span 2;
 }
