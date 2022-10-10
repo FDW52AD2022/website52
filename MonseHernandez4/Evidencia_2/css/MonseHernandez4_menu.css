@@ -127,3 +127,41 @@ p {
     color: white;
     font-family: 'Franklin Gothic Medium';
 }
+
+caption {
+    background-color: #be1e2d;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #be1e2d;
+    background-color: #F0FFCE;
+  }
+
+th, td {
+    padding: 15px;
+}
+
+td{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+
+}
+
+th {
+    font-family: 'Trebuchet MS';    
+    font-size: 20px;
+    color: #be1e2d;
+
+}
