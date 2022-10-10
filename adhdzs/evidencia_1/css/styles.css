@@ -82,6 +82,56 @@ nav ul li a:hover:not(.activo) {
      color: #ff672e;
 }
 
+/* Menú - Pagina 2*/
+#menu {
+     display: flex;
+     flex-direction: column;
+     padding: 5rem;
+}
+.encabezado h1 {
+     font-size: 5rem;
+     font-weight: 500;
+     color: #ff672e;
+     margin-bottom: 15px;
+}
+.encabezado hr {
+     opacity: .5;
+}
+.menu-contenedor {
+     display: flex;
+     flex-direction: column;
+}
+.producto-contenedor {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 400px;
+     margin: 50px 0 50px;
+}
+.producto-contenedor img {
+     display: block;
+     width: 180px;
+     padding: 20px;
+     margin: auto;
+}
+.producto-contenedor dl {
+     text-align: center;
+     margin: 10px;
+}
+.producto-contenedor dl dt h2 {
+     color: #ff672e;
+     padding-bottom: 15px;
+     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+.producto-contenedor dl dd {
+     padding: 15px 30px;
+}
+.producto-contenedor table {
+     text-align: center;
+}
+.producto-contenedor h2 {
+     text-align: center;
+}
 /* #menu-contenedor {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
