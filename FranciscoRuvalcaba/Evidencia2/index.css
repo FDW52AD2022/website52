@@ -1,0 +1,41 @@
+body {
+    background-color: #f1faee ;
+}
+
+/*Edicion de cuadro para header*/
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 100%;
+	background-color:#A8DADC ;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/* Se determina el posicionamiento del header */
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#1D3557;
+	font-family: 'Arial';
+	text-decoration: none;
+    font-weight:bolder;
+}
+
+
+
+/*Animacion de letra para el menu */
+.menu li a:hover{
+    background-color:#E63946 ;
+	transition: all .3s;
+}
