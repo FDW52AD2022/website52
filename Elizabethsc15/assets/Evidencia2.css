@@ -61,7 +61,7 @@ header p {
     text-decoration: none;
 }
 .secanu{
-    height: 350px;
+    height: 420px;
     background: rgb(208, 177, 130);
 
 }
@@ -73,7 +73,7 @@ header p {
 }
 
 .imagenAnuncio{
-   padding-left: 12px  ; 
+   padding-left: 70px  ; 
 }
 
 .imagenAnuncio img { 
@@ -89,12 +89,12 @@ header p {
 
 .TextoAnuncio h3{
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     color: honeydew;
 }
 
 .TextoAnuncio P{
     text-align: center;
-    font-size: 20;
+    font-size: 25;
     color: honeydew
 }
