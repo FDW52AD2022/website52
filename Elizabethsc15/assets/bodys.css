@@ -37,18 +37,28 @@ body h1{
 
 .contendedores{
     padding: 10px 30px;
+    align-items: center;
+    width: 860px;
+
 }
 
 .contendedores img {
     width: 300px;
     height: 450px;
+    padding: 15px 0px 0px 45px;
+    display: block;
 }
 
 .texto {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 18px;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.texto p {
+    text-align: justify;
+
 }
 
 header h1 {
