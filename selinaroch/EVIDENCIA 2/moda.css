@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(360deg, #fabfb7, #ffe4e1)
+    background: #fabfb7
 }
 
 #header {
@@ -97,4 +97,20 @@ td {
 }
 p{
     font-family:'Trebuchet MS';
+}
+
+
+
+dt {
+    font-weight: bold;
+    font-family:'Trebuchet MS'
+}
+
+dl,
+dd {
+    font-size: .9rem;
+}
+
+dd {
+    margin-bottom: 1em;
 }
