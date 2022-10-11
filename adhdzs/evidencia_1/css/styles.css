@@ -132,47 +132,67 @@ nav ul li a:hover:not(.activo) {
 .producto-contenedor h2 {
      text-align: center;
 }
-/* #menu-contenedor {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     gap: 5px;
-     grid-template-areas: "encabezado encabezado encabezado"
-                          "producto producto producto";
+
+/* Nosotros - Página 3 */
+.nosotros-contenedor {
+     padding: 5rem;
+     font-size: 1.2rem;
 }
-.encabezado {
-     grid-area: encabezado;
-     padding: 3rem 5rem;
+#titulo {
+     font-size: 1.2rem;
 }
-.encabezado h1 {
-     font-size: 4rem;
+#titulo h1 {
+     font-size: 5rem;
+     font-weight: 500;
+}
+#titulo blockquote {
+     padding: 5rem;
      font-weight: 400;
-     color: #ff672e;
-}
-.encabezado p {
-     font-size: 1.1rem;
-     margin-top: 15px;
-}
-.encabezado p span {
-     display: block;
-     color: #ff672e;
-     font-weight: 700;
-     margin-top: 10px;
 }
 
-.menu {
-     grid-area: producto;
+.nosotros {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
-
-.alimentoX {
+.nosotros p {
+     width: 800px;
+     text-align: justify;
+}
+.nosotros img {
      display: inline-block;
-     width: 220px;
-     height: 300px;
-     background-color: rgba(255, 255, 255, 0.3);
-     border-radius: 10px;
-     box-sizing: border-box;
+     width: 400px;
 }
-.alimentoX img {
-     display: block;
-     margin: auto;
-     width: 150px;
-} */
+#historia {
+     display: flex;
+     flex-direction: column;
+}
+#historia h2 {
+     font-size: 4rem;
+     font-weight: 500;
+}
+.nuestra-historia {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.nuestra-historia img {
+     width: 350px;
+     padding: 50px;
+}
+.nuestra-historia article p {
+     padding: 20px;
+     text-align: justify;
+}
+
+#galeria {
+     display: flex;
+     margin-top: 5rem;
+}
+#galeria table {
+     width: 100vw;
+     text-align: center;
+}
+#galeria table img {
+     width: 200px;
+}

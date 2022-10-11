@@ -8,6 +8,29 @@
     padding: 6px;
     border-radius: 30px;
     }
+    h1 > img{
+      width: 120px;
+      float: right;
+      margin-left: 1em;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      border-radius: 50%;
+      background-size: 100% auto;
+  }
+  #navflex .contenedor {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  
+  #nav-felx ul{
+      margin: 0;
+      padding: 0;
+  }
 
 table {
     table-layout: fixed;
@@ -73,11 +96,11 @@ table {
 
   tbody tr:nth-child(odd) {
     background-color: white;
-    color: rgb(8, 66, 153);
+    color: #0E1E5B;
   }
   
   tbody tr:nth-child(even) {
-    background-color: rgb(8, 66, 153);
+    background-color: #0E1E5B;
     color: white;
   }
   
