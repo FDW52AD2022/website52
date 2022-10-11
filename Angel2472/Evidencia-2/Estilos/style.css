@@ -115,3 +115,23 @@ td {
 table img {
     height: 100px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;   
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input[type="text"]{
+    width: 300px;
+    margin: 0 auto;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
