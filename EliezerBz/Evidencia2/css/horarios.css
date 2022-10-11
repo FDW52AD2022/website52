@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1607/Google_play_abstract_gradient-Vector_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(13, 0, 255);
+    margin: 0px;
+}
+
+#logo{
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+#logo li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo img{
+    height: 100px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+#tablas{
+    display: flex;
+    justify-content: center;
+}
+
+#titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px;
+}
+
+#esperamos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display:block;
+    height: 20px;
+    padding: 50px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
