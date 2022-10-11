@@ -1,0 +1,29 @@
+body{ margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+body{ text-decoration-color: aliceblue;
+}
+
+div .Contenedor{
+    align-items: center;
+}
+
+img{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    right: 5%;
+    top: 32%;
+}
+iframe{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    right: 75%;
+    top: 73%;
+}

@@ -1,0 +1,109 @@
+.main-title {
+    background: #6594C0;
+    font: normal normal 18px quicksand;
+    color: rgb(8, 66, 153);
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 30px;
+    }
+    h1 > img{
+      width: 120px;
+      float: right;
+      margin-left: 1em;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      border-radius: 50%;
+      background-size: 100% auto;
+  }
+  #navflex .contenedor {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  
+  #nav-felx ul{
+      margin: 0;
+      padding: 0;
+  }
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid white;
+  }
+  
+  thead th:nth-child(1) {
+    width: 16%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 16%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 16%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 16%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    color: white;
+  }
+  
+  thead th, tbody th {
+    font-family: 'Arial', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  thead, tbody {
+    color: black;
+    text-shadow: 1px 1px 1px bl;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid white;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: white;
+    color: #0E1E5B;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #0E1E5B;
+    color: white;
+  }
+  
+  table {
+    background-color: #3336FF;
+  }
