@@ -84,3 +84,8 @@ body {
     -ms-transition: opacity 500ms;
     transition: opacity 500ms;
   }
+
+.info-sucus {
+    display: flex;
+    flex-direction: row;
+}
