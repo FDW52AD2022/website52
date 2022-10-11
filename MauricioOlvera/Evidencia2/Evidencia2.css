@@ -20,13 +20,15 @@
 }
 
 #main-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #main-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -70,6 +72,12 @@
     padding-right: 30px;
 }
 
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
+}
+
 /* pr page */
 
 #pr-page header {
@@ -98,7 +106,7 @@
 
 #pr-page footer {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -142,7 +150,7 @@
 
 #m-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -186,7 +194,7 @@
 
 #gd-page footer {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -230,7 +238,7 @@
 
 #m8299-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
