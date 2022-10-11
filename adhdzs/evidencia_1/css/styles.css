@@ -146,7 +146,7 @@ nav ul li a:hover:not(.activo) {
      font-weight: 500;
 }
 #titulo blockquote {
-     padding: 3rem;
+     padding: 5rem;
      font-weight: 400;
 }
 
@@ -154,7 +154,6 @@ nav ul li a:hover:not(.activo) {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     font-size: 1.5rem;
 }
 .nosotros p {
      width: 800px;
@@ -162,9 +161,8 @@ nav ul li a:hover:not(.activo) {
 }
 .nosotros img {
      display: inline-block;
-     width: 450px;
+     width: 400px;
 }
-
 #historia {
      display: flex;
      flex-direction: column;
@@ -173,8 +171,28 @@ nav ul li a:hover:not(.activo) {
      font-size: 4rem;
      font-weight: 500;
 }
-#historia img {
-     display: inline-block;
+.nuestra-historia {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.nuestra-historia img {
      width: 350px;
      padding: 50px;
+}
+.nuestra-historia article p {
+     padding: 20px;
+     text-align: justify;
+}
+
+#galeria {
+     display: flex;
+     margin-top: 5rem;
+}
+#galeria table {
+     width: 100vw;
+     text-align: center;
+}
+#galeria table img {
+     width: 200px;
 }

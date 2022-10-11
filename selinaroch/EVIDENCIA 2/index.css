@@ -138,6 +138,6 @@ h2 {
     z-index: 997;
     align-items: center;
 }
-p{
+p, pre{
     font-family:'Trebuchet MS';
 }
