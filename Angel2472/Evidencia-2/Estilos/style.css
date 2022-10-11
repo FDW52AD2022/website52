@@ -1,0 +1,17 @@
+*:not(hr, dl, dt, dd) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    background-color: #16213E;
+    color: white;
+}
