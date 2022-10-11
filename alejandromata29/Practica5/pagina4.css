@@ -1,0 +1,23 @@
+body{ margin: 0px;
+    padding: 0px;
+    background-color: khaki;
+    background-size: cover;
+    background-position: 0px;
+    background-position: 0%;
+    font-family: sans-serif;
+}
+
+div{
+    background-color: orange;
+}
+
+body{ text-decoration-color: aliceblue;
+}
+
+img {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+}
