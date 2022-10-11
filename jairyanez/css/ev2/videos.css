@@ -28,7 +28,6 @@
     display: flex;
     color: white;
     padding: 50px 0px;
-    
     border-top: 10px solid #ffffff;
 }
 
@@ -62,6 +61,15 @@
     text-align: justify;
 }
 
+#pie-video h2 {
+    margin-bottom: 20px ;
+    font-size: 30px;
+}
+#pie-video p {
+    font-weight: 250;
+    font-size: 20px;
+    text-size-adjust: 10px;
+}
 
 
 
