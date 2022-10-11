@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body {
-    background-image: url(https://tqpytokz.cdn.imgeng.in/media-adsa/static/3835/203.jpg);
+    background-image: url(https://www.eatthis.com/wp-content/uploads/sites/4/2021/11/red-velvet-cake-slice.jpg?quality=82&strip=1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -11,7 +11,7 @@ body {
 }
 #primera-caja {
     display: flex;
-    background-color: rgba(255, 248, 251, 0.7);
+    background-color: rgba(255, 248, 251, 0.85);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,19 +23,22 @@ body {
 #primera-caja ul li a img {
     width: 80vh;
     height: 60vh;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #primera-caja ul {
     list-style: none;
     display: flex;
+    margin-bottom: 3rem;
 }
-#primera-caja ul li:hover {
-    background-color: red;
-    transition: all 0.8s;
-    width: 80vh;
-    height: 20vh;
-    margin: 0%;
+
+#primera-caja ul li {
+    margin: 2rem;
+}
+#sucursal:hover {
+    filter:brightness(0.77);
+    background-color: black;
+    transition: all 0.7s;
 }
 
 /* barra de navegacion */
