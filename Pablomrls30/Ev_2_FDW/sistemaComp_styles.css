@@ -40,3 +40,13 @@ h1 > img{
     border-radius: 50%;
     background-size: 100% auto;
 }
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ultimo-parrafo{
+    grid-column: 1 / -1;
+}
+
