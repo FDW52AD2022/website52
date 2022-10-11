@@ -3,8 +3,12 @@
     padding: 0%;
 }
 
-/* barra de navegacion */
-#logo, #Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+header {
+    background: #ffffff;
+
+}
+
+#Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
     align-self: center;
     padding: 3vh 9vh;
     margin: 0%;
@@ -12,7 +16,7 @@
 
 #pag {
     display: flex;
-    background-color: #ec8bab;
+    background-color: #ec968b;
     height: 10vh;
     list-style: none;
     justify-content: space-around;
@@ -26,131 +30,38 @@
     padding: 3vh 10vh;
 
 }
-
-#pag > #logo {
-    padding: 0%;
-    margin: 0%;
-    width: 40;
-    height: 40;
-}
-
 #pag li > a {
     text-decoration: none;
     color: rgb(5, 0, 0);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#page1 header {
-    background-color:#bd937f;
-    grid-column: 1 / -1;
-    grid-area: header;
-    height: 60vh;
+.banner {
+    width: 1590px;
+    height: 320px;
+    border: 3px solid rgb(202, 196, 138);
+    margin: auto;
+
+    background-image: url(../RECURSOS/img1.webp);
 }
 
-#page1 article {
-    background-color: #c777c7;
+#page article {
+    background-color: #FFF5E4;
     grid-area: article;
     height: 70.5vh;
 }
 
-#page1 aside {
-    background-color: #e41153;
-    grid-area: aside;
-}
-
-#page1 footer {
-    background-color: #71d7f7;
-    grid-area: footer;
-    height: 25vh;
-}
-
-#page1 {
-    display: grid;
-    grid-template-columns: 5fr 0.5fr;
-    gap: 0;
-    grid-template-areas: "header header"
-                         "article aside"
-                         "footer footer";
-}
-
-#page1 > #principal {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#page1 > #secundario {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#page1 > #final {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#principal-texto {
-    width: 300px;
-    padding: 100px 10px;
-}
-
-#principal-texto > h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #8da0db;
-    font-size: 6.5vh;
-    text-shadow: 2px 2px 2px #000000;
-}
-
-#mk-1 {
-    padding: 8vh 3vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-auto-flow: dense;
-}
-
-#make-up > img {
-    width: 45vh;
-    height: 50vh;
-    border: 5px solid #eeeaf1;
- 
-}
-
-#make-up > h2 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-    background-color: #dba657;
-    padding: 2vh 0px;
-    font-size: 2vh;
-    margin-top: 2vh;
-}
-
-#secundario-imagen > img {
-    width: 46vh;
-    height: 46vh;
-    border: 6px solid #ffffff;
-    margin: 0% 4vh;
- 
-}
-
-#secundario-texto {
+#info-texto {
     width: 100%;
-    background-color:#c97777;
+    background-color:#FFC4C4;
     display: flex;
     justify-content: center;
     height: 4.5rem;
 }
-
-#secundario-texto > h3 {
+#info-texto > h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3a3738;
+    color: #971c34;
     background-color: #FFC4C4;
     padding: 3.5vh 0px;
     font-size: 1.5rem;
@@ -158,21 +69,47 @@
     width: 181vh;
 }
 
-#final > #final-copyright {
-    color: #FFF5E4;
+#base-imagen > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #e2e1b1;
+    margin: 0% 4vh;
+}
+
+
+#base-imagen {
+    float: left;
+    width: 46vh;
+    height: 46vh;
+    margin: 9px;
+    padding: 0px;
+  }
+
+  #page footer {
+    background-color: #b6b89a;
+    grid-area: footer;
+    height: 25vh;
+  }
+
+  #page > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  #final > #final-copyright {
+    color: #000000;
     padding: 2vh 6vh;
     width: 50vh;
     text-align: center;
 }
-
 
 #final > #final-ConoceMas {
-    color: #FFF5E4;
+    color: #000000;
     padding: 2vh 6vh;
     width: 50vh;
     text-align: center;
 }
-
 
 #final-copyright > h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -193,7 +130,5 @@
     font-size: 4vh;
     text-align: center;
 }
-
-
-
+    
 
