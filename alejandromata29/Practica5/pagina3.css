@@ -1,0 +1,27 @@
+body{ margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    background-size: cover;
+    background-position: 0px;
+    background-position: 0%;
+    font-family: sans-serif;
+}
+
+body{ text-decoration-color: aliceblue;
+}
+
+iframe{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    right: 64%;
+    top: 50%;
+}
+
+img {
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    right: 10%;
+    top: 51%;
+}

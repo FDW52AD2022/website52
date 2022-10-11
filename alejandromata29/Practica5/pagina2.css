@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+body{ text-decoration-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: grey;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-right: 1500px;
+}
+
+iframe{
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    right: 40%;
+    top: 20%;
+}

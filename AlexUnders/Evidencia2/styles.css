@@ -4,13 +4,16 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 #nav-flex ul{
     margin: 0;
     padding: 0;
 }
 #nav-flex .objeto {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: 
+    space-evenly;
+
 }
 #index-img {
  width: 250px;
@@ -26,4 +29,33 @@
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.prettytitles{
+    background-color: black;
+    text-align: left;
+    font-size: 30px;
+}
+.pjust{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+.blacktitle {
+    background-color: black;
+}
+.great {
+    font-weight: bold;
+    font-size: 20px;
+}
+#mini-page header {
+    background-color: rgb(0, 0, 0);
+}
+#mini-page article {
+    background-color: rgb(255, 255, 255);
+}
+#mini-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3em;
 }

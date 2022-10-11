@@ -1,0 +1,9 @@
+.ganadores-UCL{
+    width: 120px;
+    float: right;
+    margin-left: 1em;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}

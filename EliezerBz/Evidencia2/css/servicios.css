@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1607/Google_play_abstract_gradient-Vector_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgb(13, 0, 255);
+    margin: 0px;
+}
+
+#logo{
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+#logo li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo img{
+    height: 100px;
+}
+
+#titulo{
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#contenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor1 img{
+    height: 500px;
+    margin: 10px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+footer{
+    display:block;
+    height: 40px;
+    padding: 50px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
