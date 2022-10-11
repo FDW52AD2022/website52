@@ -36,3 +36,10 @@ body {
     background-position: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.info img {
+    width: 240px;
+    height: 200px;
+    float: left;
+    margin-right: 2em;
+}
