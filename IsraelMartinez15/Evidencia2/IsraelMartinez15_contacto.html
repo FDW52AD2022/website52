@@ -1,0 +1,86 @@
+<!--Israel Enrique Martinez Chavrria, Matricula:1740203 Fecha:10/10/22-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header id="header">
+        <div id="fondoh">
+          <img src="recursos/fondoheader.jpg" alt="Fondo del Header" />
+        </div>
+        <nav id="menu">
+          <ul>
+            <li>
+              <a href="IsraelMartinez15_Inicio.html">Inicio</a>
+            </li>
+            <li>
+              <a href="IsraelMartinez15_sucursales.html">Sucursales</a>
+            </li>
+            <li>
+              <a href="IsraelMartinez15_autos.html">Autos</a>
+            </li>
+            <li>
+              <a href="IsraelMartinez1_promociones.html">Promociones</a>
+            </li>
+            <li>
+              <a href="IsraelMartinez15_contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2>Tienes alguna duda?, Contactanos!</h2>
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="genero">Mujer</label>
+          <input type="radio" name="genero" id="m" />
+          <label for="genero">Hombre</label>
+          <input type="radio" name="genero" id="h" />
+        </div>
+
+        <div>
+            <label for="edad">Correo:</label>
+            <input type="email" name="edad" id="edad" />
+          </div>
+  
+          <div>
+            <label for="pass">Fecha Nacimiento</label>
+            <input type="date" name="pass" id="pass" />
+          </div>
+  
+          <div>
+            <label for="foto">Forografia</label>
+            <input type="file" name="foto" id="foto" />
+          </div>
+
+          <div>
+            <label for="paisF">País</label>
+            <input type="text" name="paisF" id="paisF" list="paises" />
+            <datalist id="paises">
+              <option value="México"></option>
+              <option value="Guatemala"></option>
+              <option value="Canada"></option>
+              <option value="Ecuador"></option>
+            </datalist>
+          </div>
+  
+          <div>
+            <label for="com">Comentarios:</label>
+            <textarea name="com" id="com" cols="30" rows="10"></textarea>
+          </div>
+        </fieldset>
+      </main>
+    
+</body>
+</html>

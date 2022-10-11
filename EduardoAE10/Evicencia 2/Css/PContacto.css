@@ -1,0 +1,88 @@
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 50px;
+}
+
+
+#header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(25, 47, 94);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 3px;
+}
+
+nav a:hover {
+    color: rgb(143, 183, 236);
+}
+
+.formulario{
+    width: 400px;
+    background-color:  rgb(25, 47, 94);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.formulario h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.controls{
+    width: 95%;
+    background-color:  rgb(25, 47, 94);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid rgb(44, 96, 155);
+    font-size: 18px;
+}
+
+.formulario .enviar{
+    width: 100%;
+    background-color:  rgb(60, 99, 182);
+    border: none;
+    padding: 12px;
+    color: rgb(255, 247, 247);
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.stext {
+    border: 2px solid rgb(255, 255, 255);
+    height: 100px;
+    width: 700px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 45px;
+    text-align: justify;
+    font-size: 1.5em;
+    margin-left: 25em;
+    
+}
