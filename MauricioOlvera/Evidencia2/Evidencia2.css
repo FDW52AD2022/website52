@@ -152,3 +152,47 @@
                          "cont cont cont barra"
                          "pie pie pie pie";
 }
+
+/* gd page */
+
+#gd-page header {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#gd-page nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 7vh;
+    grid-area: nav;
+}
+
+#gd-page article {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#gd-page aside {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    grid-area: barra;
+}
+
+#gd-page footer {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: pie;
+}
+
+
+#gd-page {
+    background: url(Recursos/ghost_data_fondo.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
