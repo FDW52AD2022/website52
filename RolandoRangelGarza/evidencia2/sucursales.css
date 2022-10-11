@@ -11,7 +11,7 @@ body {
 }
 #primera-caja {
     display: flex;
-    background-color: blue;
+    background-color: rgba(255, 248, 251, 0.7);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -20,11 +20,19 @@ body {
     padding-top: 3rem;
 }
 
-#primera-caja > img {
+#primera-caja ul li a img {
     width: 80vh;
     height: 60vh;
     margin: 0rem 2rem 3rem 2rem;
     border: 3px solid black;
+}
+
+#primera-caja ul {
+    list-style: none;
+    display: flex;
+}
+#primera-caja > img:hover {
+    background-color: red;
 }
 
 /* barra de navegacion */
