@@ -41,10 +41,10 @@ h1{
 }
 
 .tabla{
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
-    border-top: 30em;
 }
 
 .tabla td, th{
@@ -58,4 +58,22 @@ h1{
 .tabla th{
     background-color: rgb(115, 170, 120);
     color: white;
+}
+
+.img{
+    border: 2px solid black;
+    margin-top: 100px;
+}
+
+.ACelda{
+    border: 5px solid black;
+    height: 200px;
+    width: 280px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 45px;
+    text-align: justify;
+    font-size: 1em;
+    
 }
