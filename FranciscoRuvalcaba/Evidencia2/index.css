@@ -1,19 +1,22 @@
 body {
-    background-color: #f1faee ;
+    background-image: url(imagenes_index/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;    
 }
 
-/*Edicion de cuadro para header*/
 header{
 	width: 100%;
-	height:1px;
+	
 }
 
 .navegacion{
 	width: 100%;
-	background-color:#A8DADC ;
-	position:relative;
-	z-index:100;
-	
+	margin: 30px auto;
+	border-radius: 4px;
+
+	background: linear-gradient(to right, #990D35, #275DAD);  
 }
 
 .navegacion ul{
@@ -30,57 +33,89 @@ header{
 .menu > li > a{
 	display: block;
 	padding: 15px 20px;
-	color:#1D3557;
-	font-family: 'Arial';
+	color: #FCF7F8;
+	font-family: 'Open sans';
 	text-decoration: none;
-    font-weight:bolder;
 }
-
-
-
 
 /*Animacion de letra para el menu */
 .menu li a:hover{
-    background-color:#E63946 ;
+	color: #ABA9C3;
 	transition: all .3s;
 }
 
+/* Submenu*/
 
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+/* Animacion para transicion de menu */
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.portada{
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	opacity: 94%;
+}
+
+.img-portada img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	border-radius: 4px;
+}
 
 /* Estilo para galeria de fotos */
 
 .galeria{
 	width:100%;
 	height:100%;
-	overflow:hidden;
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	height:100vh;
 }
 
 /* Estilo para el selector de fotos */
 
 
-.selector {
+.selector{
 	width:35%;
+	opacity:100%;
+
 }
 
 .selector img{
 	width:100%;
 	height:100%;
+	border-radius: 4px;
+	object-fit:cover;
+
 }
 
 .selector:hover{
 	width:35.5%;
 	transition:all 0.2s;
-	opacity:50%;
-}
+	opacity:70%;
+	border:5px solid rgba(255, 255, 0, 0.432);
 
-
-.selector img{
-	object-fit:cover;
-	
 }
 
 @media (max-height:575px){

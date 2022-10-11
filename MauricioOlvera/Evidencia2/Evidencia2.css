@@ -8,7 +8,7 @@
 
 #main-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -20,13 +20,15 @@
 }
 
 #main-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #main-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -60,9 +62,20 @@
     padding-right: 50px;
 }
 
+.contenedor li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px inset white;
+}
+
 #art1 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
 }
 
 /* pr page */
@@ -75,7 +88,7 @@
 
 #pr-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -93,7 +106,7 @@
 
 #pr-page footer {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -112,38 +125,126 @@
 /* m page */
 
 #m-page header {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 10vh;
     grid-area: enc;
 }
 
 #m-page nav {
-    background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 8.5vh;
     grid-area: nav;
 }
 
 #m-page article {
     color: white;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 500vh;
     grid-area: cont;
 }
 
 #m-page aside {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     grid-area: barra;
 }
 
 #m-page footer {
-    background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 5vh;
     grid-area: pie;
 }
 
 
 #m-page {
     background: url(Recursos/madeon_fondo.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+/* gd page */
+
+#gd-page header {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#gd-page nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 8.5vh;
+    grid-area: nav;
+}
+
+#gd-page article {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#gd-page aside {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    grid-area: barra;
+}
+
+#gd-page footer {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 5vh;
+    grid-area: pie;
+}
+
+
+#gd-page {
+    background: url(Recursos/ghost_data_fondo.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+/* m8299 page */
+
+#m8299-page header {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#m8299-page nav {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 8.5vh;
+    grid-area: nav;
+}
+
+#m8299-page article {
+    color: white;
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#m8299-page aside {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    grid-area: barra;
+}
+
+#m8299-page footer {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 5vh;
+    grid-area: pie;
+}
+
+
+#m8299-page {
+    background: url(Recursos/macross8299_fondo.jpg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5em;

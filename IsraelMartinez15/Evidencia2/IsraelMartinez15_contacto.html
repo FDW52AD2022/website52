@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="Evidencia2css.css">
 </head>
 <body>
     <header id="header">
@@ -33,7 +34,7 @@
         </nav>
       </header>
       <main>
-        <h2>Tienes alguna duda?, Contactanos!</h2>
+        <h2>Tienes dudas?, Contactanos!</h2>
       <fieldset>
         <legend>Datos personales</legend>
 
@@ -63,6 +64,28 @@
             <label for="foto">Forografia</label>
             <input type="file" name="foto" id="foto" />
           </div>
+
+          <div>
+            <label for="paisF">País</label>
+            <input type="text" name="paisF" id="paisF" list="paises" />
+            <datalist id="paises">
+              <option value="México"></option>
+              <option value="Guatemala"></option>
+              <option value="Canada"></option>
+              <option value="Ecuador"></option>
+            </datalist>
+          </div>
+  
+          <div>
+            <label for="com">Comentarios:</label>
+            <textarea name="com" id="com" cols="30" rows="10"></textarea>
+          </div>
+        </fieldset>
+      </main>
+
+      <footer>
+          <address>Realizado por Israel Enrique Martinez  Chavarria</address>
+      </footer>
     
 </body>
 </html>
