@@ -1,4 +1,7 @@
 /* main page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #main-page header {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -15,7 +18,7 @@
 #main-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 200vh;
     grid-area: cont;
 }
 
@@ -63,7 +66,7 @@
 }
 
 .contenedor li {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: whitesmoke;
     border: 3px inset white;
 }
 
@@ -72,9 +75,19 @@
     padding-right: 30px;
 }
 
+.sec img {
+    height: 200px;
+    float: right;
+}
+
 .asides {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#bq1 {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .foot {
