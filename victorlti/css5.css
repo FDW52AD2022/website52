@@ -1,0 +1,72 @@
+#menu-site{
+    display: flex;
+    background-color: gray;
+    height: 40vh;
+}
+
+#l1{
+    /*flex-grow: 1;
+    order: 3;*/
+}
+
+#l2{
+    /*flex-grow: 2;
+    order: 2;*/
+    width: 400px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#l3{
+    /*order: 1;*/
+    align-self: flex-end;
+}
+
+#mini-page header{
+    background-color: blue;
+    
+}
+#mini-page article{
+    background-color: rgb(179, 255, 0);
+}
+#mini-page aside{
+    background-color: rgb(255, 0, 221);
+}
+#mini-page footer{
+    background-color: rgb(255, 0, 0);
+    grid-column: 1 / -1;
+}
+#mini-page{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
+}
+
+
+
+#mini-page2 header{
+    background-color: blue;
+    grid-area: enc;
+    
+}
+#mini-page2 article{
+    background-color: rgb(179, 255, 0);
+    grid-area: cont;
+}
+#mini-page2 aside{
+    background-color: rgb(255, 0, 221);
+    grid-area: barralateral;
+}
+#mini-page2 footer{
+    background-color: rgb(255, 0, 0);
+    grid-column: 1 / -1;
+    grid-area: pie;
+}
+#mini-page2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
+    grid-template-areas: "enc enc"
+                           "cont barralateral"
+                           "pie pie";
+}

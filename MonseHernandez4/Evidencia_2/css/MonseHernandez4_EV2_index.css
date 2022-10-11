@@ -2,7 +2,7 @@ body {
     background-color: rgb(235, 190, 76);
 }
 
-#nav-main ul{
+#nav-main ol{
     list-style:none;
     padding: 0;
     margin: 0;
@@ -67,7 +67,7 @@ video.centro {
     margin-right: auto;
 }
 
-figcaption {
+p.texto {
     background-color: white;
     color: black;
     font-family: 'Impact';
@@ -92,4 +92,13 @@ audio.centro {
 figure {
     text-align: center;
 
+}
+
+li.eventos {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }

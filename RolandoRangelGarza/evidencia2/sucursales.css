@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(https://www.eatthis.com/wp-content/uploads/sites/4/2021/11/red-velvet-cake-slice.jpg?quality=82&strip=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo-main {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dfc8fc;
+    font-size: 6.2vh;
+    text-shadow: 2px 4px 2px #5f467e;
+    padding: 4vh 0vh;
+}
+#primera-caja {
+    display: flex;
+    background-color: rgba(255, 248, 251, 0.85);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 3rem 2rem 3rem;
+    box-sizing: content-box;
+    padding-top: 3rem;
+    border-radius: 5%;
+}
+
+#primera-caja ul li a img {
+    width: 80vh;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+#primera-caja ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0rem;
+}
+
+#primera-caja ul li {
+    margin: 2rem;
+}
+#sucursal:hover {
+    filter:brightness(0.77);
+    background-color: black;
+    transition: all 0.7s;
+}
+
+/* barra de navegacion */
+#logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    background-color: #850E35;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#menu > #Inicio:hover, #Menu:hover, #Promociones:hover, #Sucursales:hover, #Contacto:hover {
+    background-color: #8e425b;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+#menu > #logo, #cake {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#menu li > a {
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  #sucursal:hover {
+    opacity: 0.8;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+  }
+
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
+}
+
+
+.info-sucus {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 10rem;
+}
+
+.info-sucus div {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 6rem;
+    width: 25rem;
+}
+
+#infosuc1 > address {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #992c42;
+    padding: 2vh 0px;
+    font-size: 2.7vh;
+    margin-bottom: 10%;
+}
+#infosuc2 > address {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #992c42;
+    padding: 2vh 0px;
+    font-size: 2.7vh;
+    margin-bottom: 10%;
+}
+h1, p{
+    text-align: center;
+}
+
+#titulo-mapa > h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-color: rgb(160, 78, 101);
+    padding: 1.5rem;
+}
