@@ -1,0 +1,132 @@
+body {
+    background-color: bisque;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.button:hover {
+    color: #ffff;
+	background:#000000;
+	border-radius:50px;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "tahoma", sans-serif;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 35px;
+    background-color: rgba(240, 11, 187, 0.873);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border: groove black;
+    text-align: center;
+}
+
+blockquote {
+    font-family: "tahoma black", sans-serif;
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    color:black;
+    background-color:  #FFD384;
+}
+
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+}
+
+.tabla {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#secciones-grid {
+    display:grid;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.enlace-menu{
+    padding: 5px 20px;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-family: "Arial Black", sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+}
+
+.enlace-menu:hover{
+    background-color: #ffff;
+    color: black;
+    font-weight: bolder;
+}
+
+header {
+    background-color: #fde6ba;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffff;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+hr {
+    border: 1px solid black;
+}
+
+h4 {
+    font-family: "tahoma black", sans-serif;
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    color:black;
+    background-color:  #FFD384;
+}
