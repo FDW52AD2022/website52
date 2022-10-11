@@ -14,8 +14,9 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #dfc8fc;
-    font-size: 6.5vh;
-    text-shadow: 2px 2px 2px #5f467e;
+    font-size: 6.2vh;
+    text-shadow: 2px 4px 2px #5f467e;
+    padding: 4vh 0vh;
 }
 #primera-caja {
     display: flex;
@@ -32,6 +33,7 @@ body {
     width: 80vh;
     height: 60vh;
     border: 2px solid black;
+    border-radius: 10%;
 }
 
 #primera-caja ul {
@@ -41,7 +43,7 @@ body {
 }
 
 #primera-caja ul li {
-    margin: 3rem;
+    margin: 2rem;
 }
 #sucursal:hover {
     filter:brightness(0.77);
@@ -107,7 +109,7 @@ body {
 .info-sucus {
     display: flex;
     flex-direction: row;
-    margin: 1rem 10rem;
+    margin: 0rem 10rem;
 }
 
 .info-sucus div {
@@ -117,6 +119,24 @@ body {
     width: 25rem;
 }
 
+#infosuc1 > address {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #992c42;
+    padding: 2vh 0px;
+    font-size: 2.7vh;
+    margin-bottom: 10%;
+}
+#infosuc2 > address {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #992c42;
+    padding: 2vh 0px;
+    font-size: 2.7vh;
+    margin-bottom: 10%;
+}
 h1, p{
     text-align: center;
 }

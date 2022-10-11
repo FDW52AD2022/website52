@@ -29,6 +29,7 @@ aside {
 
 .content {
     grid-area: vista;
+    width: 100%;
 }
 
 .content h2{
