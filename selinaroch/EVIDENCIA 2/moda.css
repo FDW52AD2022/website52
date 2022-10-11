@@ -1,6 +1,6 @@
-/*body{
-    background: linear-gradient(360deg, #b5bac9, #666f88)
-}*/
+body{
+    background: linear-gradient(360deg, #fabfb7, #ffe4e1)
+}
 
 #header {
     height: 100px;
@@ -84,4 +84,17 @@ td {
     text-align: left;
     vertical-align: top;
     border: 1px solid #000;
+    font-family:'Trebuchet MS';
  }
+
+
+ h2 {
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 35px;
+    z-index: 997;
+    align-items: center;
+}
+p{
+    font-family:'Trebuchet MS';
+}

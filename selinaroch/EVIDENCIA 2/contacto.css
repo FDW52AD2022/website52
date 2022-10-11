@@ -1,19 +1,18 @@
 body{
-    background: linear-gradient(360deg, pink, white)
+    background: pink;
 }
-
 
 #header {
     height: 100px;
     transition: all 0.5s;
-    z-index: 1000;
+    z-index: 997;
     background: linear-gradient(45deg, #FF1493, #000000);
     align-items: center;
     /*display:flex;*/
 
   }
 
-#header a {
+a {
     color: white;
     text-decoration: none;
     transition: 0.5s;
@@ -77,15 +76,6 @@ body{
 }
 
 
-
-.video1{
-    padding: 20px; 
-    margin: 20px; border: 1px solid black; 
-    float: right;
-    width: 350px;
-}
-
-
 .imagen{
     padding: 20px; 
     margin: 20px; border: 1px solid black; 
@@ -108,6 +98,14 @@ h2 {
     z-index: 997;
     align-items: center;
 }
+
+
 p{
     font-family:'Trebuchet MS';
+}
+
+.imagen{
+    padding: 20px; 
+    width: 100px;
+    align-items: center;
 }
