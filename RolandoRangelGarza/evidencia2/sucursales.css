@@ -15,7 +15,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 3rem 3rem 3rem;
+    margin: 2rem 3rem 0rem 3rem;
     box-sizing: content-box;
     padding-top: 3rem;
 }
@@ -29,11 +29,11 @@ body {
 #primera-caja ul {
     list-style: none;
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
 }
 
 #primera-caja ul li {
-    margin: 2rem;
+    margin: 3rem;
 }
 #sucursal:hover {
     filter:brightness(0.77);
@@ -88,4 +88,16 @@ body {
 .info-sucus {
     display: flex;
     flex-direction: row;
+    margin: 1rem 10rem;
+}
+
+.info-sucus div {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 6rem;
+    width: 25rem;
+}
+
+h1, p{
+    text-align: center;
 }
