@@ -99,17 +99,36 @@ switch (numero) {
 
 // Ciclo for
 
-for(let i=1; i<=100; i++){
-    let codigo = "<marquee>" + i + "</marquee>"
-    document.write(codigo);
+// for(let i=1; i<=100; i++){
+//    let codigo = "<marquee>" + i + "</marquee>"
+//    document.write(codigo);
+// }
+
+// for(let i=10;   ; i--){
+//     document.write(i + "<br>");
+// }
+
+
+
+
+
+
+
+// Escribir un programa en js que permita calcular el total a pagar de un empleado. Solicitar el
+// numero de horas trabajadas y el pago por hora. Pagar las horas extras al triple. Se
+// consideran las primeras 40 horas como normales.
+
+let horas = prompt("¿Cuántas horas trabajó ésta semana?")
+let pagoHora = prompt("¿Cuánto le pagan por hora?")
+
+if (horas>40) {
+    horasExtra = 
+    pagoExtra = (horas * pagoHora - 40)*3
+    console.log ("Su sueldo extra es", pagoExtra);
 }
-
-//for(let i=10;   ; i--){
-//    document.write(i + "<br>");
-//}
-
-
-
+else (horas<40); {
+    console.log ("Usted no trabajó horas extras")
+}
 
 
 
