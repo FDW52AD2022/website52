@@ -39,3 +39,23 @@ h1{
     background-color:  rgb(25, 47, 94);
     font-size: 2.5em;
 }
+
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-top: 30em;
+}
+
+.tabla td, th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tabla th{
+    background-color: rgb(115, 170, 120);
+    color: white;
+}
