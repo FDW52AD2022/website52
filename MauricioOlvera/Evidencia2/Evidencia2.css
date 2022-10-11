@@ -8,7 +8,7 @@
 
 #main-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -20,13 +20,15 @@
 }
 
 #main-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #main-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -60,9 +62,25 @@
     padding-right: 50px;
 }
 
+.contenedor li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px inset white;
+}
+
 #art1 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.asides {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
 }
 
 /* pr page */
@@ -75,7 +93,7 @@
 
 #pr-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -93,7 +111,7 @@
 
 #pr-page footer {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -119,7 +137,7 @@
 
 #m-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -137,7 +155,7 @@
 
 #m-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -163,7 +181,7 @@
 
 #gd-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -181,7 +199,7 @@
 
 #gd-page footer {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -207,7 +225,7 @@
 
 #m8299-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -225,7 +243,7 @@
 
 #m8299-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 

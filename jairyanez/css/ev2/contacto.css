@@ -10,8 +10,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    
-    background-color: #77c42a;
+    background-color: #050b17;
     
 }
 
@@ -29,7 +28,7 @@
     color: rgb(0, 0, 0);
     width: 70%;
     display: flex;
-    background-color: #6800c9;
+    background-color: #6a4c00;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
@@ -55,6 +54,74 @@ form {
     grid-template-columns: 1fr;
     width: 70%;
     padding: 20px;
-    background-color: rgb(144, 22, 22);
+    background-color: #ffffff;
     border-radius: 20px;
+    align-items: end;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    margin-top: 10px;
+    width: 40%;
+    
+}
+pre {
+    font-size: 5px;
+    text-align: center;
+    color: white;
+}
+#boton-form {
+    display: flex;
+    justify-content: end;
+}
+
+.contenedor-sucursal {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #bf9819;
+}
+
+#sucursal, #ascii {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: #560000; 
+}
+
+@media(max-width:800px) {
+    .contenedor-form {
+        flex-direction: column;
+        width: 90%;
+    }
+    #boton-form {
+        justify-content: center;
+    }
+    form {
+        width: 100%;        
+    }
+    #titulo {
+        width: 100%;
+        margin: 10px;
+    }
+    .contenedor-sucursal {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        background-color: #bf9819;
+    }
+    pre {
+        font-size: 3px;
+        color: white;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
