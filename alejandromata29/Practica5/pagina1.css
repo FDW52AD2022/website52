@@ -16,14 +16,14 @@ div .Contenedor{
 img{
     width: 700px;
     height: 500px;
-    position: absolute;
+    position: relative;
     right: 5%;
     top: 32%;
 }
 iframe{
     width: 450px;
     height: 250px;
-    position: absolute;
+    position: relative;
     right: 75%;
     top: 73%;
 }

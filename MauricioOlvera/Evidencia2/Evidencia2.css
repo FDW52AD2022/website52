@@ -113,7 +113,7 @@ body {
 #pr-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 370vh;
     grid-area: cont;
 }
 

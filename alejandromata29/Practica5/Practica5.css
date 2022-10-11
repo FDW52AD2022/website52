@@ -50,7 +50,7 @@ body{ margin: 0;
 img {
     width: 700px;
     height: 400px;
-    position: absolute;
+    position: relative;
     right: 30%;
-    top: 45%;
+    top: 55%;
 }
