@@ -105,6 +105,9 @@ pre {
 footer {
     background-color: #560000; 
 }
+small {
+    background-color: rgb(62, 30, 30);
+}
 
 @media(max-width:800px) {
     .contenedor-form {
