@@ -23,16 +23,19 @@ body {
 #primera-caja ul li a img {
     width: 80vh;
     height: 60vh;
-    margin: 0rem 2rem 3rem 2rem;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 #primera-caja ul {
     list-style: none;
     display: flex;
 }
-#primera-caja > img:hover {
+#primera-caja ul li:hover {
     background-color: red;
+    transition: all 0.8s;
+    width: 79vh;
+    height: 19vh;
+    margin: 0%;
 }
 
 /* barra de navegacion */
