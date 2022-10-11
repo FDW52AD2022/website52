@@ -8,7 +8,7 @@
 
 #main-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -60,6 +60,11 @@
     padding-right: 50px;
 }
 
+.contenedor li {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px inset white;
+}
+
 #art1 {
     padding-left: 30px;
     padding-right: 30px;
@@ -75,7 +80,7 @@
 
 #pr-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -119,7 +124,7 @@
 
 #m-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -163,7 +168,7 @@
 
 #gd-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -207,7 +212,7 @@
 
 #m8299-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
