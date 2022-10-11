@@ -22,7 +22,7 @@ header{
 iframe{
     width: 650px;
     height: 350px;
-    position: relative;
+    position: absolute;
     right: 64%;
     top: 55%;
 }
@@ -30,7 +30,7 @@ iframe{
 img {
     width: 650px;
     height: 350px;
-    position: relative;
+    position: absolute;
     right: 10%;
     top: 56%;
 }
