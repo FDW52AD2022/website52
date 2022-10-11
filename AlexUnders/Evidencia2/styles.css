@@ -48,3 +48,14 @@
     font-weight: bold;
     font-size: 20px;
 }
+#mini-page header {
+    background-color: rgb(0, 0, 0);
+}
+#mini-page article {
+    background-color: rgb(255, 255, 255);
+}
+#mini-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3em;
+}
