@@ -1,0 +1,28 @@
+#nav-flex .contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.color {
+    color: red;
+}
+
+.color2 {
+    color: green;
+}
+
+.color3 {
+    color: red;
+}
+
+.color4 {
+    color: palevioletred;
+}
+
+
+.color5 {
+    color: goldenrod
+}
