@@ -47,10 +47,12 @@ input {
     grid-template-columns: 1fr 1fr;
 }
 
+#msg {
+    resize: none;
+}
 form {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit,minmax(30px,1fr));
     width: 70%;
     padding: 20px;
     background-color: rgb(144, 22, 22);
