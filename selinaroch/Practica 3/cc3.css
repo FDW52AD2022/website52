@@ -29,17 +29,17 @@
     float: left;
     margin-right: 2em;
 }
-.clearfix:after{
+/*.clearfix:after{
     clear: both;
     content: "";
     display: table;
 
-}
+}*/
 
-#nav-main ul {
+/*#nav-main ul {
     background-color: orange;
     list-style: none;
-}
+}*/
 
 #nav-main ul li{
     float: left;
