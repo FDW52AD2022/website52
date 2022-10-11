@@ -1,40 +1,48 @@
+.main-title {
+    background: #6594C0;
+    font: normal normal 18px quicksand;
+    color: rgb(8, 66, 153);
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 30px;
+    }
+
 table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid skyblue;
-  }
-
-  thead, tbody {
-    color: black;
-  }
-  
-  thead th, tfoot th, tfoot td {
-    background: linear-gradient(to bottom, rgba(41, 114, 197, 0.1), rgba(0,0,0,0.5));
-    border: 3px solid skyblue;
+    border: 3px solid white;
   }
   
   thead th:nth-child(1) {
-    width: 30%;
+    width: 16%;
   }
   
   thead th:nth-child(2) {
-    width: 20%;
+    width: 16%;
   }
   
   thead th:nth-child(3) {
-    width: 15%;
+    width: 16%;
   }
   
   thead th:nth-child(4) {
-    width: 35%;
+    width: 16%;
   }
   
   th, td {
     padding: 20px;
   }
-  thead th, tfoot th {
-    font-family: 'Rock Salt', cursive;
+
+  html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    color: white;
+  }
+  
+  thead th, tbody th {
+    font-family: 'Arial', cursive;
   }
   
   th {
@@ -53,12 +61,26 @@ table {
     text-align: right;
   }
 
-  caption {
-    font-family: 'Rock Salt', cursive;
-    padding: 20px;
-    font-style: italic;
-    caption-side: bottom;
-    color: #666;
-    text-align: right;
-    letter-spacing: 1px;
+  thead, tbody {
+    color: black;
+    text-shadow: 1px 1px 1px bl;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid white;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: white;
+    color: rgb(8, 66, 153);
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: rgb(8, 66, 153);
+    color: white;
+  }
+  
+  table {
+    background-color: #3336FF;
   }
