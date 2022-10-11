@@ -9,6 +9,14 @@ body {
     width: 100%;
     height: 100%;
 }
+
+#titulo-main {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dfc8fc;
+    font-size: 6.5vh;
+    text-shadow: 2px 2px 2px #5f467e;
+}
 #primera-caja {
     display: flex;
     background-color: rgba(255, 248, 251, 0.85);
@@ -85,6 +93,17 @@ body {
     transition: opacity 500ms;
   }
 
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
+}
+
+
 .info-sucus {
     display: flex;
     flex-direction: row;
@@ -100,4 +119,13 @@ body {
 
 h1, p{
     text-align: center;
+}
+
+#titulo-mapa > h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-color: rgb(160, 78, 101);
+    padding: 1.5rem;
 }
