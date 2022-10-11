@@ -10,7 +10,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    background-color: #050b17;
+    background-color: #1d212a;
     
 }
 
@@ -25,7 +25,6 @@
 
 }
 .contenedor-form {
-    color: rgb(0, 0, 0);
     width: 70%;
     display: flex;
     background-color: #6a4c00;
@@ -38,6 +37,8 @@ input {
     margin: 15px 0px;
     width: 100%;
     border: none;
+    border-radius: 20px;
+    background-color: #ebebeb;
 }
 
 #apellido {
@@ -48,6 +49,11 @@ input {
 
 #msg {
     resize: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ebebeb;
 }
 form {
     display: grid;
@@ -62,8 +68,13 @@ form {
 
 button {
     margin-top: 10px;
-    width: 40%;
-    
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #6a4c00;
 }
 pre {
     font-size: 5px;
@@ -93,6 +104,9 @@ pre {
 
 footer {
     background-color: #560000; 
+}
+small {
+    background-color: rgb(62, 30, 30);
 }
 
 @media(max-width:800px) {

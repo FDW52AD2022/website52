@@ -50,6 +50,7 @@ h1{
 .sect1 img{
     float: right;
     margin:10px;
+    border: 2px solid black;
 }
 
 .sect1 h2{
