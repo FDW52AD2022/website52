@@ -60,3 +60,34 @@ form {
     color: white;
 }
 
+button {
+    margin-top: 10px;
+    width: 40%;
+    
+}
+pre {
+    font-size: 4px;
+    text-align: center;
+    color: white;
+}
+#boton-form {
+    display: flex;
+    justify-content: end;
+}
+
+@media(max-width:800px) {
+    .contenedor-form {
+        flex-direction: column;
+        width: 90%;
+    }
+    #boton-form {
+        justify-content: center;
+    }
+    form {
+        width: 90%;        
+    }
+    #titulo {
+        width: 100%;
+        margin: 10px;
+    }
+}
