@@ -1,0 +1,94 @@
+body {
+    background-color: #f1faee ;
+}
+
+/*Edicion de cuadro para header*/
+header{
+	width: 100%;
+	height:1px;
+}
+
+.navegacion{
+	width: 100%;
+	background-color:#A8DADC ;
+	position:relative;
+	z-index:100;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/* Se determina el posicionamiento del header */
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color:#1D3557;
+	font-family: 'Arial';
+	text-decoration: none;
+    font-weight:bolder;
+}
+
+
+
+
+/*Animacion de letra para el menu */
+.menu li a:hover{
+    background-color:#E63946 ;
+	transition: all .3s;
+}
+
+
+
+/* Estilo para galeria de fotos */
+
+.galeria{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+
+/* Estilo para el selector de fotos */
+
+
+.selector {
+	width:35%;
+}
+
+.selector img{
+	width:100%;
+	height:100%;
+}
+
+.selector:hover{
+	width:35.5%;
+	transition:all 0.2s;
+	opacity:50%;
+}
+
+
+.selector img{
+	object-fit:cover;
+	
+}
+
+@media (max-height:575px){
+.galeria{ flex-wrap:wrap;
+	justify-content: center;
+	border: 0;}
+
+.selector{
+	width:250px;
+	margin-bottom: 20px;}		
+}
