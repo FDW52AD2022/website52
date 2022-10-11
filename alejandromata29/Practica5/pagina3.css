@@ -10,6 +10,15 @@ body{ margin: 0px;
 body{ text-decoration-color: aliceblue;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: khaki;
+    padding: 10px;
+}
+
 iframe{
     width: 650px;
     height: 350px;
