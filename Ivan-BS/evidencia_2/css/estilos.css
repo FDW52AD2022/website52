@@ -426,13 +426,4 @@ a {
     height: 190px;
 }
 
-/* .servicio img:hover{
-    font-size: 4rem;
-    transition:all .5s ease-in-out;
-    
-} */
-
-/* .servicio img:hover {filter: blur(5px);} */
-/* 
-.servicio img .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
-.servicio  {overflow:hidden;} */
+img:hover {filter: opacity(.5);}

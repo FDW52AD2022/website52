@@ -1,0 +1,57 @@
+.Navegacion{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+}
+
+.Navegacion a{
+    background: beige;
+    Color: black;
+    padding: 30px 40px;
+}
+
+.Navegacion a:hover {
+    background: rgb(232, 193, 135);
+}
+
+body {
+    background: rgb(254, 254, 249);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align:center;
+    background-color: rgb(191, 230, 246);
+    
+}
+header p {
+    background: beige;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.contenedorprin{
+    display: flex;
+}
+
+.contenedores{
+    padding: 10px 30px;
+}
+
+.contenedores img {
+    width: 290px;
+    height: 290px;
+}
+
+.contenedores >a {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: beige;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 15px;
+}
