@@ -1,6 +1,4 @@
-body {
-    background: url(Recursos/musica_electronica.jpg);
-}
+/* main page */
 
 #main-page header {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -33,6 +31,7 @@ body {
 }
 
 #main-page {
+    background: url(Recursos/musica_electronica.jpg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5em;
@@ -64,4 +63,92 @@ body {
 #art1 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/* pr page */
+
+#pr-page header {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#pr-page nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 7vh;
+    grid-area: nav;
+}
+
+#pr-page article {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#pr-page aside {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    grid-area: barra;
+}
+
+#pr-page footer {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: pie;
+}
+
+
+#pr-page {
+    background: url(Recursos/porter_robinson_fondo.png);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+/* m page */
+
+#m-page header {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#m-page nav {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 7vh;
+    grid-area: nav;
+}
+
+#m-page article {
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#m-page aside {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    grid-area: barra;
+}
+
+#m-page footer {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 10vh;
+    grid-area: pie;
+}
+
+
+#m-page {
+    background: url(Recursos/madeon_fondo.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
 }
