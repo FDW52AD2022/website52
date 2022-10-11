@@ -43,11 +43,14 @@ h1{
 .sect1 p{
     font-size: 1.5em;
     margin: 25px;
+    text-align: justify;
+    margin-right: 27em;
 }
 
 .sect1 img{
     float: right;
     margin:10px;
+    border: 2px solid black;
 }
 
 .sect1 h2{

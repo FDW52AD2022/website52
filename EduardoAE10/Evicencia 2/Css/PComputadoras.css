@@ -64,6 +64,7 @@ h2{
     float: right;
     margin-right: 15em;
     margin-top: 2em;
+    border: 2px solid black;
 }
 
 .timg{
