@@ -2,7 +2,7 @@ body {
     background-color: rgb(235, 190, 76);
 }
 
-#nav-main ul{
+#nav-main ol{
     list-style:none;
     padding: 0;
     margin: 0;
