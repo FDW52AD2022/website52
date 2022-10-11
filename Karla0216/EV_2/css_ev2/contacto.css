@@ -47,26 +47,29 @@ h1 {
 footer {
     background-color: #000000;
     color: white;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .button:hover {
     color: #ffff;
 	background:#000000;
-	border-radius:50px;
+	border-radius:30px;
 }
 
 .button {
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 16px 32px;
+    background-color: wheat;
+    border: solid black;
+    color: black;
+    padding: 13px 30px;
     text-align: center;
-    font-size: 16px;
+    font-family: monospace;
+    font-size: 15px;
     font-weight: 600;
     margin: 4px 2px;
     transition: 0.3s;
     display: inline-block;
-    text-decoration: none;
     cursor: pointer;
 }
 
