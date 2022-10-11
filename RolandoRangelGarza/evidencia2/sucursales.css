@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(https://tqpytokz.cdn.imgeng.in/media-adsa/static/3835/203.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#primera-caja {
+    display: flex;
+    background-color: rgba(255, 248, 251, 0.7);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 3rem 3rem 3rem;
+    box-sizing: content-box;
+    padding-top: 3rem;
+}
+
+#primera-caja ul li a img {
+    width: 80vh;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+#primera-caja ul {
+    list-style: none;
+    display: flex;
+}
+#primera-caja ul li:hover {
+    background-color: red;
+    transition: all 0.8s;
+    width: 80vh;
+    height: 20vh;
+    margin: 0%;
+}
+
+/* barra de navegacion */
+#logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    background-color: #850E35;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#menu > #Inicio:hover, #Menu:hover, #Promociones:hover, #Sucursales:hover, #Contacto:hover {
+    background-color: #8e425b;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+#menu > #logo, #cake {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#menu li > a {
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
