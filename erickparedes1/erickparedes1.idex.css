@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
-    background-image: linear-gradient(135deg,#FFFFFF,#d1f4ff,#d4fbec,#E1E2E3);
+    background-image: linear-gradient(135deg,#ffffff,#ffd1d1,#fbeed4,#e3e1e1);
     background-size: 800%;
     animation: fanimado 10s infinite;
 }
@@ -37,7 +37,7 @@ header {
     border-radius: 100px;
 }
 #back-icon:hover {
-    box-shadow: 0px 0px 3px 3px rgb(32, 255, 233);
+    box-shadow: 0px 0px 3px 3px rgb(255, 143, 32);
     transition: 0.2s;
 }
 #user-log{
@@ -81,16 +81,16 @@ header {
     display: inline-block;
     border-radius: 10px;
     color:white;
-    background-color: rgb(140, 189, 245);
+    background-color: rgb(245, 207, 140);
 }
 #container-list li, a {
     text-decoration: none;
-    color: #00546F;
+    color: #006f25;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 #container-list li a:hover {
-    background-color: rgb(0, 167, 170);
+    background-color: rgb(170, 102, 0);
     padding: 10px 10px 10px;
     border-radius: 10px;
     color: white;
