@@ -1,0 +1,66 @@
+.Navegacion{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color:lightpink;
+    justify-content: center;
+}
+
+.Navegacion a{
+    background: lightpink;
+    Color: black;
+    padding: 30px 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Navegacion a:hover {
+    background: lightcoral;
+}
+
+body {
+    background: rgb(246, 239, 247);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body h1{
+    align-items: center;
+    text-align: center;
+    background-color: lightpink;
+}
+
+body p{
+    text-align: center;
+    background-color: rgb(238, 185, 248);
+    size: 35;
+}
+
+.CC{
+    display: flex;
+    padding: 0px 0px 21px 0px;
+}
+
+.c_corporal{
+    padding: 10px 30px;
+    align-items: center;
+    width: 870px;
+
+}
+
+.c_corporal img {
+    width: 300px;
+    height: 450px;
+    padding: 15px 0px 0px 45px;
+    display: block;
+}
+
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
