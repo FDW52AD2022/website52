@@ -1,0 +1,77 @@
+#encabezado{display: flex;
+background-color:honeydew;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 7px;}
+#estrenos{
+
+    display: inline-block;
+    width: 170px;
+    height: 10px;
+    margin: 0%;
+
+
+    /*border: dashed 10px black;*/
+}
+#relevante{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 20px;
+
+    
+
+    /*border: dashed 10px black;*/
+}
+#noticias{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 0px;
+
+
+
+    /*border: dashed 10px black;*/
+}
+#club{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 0px;
+
+
+    /*border: dashed 10px black;*/
+}
+#body{
+    background-color:ivory;
+}
+
+/*article > img {
+    width: 280px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 30%;
+}*/
+
+#articulo{
+    
+    background-color: honeydew;
+    width: 1500px;
+    height: 1500px;
+}
+
+#articulo2{
+    background-color: black;
+    width: 1500px;
+    height: 150px;
+}
+
+#list{
+    display: flex;
+    flex-direction:column;
+}

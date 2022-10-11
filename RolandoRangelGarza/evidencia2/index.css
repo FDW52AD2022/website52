@@ -67,7 +67,7 @@
 
 #mini-page {
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 5fr 0.5fr;
     gap: 0;
     grid-template-areas: "header header"
                          "article aside"
@@ -124,6 +124,9 @@
 
 #presentacion-imagen {
     padding: 8vh 3vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
 }
 
 #presentacion-imagen > img {
@@ -150,6 +153,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding:0px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
 
 }
 
@@ -161,13 +167,22 @@
  
 }
 
+/* contenedor gral texto */
+
+#general-texto {
+    width: 100%;
+    background-color:#FFC4C4;
+    display: flex;
+    justify-content: center;
+    height: 4.5rem;
+}
 #general-texto > h3 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #EE6983;
     background-color: #FFC4C4;
     padding: 3.5vh 0px;
-    font-size: 5vh;
+    font-size: 1.5rem;
     margin-top: 0vh;
     width: 181vh;
 }
@@ -240,11 +255,16 @@
     text-align: center;
 }
 
-#final-infocontacto > p {
+#final-infocontacto > div > #whatsapp {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: whitesmoke;
     font-size: 2.6vh;
-    padding-top: 10px;
+}
+
+#final-infocontacto > div {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
 }
 
 #final-horario > h4 {
@@ -262,6 +282,11 @@
 
 }
 
+#whatsapp {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
 /* datos de contacto abajo del footer */
 .datos-autor {
     width:100%;

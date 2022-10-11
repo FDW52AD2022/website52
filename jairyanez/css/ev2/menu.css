@@ -144,8 +144,10 @@ main {
     font-size: 50px;
 }
 
-
 footer {
     background-color: #472c01; 
 }
 
+small {
+    background-color: #473009;
+}

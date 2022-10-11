@@ -11,6 +11,8 @@
     background: beige;
     Color: black;
     padding: 30px 40px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .Navegacion a:hover {
@@ -24,7 +26,7 @@ body {
 
 header h1 {
     text-align:center;
-    background-color: rgb(191, 230, 246);
+    background-color: rgb(249, 230, 247);
     
 }
 header p {
@@ -35,15 +37,18 @@ header p {
 
 .contenedorprin{
     display: flex;
+    padding: 0px 0px 21px 0px;
 }
 
 .contenedores{
     padding: 10px 30px;
+    text-align: center;
 }
 
 .contenedores img {
     width: 290px;
     height: 290px;
+    padding: 0px 0px 15px 0px;
 }
 
 .contenedores >a {
@@ -51,7 +56,45 @@ header p {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     background-color: beige;
-    padding: 10px 30px;
+    padding: 10px;
     font-size: 18px;
-    margin-top: 15px;
+    text-decoration: none;
+}
+.secanu{
+    height: 420px;
+    background: rgb(208, 177, 130);
+
+}
+
+.Anuncio{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 45px 45px 45px 85px;
+}
+
+.imagenAnuncio{
+   padding-left: 70px  ; 
+}
+
+.imagenAnuncio img { 
+    width: 600px;
+    height: 320px;
+}
+
+.TextoAnuncio h2{
+    text-align: center;
+    font-size: 38px;
+    color: honeydew
+}
+
+.TextoAnuncio h3{
+    text-align: center;
+    font-size: 28px;
+    color: honeydew;
+}
+
+.TextoAnuncio P{
+    text-align: center;
+    font-size: 25;
+    color: honeydew
 }
