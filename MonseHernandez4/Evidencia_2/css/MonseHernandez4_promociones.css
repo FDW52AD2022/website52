@@ -102,3 +102,10 @@ img.centro3 {
     height: 190px;
     width: 620px;
 }
+
+#Copy{
+    background-color:#000000;
+    padding: 11px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
