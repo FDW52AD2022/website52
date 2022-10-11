@@ -1,5 +1,5 @@
 .main-title {
-    background: #cccccc;
+    background: #6594C0;
     font: normal normal 18px quicksand;
     color:#ffffff;
     letter-spacing: 2px;
@@ -10,4 +10,5 @@
     }
 html{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }

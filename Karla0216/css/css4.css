@@ -26,8 +26,31 @@
 }
 
 .tex1{
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 15px;
+/*     align-items: center;
+    justify-content: center; */
+}
+
+.tex2{
+    border: 2px solid black;
+    margin: 15px;
+/*     align-items: center;
+    justify-content: center; */
+}
+
+.tex3{
+    border: 2px solid black;
+    margin: 15px;
+/*     align-items: center;
+    justify-content: center; */
+}
+
+.tex4{
+    border: 2px solid black;
+    margin: 15px;
+/*     align-items: center;
+    justify-content: center; */
 }
 
 
