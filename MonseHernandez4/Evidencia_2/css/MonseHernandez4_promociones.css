@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(235, 190, 76);
+}
+
+#nav-main ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: #be1e2d;
+}
+
+#nav-main li a {
+    color: white;
+    font-family:'Tahoma';
+    font-size: 20px;
+    border-radius: 6px;
+    transition: all 0.4s;
+}
+
+#nav-main li a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #be1e2d;
+
+}
+
+#fondo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menu1 menu2"
+    "menu3 menu4";
+    gap: 1em;
+    
+}
+
+#pro1{
+    grid-area: menu1;
+    margin: 30px;
+    border-radius: 20px;    
+}
+
+#pro2{
+    grid-area: menu2;
+    margin: 30px;
+    border-radius: 20px;
+}
+#pro3{
+    grid-area: menu3;
+    margin: 30px;
+    border-radius: 20px;
+}
+#pro4{
+    grid-area: menu4;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+img.centro2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+
+img.centro1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 500px;
+}
+
+h1{
+    background-color: #be1e2d;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
