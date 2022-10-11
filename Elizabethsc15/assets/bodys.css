@@ -1,0 +1,56 @@
+.Navegacion{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+}
+
+.Navegacion a{
+    background: beige;
+    Color: black;
+    padding: 30px 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Navegacion a:hover {
+    background: rgb(232, 193, 135);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body h1{
+    text-align: center
+}
+
+
+.contenedorprin{
+    display: flex;
+    padding: 0px 0px 21px 0px;
+}
+
+.contendedores{
+    padding: 10px 30px;
+}
+
+.contendedores img {
+    width: 300px;
+    height: 450px;
+}
+
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 18px;
+}
+
+header h1 {
+  text-align: center;
+}
