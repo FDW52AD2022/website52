@@ -79,7 +79,6 @@ button {
 pre {
     font-size: 5px;
     text-align: center;
-    color: white;
 }
 #boton-form {
     display: flex;
@@ -91,6 +90,7 @@ pre {
     justify-content: space-between;
     padding: 30px 20px;
     background-color: #bf9819;
+    color: white;
 }
 
 #sucursal, #ascii {
@@ -102,6 +102,17 @@ pre {
     
 }
 
+#sucursal address {
+    color: black;
+}
+dl {
+    text-align: center;
+}
+dl dd {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: black;
+}
 footer {
     background-color: #560000; 
 }
@@ -125,14 +136,11 @@ small {
         margin: 10px;
     }
     .contenedor-sucursal {
-        display: flex;
         flex-direction: column;
         padding: 30px 20px;
-        background-color: #bf9819;
     }
     pre {
         font-size: 3px;
-        color: white;
     }
 
     iframe {
