@@ -426,4 +426,4 @@ a {
     height: 190px;
 }
 
-.servicio img:hover {filter: opacity(.5);}
+img:hover {filter: opacity(.5);}
