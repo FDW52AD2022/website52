@@ -130,3 +130,14 @@ h2 {
     align-items: center;
 
 }
+
+h2 {
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 35px;
+    z-index: 997;
+    align-items: center;
+}
+p, pre{
+    font-family:'Trebuchet MS';
+}

@@ -6,14 +6,14 @@ body{
 #header {
     height: 100px;
     transition: all 0.5s;
-    z-index: 997;
+    z-index: 1000;
     background: linear-gradient(45deg, #FF1493, #000000);
     align-items: center;
     /*display:flex;*/
 
   }
 
-a {
+#header a {
     color: white;
     text-decoration: none;
     transition: 0.5s;
@@ -101,3 +101,13 @@ a {
     width: 200px;
 }
 
+h2 {
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 35px;
+    z-index: 997;
+    align-items: center;
+}
+p{
+    font-family:'Trebuchet MS';
+}
