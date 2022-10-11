@@ -16,7 +16,7 @@ ul li:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.3em;
-    grid-template-areas: "encabezado encabezado"
+    grid-template-areas: "encabezado ladito"
                          "contenido ladito"
                          "pie pie";
     text-align: center;
