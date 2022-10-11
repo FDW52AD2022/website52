@@ -38,11 +38,14 @@ header{
 
 
 
+
 /*Animacion de letra para el menu */
 .menu li a:hover{
     background-color:#E63946 ;
 	transition: all .3s;
 }
+
+
 
 /* Estilo para galeria de fotos */
 
