@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* barra de navegacion */
+#logo, #Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+    align-self: center;
+    padding: 3vh 9vh;
+    margin: 0%;
+}
+
+#pag {
+    display: flex;
+    background-color: #ec8bab;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#pag > #Inicio:hover, #Productos:hover, #Colaboraciones:hover, #Marcas:hover, #Contacto:hover {
+    background-color: #f5b4e5;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10vh;
+
+}
+
+#pag > #logo {
+    padding: 0%;
+    margin: 0%;
+    width: 40;
+    height: 40;
+}
+
+#pag li > a {
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* estilos de mini page */
+
+#mini-page header {
+    background-color:#e2baa8;
+    grid-column: 1 / -1;
+    grid-area: header;
+    height: 60vh;
+}
+
+#mini-page article {
+    background-color: #dfb0df;
+    grid-area: article;
+    height: 70.5vh;
+}
+
+#mini-page > #principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #secundario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
