@@ -53,4 +53,7 @@ header{
 }
 .cont_grid{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
 }
