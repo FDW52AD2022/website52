@@ -31,6 +31,16 @@
     align-self:center;
     padding: 10px 0px;
 }
+
+table.stats {
+    table-layout: auto;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
 #video_conca_2021{
     display: flex;
     justify-content: center;
