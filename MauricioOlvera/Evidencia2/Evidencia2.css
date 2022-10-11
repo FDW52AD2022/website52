@@ -57,7 +57,7 @@ body {
     justify-content: space-evenly;
 }
 
-#head1 {
+.head {
     color: white;
     font-size: 35px;
     padding-top: 15px;
@@ -113,16 +113,18 @@ body {
 #pr-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 370vh;
     grid-area: cont;
 }
 
 #pr-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #pr-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     height: 5vh;
     grid-area: pie;
@@ -140,6 +142,13 @@ body {
                          "pie pie pie pie";
 }
 
+.img-size {
+    height: 300px;
+}
+
+.tbl-img {
+    height: 100px;
+}
 /* m page */
 
 #m-page header {
