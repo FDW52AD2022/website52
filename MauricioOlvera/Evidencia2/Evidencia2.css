@@ -112,31 +112,31 @@
 /* m page */
 
 #m-page header {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 10vh;
     grid-area: enc;
 }
 
 #m-page nav {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 7vh;
     grid-area: nav;
 }
 
 #m-page article {
     color: white;
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 500vh;
     grid-area: cont;
 }
 
 #m-page aside {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     grid-area: barra;
 }
 
 #m-page footer {
-    background-color: hsla(0, 0%, 0%, 0.5);
+    background-color: hsla(0, 0%, 80%, 0.3);
     height: 10vh;
     grid-area: pie;
 }
@@ -188,6 +188,50 @@
 
 #gd-page {
     background: url(Recursos/ghost_data_fondo.jpg);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "enc enc enc enc"
+                         "nav nav nav nav "
+                         "cont cont cont barra"
+                         "pie pie pie pie";
+}
+
+/* m8299 page */
+
+#m8299-page header {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 10vh;
+    grid-area: enc;
+}
+
+#m8299-page nav {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 7vh;
+    grid-area: nav;
+}
+
+#m8299-page article {
+    color: white;
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 500vh;
+    grid-area: cont;
+}
+
+#m8299-page aside {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    grid-area: barra;
+}
+
+#m8299-page footer {
+    background-color: hsla(0, 0%, 80%, 0.3);
+    height: 10vh;
+    grid-area: pie;
+}
+
+
+#m8299-page {
+    background: url(Recursos/macross8299_fondo.jpg);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5em;
