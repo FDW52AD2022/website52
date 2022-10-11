@@ -33,3 +33,27 @@ header{
 .Links-nav:hover{
     color: #03e9f4;
 }
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 45px 45px 85px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.cont-imag{
+    padding-left: 250px;
+}
+  
+.cont-imag img{
+    height: 300px;
+    width: 400px;
+}
+.cont_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+}
