@@ -82,10 +82,10 @@ cite {
     font-weight: 100;
 }
 
-
-
-
-
 footer {
     background-color: rgb(50, 38, 1);
+}
+
+small {
+    background-color: rgb(57, 43, 0);
 }

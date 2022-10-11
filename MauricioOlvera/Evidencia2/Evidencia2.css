@@ -1,4 +1,7 @@
 /* main page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #main-page header {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -15,7 +18,7 @@
 #main-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 200vh;
     grid-area: cont;
 }
 
@@ -54,7 +57,7 @@
     justify-content: space-evenly;
 }
 
-#head1 {
+.head {
     color: white;
     font-size: 35px;
     padding-top: 15px;
@@ -63,7 +66,7 @@
 }
 
 .contenedor li {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: whitesmoke;
     border: 3px inset white;
 }
 
@@ -72,9 +75,19 @@
     padding-right: 30px;
 }
 
+.sec img {
+    height: 200px;
+    float: right;
+}
+
 .asides {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#bq1 {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .foot {
@@ -105,11 +118,13 @@
 }
 
 #pr-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #pr-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     height: 5vh;
     grid-area: pie;
@@ -127,6 +142,13 @@
                          "pie pie pie pie";
 }
 
+.img-size {
+    height: 300px;
+}
+
+.tbl-img {
+    height: 100px;
+}
 /* m page */
 
 #m-page header {

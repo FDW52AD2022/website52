@@ -40,3 +40,18 @@ h1 > img{
     border-radius: 50%;
     background-size: 100% auto;
 }
+
+.contenedor-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.art-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img{
+    margin: 3.5px;
+
+}
