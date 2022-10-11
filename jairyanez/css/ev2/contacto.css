@@ -50,6 +50,7 @@ input {
 #msg {
     resize: none;
     margin-top: 10px;
+    padding: 10px 20px;
     border: none;
     border-radius: 20px;
     background-color: #ebebeb;
@@ -103,6 +104,9 @@ pre {
 
 footer {
     background-color: #560000; 
+}
+small {
+    background-color: rgb(62, 30, 30);
 }
 
 @media(max-width:800px) {
