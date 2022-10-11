@@ -1,4 +1,4 @@
-const hamburguesa = document.querySelector('.hamburguesa');
+/* const hamburguesa = document.querySelector('.hamburguesa');
 const navegacion = document.querySelector('.navegacion');
 const enlaces = document.querySelectorAll('.navegacion a');
 document.addEventListener('DOMContentLoaded',()=>{
@@ -29,4 +29,4 @@ function cambioSeccion(seccion){
     seccion.scrollIntoView({
         behavior:'smooth'
     })
-}
+} */
