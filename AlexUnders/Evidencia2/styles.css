@@ -34,4 +34,13 @@
 .prettytitles{
     background-color: black;
     text-align: left;
+    font-size: 30px;
+}
+.pjust{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+.blacktitle {
+    background-color: black;
 }
