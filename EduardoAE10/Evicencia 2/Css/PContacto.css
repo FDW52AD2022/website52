@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(207, 225, 245);
+}
+
 .formulario{
     width: 400px;
     background-color:  rgb(25, 47, 94);
@@ -11,4 +15,33 @@
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.controls{
+    width: 100%;
+    background-color:  rgb(25, 47, 94);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid rgb(44, 96, 155);
+    font-size: 18px;
+}
+
+.formulario .boton{
+    width: 100%;
+    background-color:  rgb(60, 99, 182);
+    border: none;
+    padding: 12px;
+    color: rgb(255, 247, 247);
+    margin: 16px 0;
+    font-size: 16px;
 }
