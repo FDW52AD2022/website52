@@ -164,9 +164,8 @@ body {
 }
 
 #m-page article {
-    color: white;
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 500vh;
+    height: 360vh;
     grid-area: cont;
 }
 
