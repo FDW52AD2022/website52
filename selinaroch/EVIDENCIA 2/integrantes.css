@@ -1,7 +1,6 @@
-/*body{
-    background: linear-gradient(360deg, pink, white)
-}*/
-
+body{
+    background: linear-gradient(360deg, #b5bac9, #666f88)
+}
 
 #header {
     height: 100px;
@@ -75,3 +74,20 @@ a {
   letter-spacing: 0.4px;
   position: relative;
 }
+
+
+.imagen{
+    padding: 20px; 
+    margin: 20px; border: 1px solid black; 
+    float: left;
+    width: 200px;
+}
+
+
+.imagen2{
+    padding: 20px; 
+    margin: 20px; border: 1px solid black; 
+    float: right;
+    width: 200px;
+}
+
