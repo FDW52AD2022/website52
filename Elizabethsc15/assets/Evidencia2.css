@@ -1,0 +1,35 @@
+.Navegacion{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+}
+
+.Navegacion a{
+    background: beige;
+    Color: black;
+    padding: 30px 40px;
+}
+
+.Navegacion a:hover {
+    background: rgb(232, 193, 135);
+}
+
+body {
+    background: rgb(254, 254, 249);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    text-align:center;
+}
+
+header p {
+    background: beige;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+
