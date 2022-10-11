@@ -56,6 +56,20 @@ body {
 
 .contenedor-principal {
     margin: 5% 10% 0% 10%;
-    height: 80vh;
+    height: 60vh;
     background-color: #850E35;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+
+.pastel {
+    width: 35vh;
+    height: 55vh;
+    background-color: white;
+}
+
+.pastel > img {
+    width: 35vh;
+    height: 25vh;
 }
