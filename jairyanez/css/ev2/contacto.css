@@ -57,7 +57,7 @@ form {
     background-color: #ffffff;
     border-radius: 20px;
     align-items: end;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 button {
@@ -66,13 +66,33 @@ button {
     
 }
 pre {
-    font-size: 4px;
+    font-size: 5px;
     text-align: center;
     color: white;
 }
 #boton-form {
     display: flex;
     justify-content: end;
+}
+
+.contenedor-sucursal {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #bf9819;
+}
+
+#sucursal, #ascii {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: #560000; 
 }
 
 @media(max-width:800px) {
@@ -84,10 +104,24 @@ pre {
         justify-content: center;
     }
     form {
-        width: 90%;        
+        width: 100%;        
     }
     #titulo {
         width: 100%;
         margin: 10px;
+    }
+    .contenedor-sucursal {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        background-color: #bf9819;
+    }
+    pre {
+        font-size: 3px;
+        color: white;
+    }
+
+    iframe {
+        width: 100%;
     }
 }
