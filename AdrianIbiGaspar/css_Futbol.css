@@ -12,11 +12,6 @@ body {
     grid-template-rows: repeat(4, auto);
 }
 
-body > * {
-    background-color: white;
-    border: medium solid gray;
-}
-
 h2 {
     text-align: center;
 }
@@ -60,6 +55,7 @@ header > h3,p {
 
 
 header > img {
+    margin-top: 10px;
     width: 500px;
     height: 250px;
     float: right;
@@ -72,27 +68,65 @@ header > img {
     text-align: justify;
 }
 
-.uc-center {
+.reglas-fut > h2 {
+    color: red;
+}
+
+.req-estadios {
     grid-column: span 2;
     grid-row: span 1;
 }
 
-.uc-right {
+.req-estadios > h2 {
+    color: royalblue;
+}
+
+.req-estadios > p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: cornflowerblue;
+}
+
+.equipo-1era {
     grid-column: span 2;
     grid-row: span 1;
 }
 
-.uc-middle {
+.equipo-1era h2 {
+    color: blueviolet;
+}
+
+.his-fifa {
     grid-column: span 3;
     grid-row: span 1;
 }
 
-.lower {
+.his-fifa > h3 {
+    margin-left: 10px;
+}
+
+.copa {
     grid-column: span 3;
     grid-row: span 1;
+    color: goldenrod;
+}
+
+.copa > img{
+    width: 100%;
 }
 
 .footer {
     grid-column: span 6;
     grid-row: span 1;
+}
+.footer {
+    background-color: #3c3c3c;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+}
+
+.footer > img {
+    margin: 10px;
+    border-radius: 10px;
 }
