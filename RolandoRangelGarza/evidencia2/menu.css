@@ -3,6 +3,13 @@
     padding: 0%;
 }
 
+body {
+    background-image:url(https://www.modernfoods.co.in/wp-content/uploads/2017/12/plum-cake-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
 /* barra de navegacion */
 #logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
     align-self: center;
@@ -36,4 +43,19 @@
     text-decoration: none;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo-menu {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 10rem;
+    color: aliceblue;
+    background-color: rgba(187, 63, 83, .7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor-principal {
+    margin: 5% 10% 0% 10%;
+    height: 80vh;
+    background-color: #850E35;
 }
