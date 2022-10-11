@@ -113,16 +113,18 @@ body {
 #pr-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 370vh;
     grid-area: cont;
 }
 
 #pr-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #pr-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     height: 5vh;
     grid-area: pie;
