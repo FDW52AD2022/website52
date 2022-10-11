@@ -101,3 +101,17 @@ footer {
     color: white;
     background-color: #0F3460;
 }
+
+table, tr, td {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+td {
+    border: 1px solid white;
+}
+
+table img {
+    height: 100px;
+}
