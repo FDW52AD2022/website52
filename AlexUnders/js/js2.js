@@ -119,6 +119,3 @@ else{
     pagototal = horas*pagohora;
     console.log(pagototal)
 }
-
-
-
