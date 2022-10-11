@@ -37,3 +37,24 @@ header nav li:not(:last-child) {
 header nav li a {
     color: white;
 }
+
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: calc(100vh - 100px - 75px);
+}
+
+.seccion-principal {
+    background-color: #E94560;
+}
+
+.seccion-principal article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    font-size: 1.25em;
+}
