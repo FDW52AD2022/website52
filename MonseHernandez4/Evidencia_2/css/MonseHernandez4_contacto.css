@@ -36,3 +36,41 @@ header {
     background-color: #be1e2d;
 
 }
+
+form {
+    list-style: none;
+    margin: auto;
+    width: 400px;
+    background-color: #be1e2d;
+    padding: 30px;
+}
+
+#seccionC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 10px;
+    background-color: white;
+}
+
+#contacto {
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+button{
+    background-color:white;
+    font-size: 16px;
+}
+
+h1 {
+    background-color: black;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+}
