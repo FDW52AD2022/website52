@@ -91,3 +91,13 @@ aside h3 {
 aside p {
     margin-bottom: 40px;
 }
+
+footer {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0F3460;
+}
