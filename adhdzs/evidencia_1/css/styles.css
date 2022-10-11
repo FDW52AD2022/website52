@@ -111,6 +111,9 @@ nav ul li a:hover:not(.activo) {
 .producto-contenedor img {
      display: block;
      width: 180px;
+     height: 180px;
+     border-radius: 10px;
+     object-fit: cover;
      padding: 20px;
      margin: auto;
 }
@@ -195,4 +198,34 @@ nav ul li a:hover:not(.activo) {
 }
 #galeria table img {
      width: 200px;
+}
+
+#sucursales-contenedor {
+     display: flex;
+     flex-direction: column;
+     padding: 5rem;
+}
+.encabezado-sucursal h1 {
+     font-size: 3rem;
+     font-weight: 500;
+}
+.sucursales {
+     display: flex;
+     justify-content: space-around;
+     margin: 50px;
+}
+
+.sucursal img {
+     width: 380px;
+     height: 280px;
+     object-fit:cover;
+     border-radius: 10px;
+}
+.sucursal h2 {
+     color: #ff672e;
+     padding: 15px;
+     text-align: center;
+}
+.sucursal address {
+     padding: 25px;
 }
