@@ -33,6 +33,7 @@ body{
     margin-right: 2em;
     border-radius: 2em   ;
 }
+
 .clearfix::after{
     clear: both;
     content: "";

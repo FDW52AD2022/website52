@@ -1,7 +1,10 @@
-
+* {
+    margin: 0;
+    box-sizing: content-box;
+}
 body {
     background-image: url(GIFS\ WP.gif);
-    background-size: 100% 100%;
+    background-size: 100vh 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,8 +12,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
 }
 
 .logo {
@@ -18,35 +19,37 @@ header {
 }
 
 h1 {
-    padding: 80px 300px 0px;
     text-align: center;
     color: aliceblue;
     font-family: monospace;
-    font-size: 35px;
+    font-size: 6vh;
+    padding-top: 10vh;
+    padding-bottom: 6vh;
 }
 
 h2 {
-    padding: 0px 300px 120px;
+    padding: 0px 25vh 10vh;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    font-size: 25px ;
+    font-size: 4vh;
 }
 
 h3 {
-    color: aliceblue;
-    font-family: monospace;
-    font-size: 20px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
     margin-top: 0px;
-    padding-bottom: 5px;
-    padding-top: 35px;
+    padding: 8vh 9vh;
+    display: flex;
 }
+
 p {
     color: aliceblue;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 3.5vh;
     font-style: italic;
     padding-top: 65px;
 }
@@ -58,55 +61,73 @@ p {
     justify-content: space-between;
 }
 
-li {
-    font-size: 15px;
-    font-family:monospace ;
-    text-decoration: none;
-    padding: 10px 15px 10px
-}
-ul, ol {
-    list-style: none;
-    text-decoration: none;
-    padding: 10px 40px 10px;
-    box-sizing: border-box;
-    justify-content: space-evenly;
-}
-
-/* Primeros elementos de la navbar */
-.nav li a {
+.navegacion {
+    width: 73.5vh;
+    margin: 5vh 2vh;
     background-color: transparent;
-    color: white;
-    display: inline;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding-top: 10px;
-    justify-content: space-evenly;
+    font-size: 2.4vh;
 }
 
-/* Hover de la navbar */
-.nav li a:hover {
-    padding: 15px 0px 10px;
-    cursor: pointer;
+/* lista del la barra de navegacion */
+.navegacion ul {
+    list-style: none;
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    padding-top: 0vh;
+}
+
+
+/* lista del menu principal */
+.menu-principal > li {
+    /* position: relative; */
+    display: inline-block;
+    margin: 0;
+}
+
+/* texto del menú principal */
+.menu-principal > li > a {
+        display: block;
+        padding: 2vh 5vh;
+        color: whitesmoke;
+        text-decoration: none;
+        font-family: monospace;
+}
+
+/* hover del menu principal */
+.menu-principal li a:hover {
+    transition: 1.5s;
     color: yellow;
-}
-.nav > li, ul {
-    float: left;
-    padding-top: 15px;
-    justify-content: space-evenly;
+    padding: 2vh 5vh;
+    background-color: #47365d;
 }
 
-/* Submenú "Lista de actividades */
-.nav li ul {
-    display: none;
+.submenu-actividades {
     position: absolute;
-    padding: 0px 0px 0px;
-    justify-content: space-between;
+    width: 16.5%;
+    background-color: #372948;
+    visibility: hidden;
+    transition: opacity 1.4s;
+    text-align: center;
+    padding-left: 0;
 }
 
-.nav li:hover > ul {
+.submenu-actividades ul {
+    padding-top: 0%;
+}
+
+/* texto del submenu */
+.submenu-actividades li a {
     display: block;
-    padding: 15px 0px 0px 0px;
+    padding: 2vh 2vh;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: monospace;
     text-align: center;
-    margin: 0px;
-    color: yellow;
+}
+
+/* Esconder el hover del submenu */
+.menu-principal li:hover .submenu-actividades {
+    visibility: visible;
+    opacity: 1;
+    transition: 1.4s;
 }

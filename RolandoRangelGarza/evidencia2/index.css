@@ -1,0 +1,299 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* barra de navegacion */
+#logo, #Inicio, #Menu, #Promociones, #Sucursales, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#menu {
+    display: flex;
+    background-color: #850E35;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#menu > #Inicio:hover, #Menu:hover, #Promociones:hover, #Sucursales:hover, #Contacto:hover {
+    background-color: #8e425b;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+#menu > #logo, #cake {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#menu li > a {
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* estilos de mini page */
+
+#mini-page header {
+    background-color:#F999B7;
+    grid-column: 1 / -1;
+    grid-area: header;
+    height: 80vh;
+}
+
+#mini-page article {
+    background-color: #FFF5E4;
+    grid-area: article;
+    height: 70.5vh;
+}
+
+#mini-page aside {
+    background-color: #F2789F;
+    grid-area: aside;
+}
+
+#mini-page footer {
+    background-color: #372948;
+    /* Abarca todo el ancho de las columnas */
+    grid-area: footer;
+    height: 25vh;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 5fr 0.5fr;
+    gap: 0;
+    grid-template-areas: "header header"
+                         "article aside"
+                         "footer footer";
+}
+
+/* display de todas las secciones de la pagina */
+#mini-page > #presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #ladito {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mini-page > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* presentacion */
+
+#presentacion {
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-liso-degradado-rosa_53876-143892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#presentacion-texto {
+    width: 300px;
+    padding: 100px 10px;
+}
+
+#presentacion-texto > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #372948;
+    font-size: 6.5vh;
+    text-shadow: 2px 2px 2px #5f467e;
+}
+
+#presentacion-imagen {
+    padding: 8vh 3vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
+}
+
+#presentacion-imagen > img {
+    width: 45vh;
+    height: 45vh;
+    border: 5px solid #372948;
+ 
+}
+
+#presentacion-imagen > h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #EE6983;
+    padding: 4vh 0px;
+    font-size: 4vh;
+    margin-top: 5vh;
+}
+
+/* general */
+
+#general {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/493/327/non_2x/white-and-pink-gradient-background-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-template-rows: auto auto;
+    grid-auto-flow: dense;
+
+}
+
+#general-imagen > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #281e34;
+    margin: 0% 4vh;
+ 
+}
+
+/* contenedor gral texto */
+
+#general-texto {
+    width: 100%;
+    background-color:#FFC4C4;
+    display: flex;
+    justify-content: center;
+    height: 4.5rem;
+}
+#general-texto > h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EE6983;
+    background-color: #FFC4C4;
+    padding: 3.5vh 0px;
+    font-size: 1.5rem;
+    margin-top: 0vh;
+    width: 181vh;
+}
+
+/* aside */
+
+#ladito {
+    padding: 0px;
+}
+
+#ladito-texto {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    background-color: #EE6983;
+    padding-top: 5vh;
+    font-size: 3.5vh;
+}
+
+#ladito-red > a > img {
+    width: 15vh;
+    height: 15vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    padding-top: 6vh;
+}
+
+/* footer */
+
+#final > #final-copyright {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+
+#final > #final-infocontacto {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+
+#final > #final-horario {
+    color: #FFF5E4;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+#final-copyright > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+}
+
+#final-copyright > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 10px;
+}
+
+#final-infocontacto > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#final-infocontacto > div > #whatsapp {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+}
+
+#final-infocontacto > div {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+}
+
+#final-horario > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#final-horario > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 24px;
+
+}
+
+#whatsapp {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+/* datos de contacto abajo del footer */
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
+}

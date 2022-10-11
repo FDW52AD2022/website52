@@ -1,0 +1,99 @@
+
+ul li:hover {
+    background-color: wheat;
+    transition: 0.6s;
+    text-align: center;
+
+}
+
+#l1, #l2, #l3, #l4, #l5 {
+    width: 41vh;
+    align-self: center;
+    padding: 21px 0px;
+}
+
+#mini-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3em;
+    grid-template-areas: "encabezado encabezado"
+                         "contenido ladito"
+                         "pie pie";
+    text-align: center;
+}
+
+#mini-page header {
+    background-color: red;
+    grid-area: encabezado;
+    width: 100vw;
+    height: 20vh;
+}
+
+#mini-page article {
+    background-color: blue;
+    grid-area: contenido;
+    width: 100vw;
+    height: 50vh;
+}
+
+#mini-page aside {
+    background-color: yellow;
+    grid-area: ladito;
+}
+
+#mini-page footer {
+    background-color: green;
+    grid-area: pie;
+    width: 100vw;
+    height: 20vh;
+}
+
+#menu-site {
+    display: flex;
+    background-color: orchid;
+    height: 10vh;
+    list-style: none;
+    text-align: center;
+}
+
+li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#mini-page2 header {
+    background-color: rgb(94, 247, 117);
+    grid-column: 1 / -1;
+    grid-area: header;
+    width: 100vw;
+    height: 20vh;
+}
+
+#mini-page2 article {
+    background-color: rgb(175, 96, 234);
+    grid-area: article;
+    width: 80vw;
+    height: 20vh;
+}
+
+#mini-page2 aside {
+    background-color: rgb(235, 136, 136);
+    grid-area: aside;
+}
+
+#mini-page2 footer {
+    background-color: lightblue;
+    /* Abarca todo el ancho de las columnas */
+    grid-area: footer;
+    width: 100vw;
+    height: 20vh;
+}
+
+#mini-page2 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.3em;
+    grid-template-areas: "header header"
+                         "article aside"
+                         "footer footer";
+}

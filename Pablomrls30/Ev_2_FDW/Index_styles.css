@@ -1,0 +1,10 @@
+.main-title {
+    background: #cccccc;
+    font: normal normal 18px quicksand;
+    color:#ffffff;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px;
+    border-radius: 30px;
+    }

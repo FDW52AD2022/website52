@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.boton{
+    font-weight: 600;
+    padding-right: 1000px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 250px;
+    margin-right: 50px;
+}
+
+
+#header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(25, 47, 94);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 3px;
+}
+
+nav a:hover {
+    color: rgb(143, 183, 236);
+}
+
+.portada{
+    justify-content:left;
+}
+
+#introduccion{
+    text-align:center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.3em;
+}
+
+h1{
+    text-align: center; 
+}
+
+.img {
+    height: 250px;
+    border: 2px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.borde {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    justify-content: center
+}
+
+
+.ctext {
+    border: 2px solid rgb(255, 255, 255);
+    height: 360px;
+    width: 360px;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    margin: 45px;
+    text-align: justify;
+    font-size: 1em;
+    
+}
+
