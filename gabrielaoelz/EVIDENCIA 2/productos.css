@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background: #ffffff;
+
+}
+
+h1,h2{
+    background: #ffffff;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+}
+
+
+#Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+    align-self: center;
+    padding: 3vh 9vh;
+    margin: 0%;
+}
+
+#pag {
+    display: flex;
+    background-color: #ec968b;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#pag > #Inicio:hover, #Productos:hover, #Colaboraciones:hover, #Marcas:hover, #Contacto:hover {
+    background-color: #f5b4e5;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10vh;
+
+}
+
+#pag li > a {
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo-main {
+    width: 100%;
+    background-color:#FFC4C4;
+    display: flex;
+    justify-content: center;
+    height: 4.5rem;
+}
+
+#titulo-main > h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #971c34;
+    background-color: #FFC4C4;
+    padding: 3vh -0px;
+    font-size: 1.5rem;
+    margin-top: 0vh;
+    width: 250vh;
+}
+#caja-1 > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #c9c9aa;
+    margin: 0% 4vh;
+}
+
+#bases, #corrector {
+    float: left;
+    width: 46vh;
+    height: 46vh;
+    margin: 12px;
+    padding: 0px;
+  }
+
+  #maquillaje main {
+    background-color: #FFF5E4;
+    grid-area: article;
+    height: 70.5vh;
+}
