@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Edicion de cuadro para header*/
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 100%;
+	margin: 30px auto;
+	border-radius: 4px;
+
+	background: linear-gradient(to right, #990D35, #275DAD);  
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+/* Se determina el posicionamiento del header */
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #FCF7F8;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+
+
+/*Animacion de letra para el menu */
+.menu li a:hover{
+	color: #ABA9C3;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+/* Animacion para transicion de menu */
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+ 
+.inicio {
+	background:#000;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+ 
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+body {
+    background-image: url(/FranciscoRuvalcaba/Evidencia2/imagenes_index/Fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+h1,h3,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+}
+
+.Peliculas_favoritas {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+ 
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+ 
+.VideoYoutube {
+	width:100%;
+	max-width:1000px;
+	margin:auto;
+	padding: 10px;
+ 
+	/* Flexbox */
+	display:flex;
+	flex-flow:row wrap;
+}
+
+.main2 {
+	background:#fff;
+	color: #000;
+	padding:20px;
+ 
+	flex:1 1 70%;
+	/*flex:1;*/
+}
+
+.main2 article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid #000;
+}
+ 
+.main2 article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+
+.main2 p {
+	font-size:17px;
+    
+}
+
