@@ -60,7 +60,7 @@ body {
     background-color: #850E35;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .pastel {
@@ -72,4 +72,12 @@ body {
 .pastel > img {
     width: 35vh;
     height: 25vh;
+}
+
+.pastel #nombre-pastel {
+    background-color: coral;
+    border-radius: 5%;
+    padding: 0.5rem 0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
