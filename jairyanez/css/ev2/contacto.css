@@ -10,8 +10,7 @@
     justify-content: center;
     width: 100%;
     height: 100vh;
-    
-    background-color: #77c42a;
+    background-color: #1d212a;
     
 }
 
@@ -26,10 +25,9 @@
 
 }
 .contenedor-form {
-    color: rgb(0, 0, 0);
     width: 70%;
     display: flex;
-    background-color: #6800c9;
+    background-color: #6a4c00;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
@@ -39,6 +37,8 @@ input {
     margin: 15px 0px;
     width: 100%;
     border: none;
+    border-radius: 20px;
+    background-color: #ebebeb;
 }
 
 #apellido {
@@ -49,12 +49,101 @@ input {
 
 #msg {
     resize: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ebebeb;
 }
 form {
     display: grid;
     grid-template-columns: 1fr;
     width: 70%;
     padding: 20px;
-    background-color: rgb(144, 22, 22);
+    background-color: #ffffff;
     border-radius: 20px;
+    align-items: end;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    margin-top: 10px;
+    width: 30%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: #6a4c00;
+}
+pre {
+    font-size: 5px;
+    text-align: center;
+}
+#boton-form {
+    display: flex;
+    justify-content: end;
+}
+
+.contenedor-sucursal {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #bf9819;
+    color: white;
+}
+
+#sucursal, #ascii {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sucursal address {
+    color: black;
+}
+dl {
+    text-align: center;
+}
+dl dd {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: black;
+}
+footer {
+    background-color: #560000; 
+}
+small {
+    background-color: rgb(62, 30, 30);
+}
+
+@media(max-width:800px) {
+    .contenedor-form {
+        flex-direction: column;
+        width: 90%;
+    }
+    #boton-form {
+        justify-content: center;
+    }
+    form {
+        width: 100%;        
+    }
+    #titulo {
+        width: 100%;
+        margin: 10px;
+    }
+    .contenedor-sucursal {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    pre {
+        font-size: 3px;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }

@@ -1,4 +1,7 @@
 /* main page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #main-page header {
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -8,25 +11,27 @@
 
 #main-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
 #main-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 200vh;
     grid-area: cont;
 }
 
 #main-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #main-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -52,7 +57,7 @@
     justify-content: space-evenly;
 }
 
-#head1 {
+.head {
     color: white;
     font-size: 35px;
     padding-top: 15px;
@@ -60,9 +65,35 @@
     padding-right: 50px;
 }
 
+.contenedor li {
+    background-color: whitesmoke;
+    border: 3px inset white;
+}
+
 #art1 {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.sec img {
+    height: 200px;
+    float: right;
+}
+
+.asides {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#bq1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
 }
 
 /* pr page */
@@ -75,25 +106,27 @@
 
 #pr-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
 #pr-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 370vh;
     grid-area: cont;
 }
 
 #pr-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #pr-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -109,6 +142,13 @@
                          "pie pie pie pie";
 }
 
+.img-size {
+    height: 300px;
+}
+
+.tbl-img {
+    height: 100px;
+}
 /* m page */
 
 #m-page header {
@@ -119,14 +159,13 @@
 
 #m-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
 #m-page article {
-    color: white;
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 500vh;
+    height: 360vh;
     grid-area: cont;
 }
 
@@ -137,7 +176,7 @@
 
 #m-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -163,25 +202,27 @@
 
 #gd-page nav {
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
 #gd-page article {
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 500vh;
+    height: 480vh;
     grid-area: cont;
 }
 
 #gd-page aside {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     grid-area: barra;
 }
 
 #gd-page footer {
+    color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 
@@ -207,7 +248,7 @@
 
 #m8299-page nav {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 7vh;
+    height: 8.5vh;
     grid-area: nav;
 }
 
@@ -225,7 +266,7 @@
 
 #m8299-page footer {
     background-color: hsla(0, 0%, 80%, 0.3);
-    height: 10vh;
+    height: 5vh;
     grid-area: pie;
 }
 

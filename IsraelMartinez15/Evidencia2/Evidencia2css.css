@@ -53,9 +53,9 @@ body {
 #header #fondoh img{
     display: block;
     width: 100%;
-    height: 550px;
+    height: 500px;
     object-fit: cover;
-    object-position: 100% 100%;
+    object-position: 100% 50%;
 }
 
 #menu ul{
@@ -79,6 +79,7 @@ body {
 }
 
 #inicio_main{
+    background-color:rgb(94, 113, 117);
     display: flex;
     align-items: center;
 }
@@ -103,7 +104,7 @@ dt {
 }
 
 #sucursales {
-    background-color: #011955d7;
+    background-color: #010255d7;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

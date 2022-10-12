@@ -1,6 +1,6 @@
 body{ margin: 0px;
     padding: 0px;
-    background-color: beige;
+    background-color: white;
     background-size: cover;
     background-position: 0px;
     background-position: 0%;
@@ -10,12 +10,21 @@ body{ margin: 0px;
 body{ text-decoration-color: aliceblue;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: khaki;
+    padding: 10px;
+}
+
 iframe{
     width: 650px;
     height: 350px;
     position: absolute;
     right: 64%;
-    top: 50%;
+    top: 55%;
 }
 
 img {
@@ -23,5 +32,5 @@ img {
     height: 350px;
     position: absolute;
     right: 10%;
-    top: 51%;
+    top: 56%;
 }

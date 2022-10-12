@@ -303,7 +303,8 @@ a {
 }
 
 .informacion-contacto h3,
-.informacion-contacto p {
+.informacion-contacto p,
+.informacion-contacto li {
     color: var(--blanco);
 }
 
