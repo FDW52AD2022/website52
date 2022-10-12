@@ -45,25 +45,14 @@ header nav a:hover{
     list-style: none;
 }
 
-#logo{
-    display: flex;
-    list-style: none;
-    padding-right: 20px;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0%;
-}
 
-#logo li > a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
+#logo{
+    text-align: center;
 }
 
 #logo img{
-    height: 100px;
+    height: 150px;
+
 }
 
 table, th, td{
@@ -79,19 +68,6 @@ th, td{
 #tablas{
     display: flex;
     justify-content: center;
-}
-
-#titulo{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 10px;
-}
-
-#esperamos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 footer{
