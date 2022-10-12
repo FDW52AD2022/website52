@@ -10,17 +10,6 @@
     margin: 0 auto;
 }
 
-.contenedor-form {
-    width: 100%;
-    max-width: 500px;
-    margin: auto;
-    border: solid black;
-    border-radius: 13px;
-    padding: 15px;
-    margin-top: 10px;
-    background-color: rgb(229, 204, 233);
-}
-
 nav {
     display:flex;
     justify-content: center;
@@ -30,18 +19,6 @@ nav {
 body{
     background-color: bisque;
     padding: 20px 15px
-}
-
-h1 {
-    font-family: Georgia;
-    font-size: 35px;
-    background-color: rgba(240, 11, 187, 0.873);
-    color: black;
-    padding: 15px;
-    margin-top: 10px;
-    border: groove black;
-    border-radius: 20px;
-    text-align: center;
 }
 
 footer {
@@ -68,9 +45,25 @@ footer {
     font-size: 15px;
     font-weight: 600;
     margin: 4px 2px;
-    transition: 0.3s;
     display: inline-block;
     cursor: pointer;
+}
+
+/* h3, p {
+    padding: 10px;
+} */
+
+
+h1 {
+    font-family: Georgia;
+    font-size: 35px;
+    background-color: rgba(240, 11, 187, 0.873);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border: groove black;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .ubicacion {
