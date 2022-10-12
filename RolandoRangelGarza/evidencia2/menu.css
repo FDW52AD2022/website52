@@ -52,21 +52,24 @@ body {
     color: aliceblue;
     background-color: rgba(187, 63, 83, .7);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4%;
 }
 
 .contenedor-principal {
-    margin: 5% 10% 0% 10%;
+    margin: 5% 10% 5% 10%;
     height: 60vh;
     background-color: #850E35;
     display: flex;
     justify-content: space-evenly;
     padding-top: 3rem;
+    border-radius: 3%;
 }
 
 .pastel {
     width: 35vh;
     height: 55vh;
     background-color: white;
+    border-radius: 4%;
 }
 
 .pastel > img {
@@ -80,4 +83,21 @@ body {
     padding: 0.5rem 0%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pastel #descripcion-pastel {
+    text-align: center;
+    padding: 1rem 0.5rem 0% 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
 }
