@@ -82,3 +82,35 @@ h1,h2,h3{
     grid-area: article;
     height: 70.5vh;
 }
+
+#maquillaje footer {
+    background-color: #b6b89a;
+    grid-area: footer;
+    height: 25vh;
+  }
+
+  #maquillaje > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  #final > #final-copyright {
+    color: #000000;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+#final-copyright > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+}
+
+#final-copyright > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 10px;
+}
