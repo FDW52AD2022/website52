@@ -35,20 +35,33 @@ nav a:hover {
     margin-right: 10px;
 }
 
-.footer {
-    /*
-    margin-top: 200px;
+figure > img{
+    width: max-content;
+    width: 350px;
     height: 250px;
-    background-color: #3C3C3C;
-    text-align: center;
-    */
-    background-color: #3c3c3c;
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
 }
+
+figure {
+    text-align: center;
+}
+
+.setup {
+    text-align: center;
+    font-size: 12px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.footer > img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
 
 .footer p{
     color: white;
