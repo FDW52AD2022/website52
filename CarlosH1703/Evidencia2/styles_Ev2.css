@@ -22,6 +22,8 @@ body {
 
 .navbar {
 	background: #FFCD48;
+	position: sticky;
+	top: 0;
 }
 
 .navbar a {
