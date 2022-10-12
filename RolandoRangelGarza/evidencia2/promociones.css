@@ -55,3 +55,13 @@ body {
     height: 23rem;
     margin-top: 0%;
 }
+
+.datos-autor {
+    width:100%;
+    background-color: rgb(38, 38, 38);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
+}
