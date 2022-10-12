@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background: #ffffff;
+
+}
+
+#Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+    align-self: center;
+    padding: 3vh 9vh;
+    margin: 0%;
+}
+
+#pag {
+    display: flex;
+    background-color: #ec968b;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#pag > #Inicio:hover, #Productos:hover, #Colaboraciones:hover, #Marcas:hover, #Contacto:hover {
+    background-color: #f5b4e5;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10vh;
+
+}
+#pag li > a {
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    width: 1590px;
+    height: 320px;
+    border: 3px solid rgb(202, 196, 138);
+    margin: auto;
+
+    background-image: url(../RECURSOS/img1.webp);
+}
