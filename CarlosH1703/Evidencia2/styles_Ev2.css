@@ -21,7 +21,7 @@ body {
 
 
 .navbar {
-	background: #FFCD48;
+	background: #ff6a30;
 	position: sticky;
 	top: 0;
 }
@@ -63,6 +63,13 @@ body {
 	object-fit: cover;
 	object-position: 0 bottom;
 }
+
+.logo{
+	position: absolute;
+	bottom: 0px;
+
+}
+
 
 
 
@@ -137,3 +144,70 @@ aside .indice a {
 		flex-direction: column;
 	}
 }
+
+
+
+
+:root{
+    --gradient:  linear-gradient(to right, #0049e8, #52f97c, #ebf653, #f354e6, #f07654, #ed56bb, #efa856, #ee4c58, #56c1ab);
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    color: #222;
+    background: beige;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: fondo-anim 20s infinite alternate;
+  }
+  @keyframes fondo-anim{
+    0%{background-position: left;} 
+    100%{background-position: right;}
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 1em;
+    font-family: 'Alike';
+    background-color: #262626;
+    color: #d9d9d9;
+  }
+  body {
+    margin: 0;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto';
+    line-height: 1.313em;
+  }
+  h1 {
+    font-size: 3em;
+    margin: 0.563em 0;
+  }
+  h2 {
+    font-size: 2.25em;
+    margin: 0.625em 0;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 1.313em 0;
+  }
+  h4 {
+    font-size: 1.313em;
+    margin: 1.313em 0;
+  }
+  h5 {
+    font-size: 1.125em;
+    margin: 1.313em 0;
+  }
+  h6 {
+    font-size: 1em;
+    margin: 0.75em 0;
+  }
