@@ -1,0 +1,98 @@
+body {
+    background-color: lavender;
+}
+header {
+    background-color: rgb(223, 91, 216);
+    text-align:left;
+    border: 10px;
+    padding: 10px;
+}
+
+#tituloart {
+    text-align: center;
+}
+
+#articulo1 {
+    background-color: whitesmoke;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 150px;
+    position: relative;
+    left: 350px;
+    text-align: center;
+}
+
+#navs{
+    display: flex;
+}
+
+#titulop{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+#tabla{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+
+nav li{
+    display:inline-block;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+
+#navs{
+    display: flex;
+}
+
+#lista{
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#lista li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+}
+
+#img {
+    display: flex;
+    height: 150px;
+    width: 100px;
+    position: relative;
+    left: 300px;
+}
