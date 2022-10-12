@@ -84,7 +84,7 @@ h1,h2,h3{
 }
 
 #maquillaje footer {
-    background-color: #b6b89a;
+    background-color: #d3d88a;
     grid-area: footer;
     height: 25vh;
   }
@@ -104,13 +104,13 @@ h1,h2,h3{
 
 #final-copyright > h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #c391ff;
+    color: #54327c;
     font-size: 4vh;
 }
 
 #final-copyright > p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: whitesmoke;
+    color: rgb(179, 73, 73);
     font-size: 2.6vh;
     padding-top: 10px;
 }
