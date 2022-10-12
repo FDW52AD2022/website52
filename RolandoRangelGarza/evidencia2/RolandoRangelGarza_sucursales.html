@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web con sucursales de la pasteleria Yaz Cakes">
+    <meta name="author" content = "Rolando Rangel Garza">
+    <title>Sucursales</title>
+    <link rel="stylesheet" href="sucursales.css">
+</head>
+<body>
+    <nav>
+        <dl id="menu">
+            <li id="logo"><img src="..\recursos\logo.jpg" alt="logo"></li>
+            <li id="Inicio"><a href="..\evidencia2\RolandoRangelGarza_EV2_index.html">Inicio</a></li>
+            <li id="Menu"><a href="..\evidencia2\RolandoRangelGarza_menu.html">Menu</a></li>
+            <li id="Promociones"><a href="..\evidencia2\RolandoRangelGarza_promociones.html">Promociones</a></li>
+            <li id="Sucursales"><a href="..\evidencia2\RolandoRangelGarza_sucursales.html">Sucursales</a></li>
+            <li id="Contacto"><a href="..\evidencia2\RolandoRangelGarza_contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="titulo-main">
+            <h1>¡Conoce nuestras diferentes sucursales!</h1>
+        </div>
+        <div id="primera-caja">
+            <ul>
+                <li><a href=""><img id="sucursal" src="../recursos/suc1.jpg" alt="sucursal1"></a></li>
+                <li><a href=""><img id="sucursal" src="../recursos/suc2.jpg" alt="sucursal3"></a></li>
+            </ul>
+        
+            <div class="info-sucus">
+                <div id="infosuc1">
+                    <address>Av. Miguel Alemán 1556, Apodaca, <abbr title="Nuevo León">N.L</abbr>, México.</address>
+                </div>
+        
+                <div id="infosuc2">
+                    <address>Av. Pablo Livas 1234, Guadalupe, <abbr title="Nuevo León">N.L</abbr>, México.</address>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <!-- Mapa de google maps, generado auto -->
+    <div id="titulo-mapa">
+        <h3>Ciudad Universitaria</h3>
+    </div>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="800px" height="400px" id="gmap_canvas" src="https://maps.google.com/maps?q=Ciudad%20Universitaria,%20San%20Nicol%C3%A1s&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <br>
+            <style>
+                .mapouter{
+                    position:relative;
+                    text-align:right;
+                    height:400px;
+                    width:800px;
+                }
+            </style>
+            <style>
+                .gmap_canvas {
+                    overflow:hidden;
+                    background:none!important;
+                    height:400px;
+                    width:800px;
+                    border: 5px solid #850E35;
+                    margin: 2rem 10rem 5rem 16.5rem;
+                    }
+            </style>
+        </div>
+    </div>
+    <footer class="datos-autor">
+        <table>
+            <tr>
+                <td id="copy"><p>Copyright &copy; 2021-2022 Yaz Cakes.&nbsp;&nbsp;</p></td>
+                <td id="autor"><p>Autor: Rolando Rangel Garza.&nbsp;&nbsp;</p></td>
+                <td id="direccion"><address>Dirección: Ciudad Universitaria, San Nicolás de los Garza, Nuevo León, México.</address></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,231 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+}
+
+body {
+     background-color: #13252f;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 15px 50px;
+}
+nav img {
+     width: 250px;
+}
+
+nav ul li {
+     display: inline-block;
+     margin: 0 5px;
+}
+nav ul li a {
+     color: #fff;
+     font-weight: 500;
+     text-decoration: none;
+     letter-spacing: 3px;
+     padding: 15px 45px;
+}
+nav ul li a.activo {
+     border-bottom: 2px solid #ff672e;
+}
+nav ul li a:hover:not(.activo) {
+     background-color: rgba(255, 255, 255, 0.15);
+     border-radius: 25px;
+     transition: background ease-in .1s;
+}
+
+#presentacion {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     padding: 5rem 10rem;
+}
+.header-titulo {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+.header-titulo h1 {
+     color: #fff;
+     font-size: 3.5rem;
+}
+.header-titulo h2 {
+     color: #ff672e;
+     font-size: 3rem;
+}
+.header-titulo article {
+     color: #fff;
+     font-size: 1.5rem;
+     margin-top: 3rem;
+}
+.header-titulo article span {
+     color: #ff672e;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+.header-titulo button {
+     color: #fff;
+     background-color: #ff672e;
+     margin-top: 3rem;
+     height: 40px;
+     width: 160px;
+     border: none;
+     border-radius: 30px;
+}
+.header-titulo button:hover {
+     background-color: #fff;
+     color: #ff672e;
+}
+
+/* Menú - Pagina 2*/
+#menu {
+     display: flex;
+     flex-direction: column;
+     padding: 5rem;
+}
+.encabezado h1 {
+     font-size: 5rem;
+     font-weight: 500;
+     color: #ff672e;
+     margin-bottom: 15px;
+}
+.encabezado hr {
+     opacity: .5;
+}
+.menu-contenedor {
+     display: flex;
+     flex-direction: column;
+}
+.producto-contenedor {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 400px;
+     margin: 50px 0 50px;
+}
+.producto-contenedor img {
+     display: block;
+     width: 180px;
+     height: 180px;
+     border-radius: 10px;
+     object-fit: cover;
+     padding: 20px;
+     margin: auto;
+}
+.producto-contenedor dl {
+     text-align: center;
+     margin: 10px;
+}
+.producto-contenedor dl dt h2 {
+     color: #ff672e;
+     padding-bottom: 15px;
+     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+.producto-contenedor dl dd {
+     padding: 15px 30px;
+}
+.producto-contenedor table {
+     text-align: center;
+}
+.producto-contenedor h2 {
+     text-align: center;
+}
+
+/* Nosotros - Página 3 */
+.nosotros-contenedor {
+     padding: 5rem;
+     font-size: 1.2rem;
+}
+#titulo {
+     font-size: 1.2rem;
+}
+#titulo h1 {
+     font-size: 5rem;
+     font-weight: 500;
+}
+#titulo blockquote {
+     padding: 5rem;
+     font-weight: 400;
+}
+
+.nosotros {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.nosotros p {
+     width: 800px;
+     text-align: justify;
+}
+.nosotros img {
+     display: inline-block;
+     width: 400px;
+}
+#historia {
+     display: flex;
+     flex-direction: column;
+}
+#historia h2 {
+     font-size: 4rem;
+     font-weight: 500;
+}
+.nuestra-historia {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.nuestra-historia img {
+     width: 350px;
+     padding: 50px;
+}
+.nuestra-historia article p {
+     padding: 20px;
+     text-align: justify;
+}
+
+#galeria {
+     display: flex;
+     margin-top: 5rem;
+}
+#galeria table {
+     width: 100vw;
+     text-align: center;
+}
+#galeria table img {
+     width: 200px;
+}
+
+#sucursales-contenedor {
+     display: flex;
+     flex-direction: column;
+     padding: 5rem;
+}
+.encabezado-sucursal h1 {
+     font-size: 3rem;
+     font-weight: 500;
+}
+.sucursales {
+     display: flex;
+     justify-content: space-around;
+     margin: 50px;
+}
+
+.sucursal img {
+     width: 380px;
+     height: 280px;
+     object-fit:cover;
+     border-radius: 10px;
+}
+.sucursal h2 {
+     color: #ff672e;
+     padding: 15px;
+     text-align: center;
+}
+.sucursal address {
+     padding: 25px;
+}

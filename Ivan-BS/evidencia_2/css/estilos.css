@@ -303,7 +303,8 @@ a {
 }
 
 .informacion-contacto h3,
-.informacion-contacto p {
+.informacion-contacto p,
+.informacion-contacto li {
     color: var(--blanco);
 }
 
@@ -416,3 +417,14 @@ a {
 .servicio p{
     font-size: 2rem;
 }
+
+.servicio pre{
+    font-size: 2rem;
+}
+
+.servicio img{
+    width: 235px;
+    height: 190px;
+}
+
+img:hover {filter: opacity(.5);}
