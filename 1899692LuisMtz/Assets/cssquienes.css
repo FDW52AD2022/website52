@@ -9,7 +9,10 @@ header{
     align-items: center;
     padding: 15px;
 }
-
+.sectionheder{
+    background-color: #06283D;
+    padding: 0%;
+}
 .vinduxlogo{
     display: flex;
     align-items: center;
@@ -32,4 +35,37 @@ header{
 
 .Links-nav:hover{
     color: #03e9f4;
+}
+.Acerca_de{
+    display: block;
+    padding-left: 150px;
+    padding-right:550px;
+    text-align: justify;
+}
+.div-tex{
+    display: flex;
+}
+.arttex{
+    padding-left: 95px;
+    text-align: justify;
+}
+
+.cont-imag{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+  
+.cont-imag img{
+    height: 300px;
+    width: 400px;
+}
+
+footer{
+    display: block;
+    background-color:#06283D;
+    height: 120px;
+    width: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
