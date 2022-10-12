@@ -1,0 +1,169 @@
+#encabezado{display: flex;
+background-color:rgb(119, 27, 99);
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 7px;}
+#estrenos{
+
+    display: inline-block;
+    width: 170px;
+    height: 10px;
+    margin: 4px;
+
+
+    /*border: dashed 10px black;*/
+}
+#relevante{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 4px;
+
+    
+
+    /*border: dashed 10px black;*/
+}
+#noticias{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 4px;
+
+
+
+    /*border: dashed 10px black;*/
+}
+#club{
+
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    margin: 4px;
+
+
+    /*border: dashed 10px black;*/
+}
+#body{
+    background-color:black;
+}
+
+/*article > img {
+    width: 280px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    border-radius: 30%;
+}*/
+
+#vinculos{
+    display: flex;
+background-color:rgb(119, 27, 99);
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#articulo{
+    display: flex;
+    order: 3;
+    background-color: rgb(119, 27, 99);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#articulo2{
+    display: inline-block;
+    background-color: rgb(43, 44, 45);
+    width: 1500px;
+    height: 150px;
+}
+
+/*#list{
+    display: flex;
+    flex-direction:row;
+}*/
+#l1{
+    display: inline-block;
+    margin: 10px;
+}
+#l2{
+    display: inline-block;
+    margin: 10px;
+}
+
+#CH{
+    display: inline-block;
+    margin: 0%;
+    height: auto;
+
+}
+
+#GV{
+    display: inline-block;
+    height: auto;
+    margin: 0%;
+    border: 0px;
+}
+
+#barra aside{
+    align-self: flex-end;
+    background-color: rgb(255, 255, 255);
+}
+
+#yt{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#ig{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cita{
+    color: white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#linea{
+    color: white;
+}
+#marca{
+    background-color: blueviolet;
+}
+#articuloclub{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#hclub{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#table{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+}
+
+
+

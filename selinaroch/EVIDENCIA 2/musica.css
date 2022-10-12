@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(360deg, pink, white)
+}
+
+
+#header {
+    height: 100px;
+    transition: all 0.5s;
+    z-index: 1000;
+    background: linear-gradient(45deg, #FF1493, #000000);
+    align-items: center;
+    /*display:flex;*/
+
+  }
+
+#header a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+#header h1 {
+    font-size: 50px;
+    /*padding: 0;*/
+    margin: 0;
+    display: inline-block;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+.centrado{
+    text-align:center;
+}
+
+.div{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}   
+  
+  
+.navbar>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 24px;
+}
+
+.navbar ul li{
+    float:right;
+    width: 40%;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  padding: 0 2px;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0.4px;
+  position: relative;
+}
+
+
+
+.video1{
+    padding: 20px; 
+    margin: 20px; border: 1px solid black; 
+    float: right;
+    width: 350px;
+}
+
+
+.imagen{
+    padding: 20px; 
+    margin: 20px; border: 1px solid black; 
+    float: left;
+    width: 200px;
+}
+
+
+.imagen2{
+    padding: 20px; 
+    margin: 20px; border: 1px solid black; 
+    float: right;
+    width: 200px;
+}
+
+h2 {
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 35px;
+    z-index: 997;
+    align-items: center;
+}
+p{
+    font-family:'Trebuchet MS';
+}

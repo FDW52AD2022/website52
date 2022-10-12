@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: teal;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 3px;
+}
+
+nav a:hover {
+    color: mediumturquoise;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+figure > img{
+    width: max-content;
+    width: 350px;
+    height: 250px;
+}
+
+figure {
+    text-align: center;
+}
+
+.setup {
+    text-align: center;
+    font-size: 12px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.footer > img {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.footer p{
+    color: white;
+    line-height: 10px;
+}
+
+div.footer > #copyr {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#principal {
+    text-align: center;
+}
+
+.parte-dos {
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}

@@ -1,0 +1,87 @@
+.Navegacion{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+}
+
+.Navegacion a{
+    background: beige;
+    Color: black;
+    padding: 30px 40px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Navegacion a:hover {
+    background: rgb(232, 193, 135);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+body h1{
+    text-align: center
+}
+.cont_info{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.cont_info h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.cont_info p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-right: 110px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cont_info ul {
+    list-style: none;
+    font-size: 33px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: salmon;
+    font-weight: 500;
+}
+
+form .nombre, textarea{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 15px;
+    border: 1px solid salmon;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.logo{
+    width: 49px;
+    height: 49px;
+}
+
+.linkfac{
+    text-decoration: none;
+    color: salmon;
+}
+
+.linkfac:hover{
+    color: rgb(248, 108, 93);
+}

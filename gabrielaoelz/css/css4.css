@@ -1,0 +1,77 @@
+#caja-1 {
+    display: flex;
+    background-color: rgb(229, 241, 114);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+}
+
+body {
+    background-color: rgb(235, 254, 255);
+}
+#caja-1 img {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    
+}
+
+#caja-2 {
+    display: flex;
+    background-color: rgb(234, 194, 250);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 7px;
+}
+
+#texto-1, #texto-2, #texto-3 {
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+#caja-3 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 7px;
+    padding: 10px;
+    width: 500px;
+}
+
+#color1 {
+    background-color: rgb(255, 0, 98);
+    padding: 40px 70px;
+    margin: 20px;
+}
+
+#color2 {
+    background-color: rgb(255, 102, 0);
+    padding: 40px 70px;
+    margin: 20px;
+}
+
+#color3 {
+    background-color: rgb(117, 210, 30);
+    padding: 40px 70px;
+    margin: 20px;
+}
+
+#color4 {
+    background-color: rgb(115, 128, 0);
+    padding: 40px 70px;
+    margin: 20px;
+}
+
+#color5 {
+    background-color: rgb(255, 196, 0);
+    padding: 40px 70px;
+    margin: 20px;
+}
