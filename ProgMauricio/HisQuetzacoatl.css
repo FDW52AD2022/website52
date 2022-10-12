@@ -1,0 +1,53 @@
+/* . es para la clase */
+.Titulo-pagina {
+    text-align: center;
+    font-size: 20px;
+    background-color: #665A48;
+}
+
+.Titulo-pagina > img {
+    height: 400px;
+    width: 600px;
+}
+
+/* # es para las id */
+#navbar ul li {
+    display: flex;
+    float: left;
+    width: 25%; 
+    background-color: #F4DFBA;
+}
+
+body {
+    font-style: normal;
+    font-size: 20px;
+    background-color: #FFF3E4;
+}
+
+.Representacion-Arte > img {
+    height: 300px;
+    width: 400px;
+    float: none;
+    margin-left: 1em;
+    border-style: solid;
+    margin-bottom: 100px;
+}
+
+video {
+    height: 300px;
+    width: 600px;
+    float: right;
+    margin-left: 300px;
+}
+
+aside {
+    float: right;
+    margin-left: 50px;
+}
+
+
+/* aside > h1 {
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 100px;
+} */
