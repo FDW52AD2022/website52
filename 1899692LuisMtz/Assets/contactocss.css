@@ -36,3 +36,36 @@ header{
 .Links-nav:hover{
     color: #03e9f4;
 }
+
+.cont_info{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.cont_info h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.cont_info p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-right: 110px;
+    text-align: justify;
+    font-family:sans-serif;
+}
+
+.cont_info ul {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: rgb(0, 45, 128);
+    font-weight: 500;
+}
