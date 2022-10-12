@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    background-color: grey;
+    background-color: goldenrod;
     padding: 10px;
 }
 .logo{
@@ -31,7 +31,7 @@ header{
 iframe{
     width: 450px;
     height: 250px;
-    position: absolute;
+    position: relative;
     right: 40%;
     top: 20%;
 }

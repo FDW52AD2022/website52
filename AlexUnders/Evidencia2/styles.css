@@ -34,4 +34,32 @@
 .prettytitles{
     background-color: black;
     text-align: left;
+    font-size: 30px;
+}
+.pjust{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+.blacktitle {
+    background-color: black;
+}
+.great {
+    font-weight: bold;
+    font-size: 20px;
+}
+#mini-page header {
+    background-color: rgb(255, 102, 0);
+}
+#mini-page article {
+    background-color: rgb(47, 45, 43);
+}
+#mini-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.3em;
+}
+#mini-page footer {
+    background-color: rgb(0, 0, 0);
+    grid-column: 3;
 }

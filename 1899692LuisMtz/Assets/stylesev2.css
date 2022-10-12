@@ -1,7 +1,11 @@
 body{
-    background: rgb(109, 109, 109);
+    background: rgb(234, 235, 238);
+    font-family: sans-serif;
 }
-
+.sectionheder{
+    background-color: #06283D;
+    padding: 0%;
+}
 header{
     display: flex;
     height: 65px;
@@ -32,4 +36,48 @@ header{
 
 .Links-nav:hover{
     color: #03e9f4;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 45px 45px 85px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.sectgrid{
+    padding: 15px;
+}
+.cont-imag{
+    padding-left: 250px;
+}
+  
+.cont-imag img{
+    height: 300px;
+    width: 400px;
+}
+.cont_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 150px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.itemsgrid1 img{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 85px;
+}
+
+footer{
+    display: block;
+    background-color:#06283D;
+    height: 158px;
+    width: 100%;
+    padding: 35px;
+
 }

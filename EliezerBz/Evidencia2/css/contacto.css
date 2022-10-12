@@ -1,41 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 
 body{
-    font-family: sans-serif;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1607/Google_play_abstract_gradient-Vector_HD_Wallpaper_1366x768.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color:beige
 }
 
 header{
-    background-color: rgb(13, 0, 255);
-    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(19, 17, 34);
+    padding-bottom: 10px;
 }
+
+header nav a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;    
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background-color: #f56f3a;
+    border-radius: 50px;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+#heading li{
+    list-style: none;
+}
+
 
 #logo{
-    display: flex;
-    list-style: none;
-    padding-right: 20px;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0%;
-}
-
-#logo li > a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    margin: 10px;
+    text-align: center;
 }
 
 #logo img{
-    height: 100px;
+    height: 150px;
+
+}
+
+#titulo{
+    text-align: center;
 }
 
 .form-registro{
