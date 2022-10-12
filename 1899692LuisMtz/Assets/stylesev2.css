@@ -77,4 +77,7 @@ footer{
     background-color:#06283D;
     height: 120px;
     width: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
 }
