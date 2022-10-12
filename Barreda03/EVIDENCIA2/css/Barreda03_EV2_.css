@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: lavender;
+}
+
+header {
+    background-color: rgb(250, 199, 250);
+    text-align: center;
+
+}
+
+#titulop {
+    text-align: center;
+    color: blueviolet;
+}
+
+#slogan {
+    text-align: center;
+}
+
+#titulo2 {
+    text-align: center;
+}
+
+#art1 {
+    background-color: whitesmoke;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#art2 {
+    background-color: whitesmoke;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#art3 {
+    background-color: whitesmoke;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+
+nav li{
+    display:inline-block;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+
+#navs{
+    display: flex;
+}
+
+#titulop{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#lista{
+    display: flex;
+    list-style: none;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#lista li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+#aside{
+    background-color: aqua;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    border-radius: 20px;
+}
+
+#aside h1{
+    text-align: center;
+}
+
+#aside2{
+    padding-right: 50px;
+}
+
+#art2-2{
+    padding-left: 300px;
+}
+
+footer{
+    text-align: center;
+    background-color: #232323;
+    color: white;
+}
+
+span {
+    color: rgb(124, 6, 124);
+    font-weight: bold;
+}
+
+#flayer {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+
+
