@@ -44,3 +44,54 @@ header {
 
     background-image: url(../RECURSOS/img1.webp);
 }
+
+#seccionC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 10px;
+    background-color: white;
+}
+
+#contacto {
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+    color: rgb(2, 1, 1);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+button{
+    background-color:rgb(223, 72, 72);
+    font-size: 16px;
+}
+
+h1 {
+    background-color: rgb(233, 152, 152);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #0a0808;
+    text-align: center;
+    margin: 0px;
+}
+
+section.fondo {
+    background-color: rgb(204, 164, 141);
+    padding: 15px;
+
+}
+
+
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    color: black;
+}
+
+#Copy{
+    background-color: rgb(121, 111, 111);
+    padding:10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
