@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background: #ffffff;
+
+}
+
+#Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+    align-self: center;
+    padding: 3vh 9vh;
+    margin: 0%;
+}
+
+#pag {
+    display: flex;
+    background-color: #ec968b;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#pag > #Inicio:hover, #Productos:hover, #Colaboraciones:hover, #Marcas:hover, #Contacto:hover {
+    background-color: #f5b4e5;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10vh;
+
+}
+#pag li > a {
+    text-decoration: none;
+    color: rgb(5, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+    width: 1590px;
+    height: 320px;
+    border: 3px solid rgb(202, 196, 138);
+    margin: auto;
+
+    background-image: url(../RECURSOS/img1.webp);
+}
+
+#page article {
+    background-color: #FFF5E4;
+    grid-area: article;
+    height: 70.5vh;
+}
+
+#page aside {
+    background-color: #F2789F;
+    grid-area: aside;
+}
+
+#info-texto {
+    width: 100%;
+    background-color:#FFC4C4;
+    display: flex;
+    justify-content: center;
+    height: 4.5rem;
+}
+#info-texto > h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #971c34;
+    background-color: #FFC4C4;
+    padding: 3.5vh 0px;
+    font-size: 1.5rem;
+    margin-top: 0vh;
+    width: 181vh;
+}
+
+#base-imagen > img {
+    width: 46vh;
+    height: 46vh;
+    border: 6px solid #e2e1b1;
+    margin: 0% 4vh;
+}
+
+
+#base-imagen {
+    float: left;
+    width: 46vh;
+    height: 46vh;
+    margin: 9px;
+    padding: 0px;
+  }
+
+  #page > #lado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  #page footer {
+    background-color: #b6b89a;
+    grid-area: footer;
+    height: 25vh;
+  }
+
+  #page > #final {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  #final > #final-copyright {
+    color: #000000;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+#final > #final-ConoceMas {
+    color: #000000;
+    padding: 2vh 6vh;
+    width: 50vh;
+    text-align: center;
+}
+
+#final-copyright > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+}
+
+#final-copyright > p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 2.6vh;
+    padding-top: 10px;
+}
+
+#final-ConoceMas > h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c391ff;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#lado {
+    padding: 0px;
+}
+
+#lado-texto {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(160, 49, 49);
+    background-color: #EE6983;
+    padding-top: 5vh;
+    font-size: 3.5vh;
+}
+
+#page aside {
+    background-color: #F2789F;
+    grid-area: aside;
+}
+
+
