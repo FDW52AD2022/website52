@@ -59,3 +59,10 @@ header{
     height: 300px;
     width: 400px;
 }
+
+footer{
+    display: block;
+    background-color:#06283D;
+    height: 120px;
+    width: 100%;
+}
