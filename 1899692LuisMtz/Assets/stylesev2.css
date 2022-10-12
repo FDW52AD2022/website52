@@ -62,8 +62,7 @@ header{
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 100px;
     grid-gap: 150px;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding: 0px 65px 154px 65px;
 }
 
 .itemsgrid1 img{
@@ -76,8 +75,6 @@ header{
 footer{
     display: block;
     background-color:#06283D;
-    height: 158px;
+    height: 120px;
     width: 100%;
-    padding: 35px;
-
 }
