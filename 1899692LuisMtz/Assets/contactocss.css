@@ -69,3 +69,22 @@ header{
     color: rgb(0, 45, 128);
     font-weight: 500;
 }
+
+form .nombre, textarea{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 15px;
+    border: 1px solid #06283D;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+footer{
+    display: block;
+    background-color:#06283D;
+    height: 120px;
+    width: 100%;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
