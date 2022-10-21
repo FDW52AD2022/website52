@@ -1,0 +1,33 @@
+header {
+    background-color: blue;
+    text-align: center;
+    border: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    color: yellow;
+}
+
+#nombre {
+    font-size: larger;
+    text-align: center;
+    border: 10px;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: blueviolet;
+}
+#descripcion {
+    text-align: center;
+    font-size: larger;
+}
+
+.foto-mia {
+    width: 200px;
+    float: right;
+    margin-right: 2em;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.lista {
+    list-style: none;
+}
