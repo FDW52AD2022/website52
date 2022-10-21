@@ -86,7 +86,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 100%;
     font-family: monospace;
     margin: 15% auto;
     color: #fff;
@@ -116,14 +116,20 @@ body {
 .contenedor .widget-3 {
     background-color: darkseagreen;
     color: #fff;
-    height: 100px;
-    display: flex;
+    height: 200px;
+    display: block;
     align-items: center;
     justify-content: center;
 }
 
 .contenido .widget-1 {
     grid-area: widget-1;
+}
+
+.widget-1 > img {
+    aspect-ratio: 4/2.5;
+    width:100%;
+    object-fit: cover;
 }
 
 .contenido .widget-2 {
@@ -155,8 +161,23 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 25px;
+        font-size: 100%;
         margin: 30% auto;
     }
     
+    .contenedor .widget-1,
+    .contenedor .widget-2,
+    .contenedor .widget-3 {
+    background-color: darkseagreen;
+    color: #fff;
+    height: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+    .widget-1 > img {
+        aspect-ratio: 4/2.5;
+        width:100%;
+        object-fit: cover;
+    }
 }
