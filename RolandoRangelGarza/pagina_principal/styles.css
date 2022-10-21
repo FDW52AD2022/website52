@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(225, 233, 233);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    /* Espaciados */
+    grid-gap: 20px;
+    /* Tres columnas a 1 fracción */
+    grid-template-columns: repeat(3, 1fr);
+    /* Cuatro filas, tamaño automático */
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor > div,
+.contenedor .header,
+.contenedor .aside,
+.contenedor .footer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor .header {
+    background-color: rgb(17, 31, 19);
+    color: white;
+    /* Donde inicia el header */
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.contenedor .contenido {
+    /* Abarca dos columnas de las 4 que tiene el sitio */
+    grid-column: span 2;
+}
+
+.contenedor .aside {
+    /* Comienza en la 3 y termina en la columna 4 */
+    grid-column: 3 / 4;
+    /* Abarca desde la fila 2*/
+    grid-row: span 2;
+    display: flex;
+    /* Alineación vertical */
+    align-items: center;
+    /* Alineación horizontal */
+    justify-content: center;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2 {
+    background-color: darkseagreen;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor .footer {
+    background-color:rgb(35, 51, 51);
+    color: #fff;
+    grid-column: span 3;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor .contenido {
+        /* Que abarque todo el ancho */
+        grid-column: 1 / -1;
+    }
+    .contenedor .aside {
+        /* Que abarque todo el ancho */
+        grid-column: 1 / -1;
+    }
+    /* Que abarque dos columnas */
+    .contenedor .widget-1 {
+        grid-column: span 2;
+    }
+
+    .contenedor .widget-2 {
+        /* Que abarque una columna */
+        grid-column: span 1;
+    }
+}
+    
