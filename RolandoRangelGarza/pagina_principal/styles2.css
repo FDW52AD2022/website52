@@ -76,8 +76,10 @@ body {
     /* Abarca dos columnas de las 4 que tiene el sitio */
     /* grid-column: span 2; */
     grid-area: contenido;
-    height: 70vh;
-
+    background-image: url(https://i.pinimg.com/originals/e3/31/d5/e331d5f2da8838fc0b19186fa0d73c20.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contenido .titulo {
     display: flex;
@@ -85,7 +87,10 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    font-family: monospace;
     margin: 15% auto;
+    color: #fff;
+
 }
 
 .contenido .pfp img {
@@ -144,4 +149,14 @@ body {
                          "widget-1 widget-2 widget-3"
                          "footer footer footer";
     }
+
+    .contenido .titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        margin: 30% auto;
+    }
+    
 }
