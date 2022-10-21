@@ -79,10 +79,18 @@ body {
     height: 70vh;
 
 }
+.contenido .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 15% auto;
+}
 
 .contenido .pfp img {
     width: 60%;
-    max-width: 2px;
+    max-width: 250px;
     margin: 5vh 0px 5vh 5vh;
 }
 .contenedor .aside {
