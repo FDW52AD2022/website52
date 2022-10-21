@@ -126,10 +126,24 @@ body {
     grid-area: widget-1;
 }
 
-.widget-1 > img {
+.widget-1 > a > img {
     aspect-ratio: 4/2.5;
     width:100%;
     object-fit: cover;
+}
+
+.widget-2 > a > img {
+    aspect-ratio: 4/2.5;
+    width:100%;
+    object-fit: cover;
+    
+}
+
+.widget-1 img:hover, 
+.widget-2 img:hover,
+.widget-2 img:hover{
+    filter: brightness(80%);
+    transition: 0.2s;
 }
 
 .contenido .widget-2 {
@@ -176,6 +190,12 @@ body {
     justify-content: center;
 }
     .widget-1 > img {
+        aspect-ratio: 4/2.5;
+        width:100%;
+        object-fit: cover;
+    }
+
+    .widget-2 > img {
         aspect-ratio: 4/2.5;
         width:100%;
         object-fit: cover;
