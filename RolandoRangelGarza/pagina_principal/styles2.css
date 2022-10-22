@@ -114,6 +114,11 @@ body {
     grid-area: aside;
 }
 
+.aside h3 {
+    font-family: monospace;
+    font-size: 140%;
+    text-align: center;
+}
 .contenedor .widget-1,
 .contenedor .widget-2,
 .contenedor .widget-3,
