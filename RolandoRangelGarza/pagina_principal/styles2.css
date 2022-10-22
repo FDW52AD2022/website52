@@ -239,7 +239,7 @@ body {
         grid-template-columns: repeat(3, 1fr);
         /* Cuatro filas, tamaño automático */
         grid-template-rows: repeat(6, auto);
-        grid-template-areas:"header header prueba"
+        grid-template-areas:"header header header"
                             "contenido contenido contenido"
                             "aside aside aside"
                             "widget-1 widget-1 widget-1"
@@ -251,7 +251,8 @@ body {
                             "widget-7 widget-7 widget-7"
                             "widget-8 widget-8 widget-8"
                             "widget-9 widget-9 widget-9"
-                            "footer footer footer";
+                            "footer footer footer"
+                            "prueba prueba prueba";
     }
 
     .contenido .titulo {
