@@ -85,7 +85,7 @@ body {
     padding-right: 30px;
 }
 
-#bq1 {
+.bq {
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -241,31 +241,35 @@ body {
 /* m8299 page */
 
 #m8299-page header {
-    background-color: hsla(0, 0%, 80%, 0.3);
+    color: white;
+    background-color: hsla(295, 70%, 10%, 0.5);
     height: 10vh;
     grid-area: enc;
 }
 
 #m8299-page nav {
-    background-color: hsla(0, 0%, 80%, 0.3);
+    color: white;
+    background-color: hsla(295, 70%, 10%, 0.5);
     height: 8.5vh;
     grid-area: nav;
 }
 
 #m8299-page article {
     color: white;
-    background-color: hsla(0, 0%, 80%, 0.3);
-    height: 500vh;
+    background-color: hsla(295, 70%, 10%, 0.5);
+    height: 520vh;
     grid-area: cont;
 }
 
 #m8299-page aside {
-    background-color: hsla(0, 0%, 80%, 0.3);
+    color: white;
+    background-color: hsla(295, 70%, 10%, 0.5);
     grid-area: barra;
 }
 
 #m8299-page footer {
-    background-color: hsla(0, 0%, 80%, 0.3);
+    color: white;
+    background-color: hsla(295, 70%, 10%, 0.5);
     height: 5vh;
     grid-area: pie;
 }
