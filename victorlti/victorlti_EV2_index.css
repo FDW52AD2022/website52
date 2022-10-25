@@ -111,7 +111,58 @@ justify-content: center;
 
 #barra aside{
     align-self: flex-end;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#yt{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#ig{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cita{
+    color: white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#linea{
+    color: white;
+}
+#marca{
+    background-color: blueviolet;
+}
+#articuloclub{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#hclub{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#table{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap: wrap;
 }
 
 
