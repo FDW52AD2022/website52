@@ -9,4 +9,5 @@ let op=parseInt(document.getElementById("op").value);
 let resul=parseInt(document.getElementById("resul").value);
 
 
+
 }
