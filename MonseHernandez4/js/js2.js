@@ -118,9 +118,9 @@ if(HorasTrabajadas >= 40){
     let horas_extra = (HorasTrabajadas - 40);
     let pago_extra = (horas_extra * PagoxHora * 3);
     let total = (PagoxHora * 40 + pago_extra);
-    console.log(total)
+    console.log("Total:", total);
 }
 else{
     total = (HorasTrabajadas * PagoxHora);
-    console.log(total)
+    console.log("Total:", total);
 }
