@@ -30,12 +30,12 @@ console.log(grupo52);
 
 let carrera=prompt("cual es tu carrera");
 document.write("hola mundo");
-document.write(<ul>
+document.write(`<ul>
     <li>lti </li>
     <li> la</li>
     <li>cp </li>  
     <li> lni</li>  
-             </ul>);
+             </ul>`);
 
 /*ejemplo if */
 let calif=90;
