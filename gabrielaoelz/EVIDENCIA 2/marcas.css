@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#logo, #Inicio, #Productos, #Colaboraciones, #Marcas, #Contacto {
+    align-self: center;
+    padding: 3vh 10.5vh;
+    margin: 0%;
+}
+
+#pag {
+    display: flex;
+    background-color: #ec968b;
+    height: 10vh;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+#pag > #Inicio:hover, #Productos:hover, #Colaboraciones:hover, #Marcas:hover, #Contacto:hover {
+    background-color: #f5b4e5;
+    transition: 0.6s;
+    text-align: center;
+    padding: 3vh 10.5vh;
+
+}
+
+
+#pag li > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo-make {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 10rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(167, 178, 212, 0.7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4%;
+}
+
+.conT-marca {
+    margin: 5% 10% 5% 10%;
+    height: 60vh;
+    background-color: #b1677f;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    border-radius: 3%;
+}
+
+.marca {
+    width: 35vh;
+    height: 55vh;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.marca > img {
+    width: 35vh;
+    height: 25vh;
+}
+
+.marca #nombre-marca {
+    background-color: rgb(151, 208, 216);
+    border-radius: 5%;
+    padding: 0.5rem 0%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.marca #descrip-marca {
+    text-align: center;
+    padding: 1rem 0.5rem 0% 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.datos-autor {
+    width:100%;
+    background-color: rgb(185, 174, 174);
+    color: #FFF5E4;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+    padding: 2vh 0vh;
+}

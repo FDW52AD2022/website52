@@ -1,0 +1,65 @@
+#Titulo-pagina {
+    text-align: center;
+    background-color: #256D85;
+}
+
+#Logotipo {
+    padding: 10px; 
+    margin: 90px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 250px;
+   
+}
+
+.nav {
+    align-content: center;
+    float: right;
+    margin: 100px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root {
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-style);
+    background-color: #1C2A44;  
+}
+
+ol {
+    margin: 5%;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0;
+    border-radius: 25px;
+    border: 0.1px solid #099FFF;
+    background-color: #18181B;
+    box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+li {
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+li:after {
+    display: block;
+}
+
+li:hover:after {
+    transform: scaleX(1);
+}
+
+.Descrip-de-pagina {
+    margin: 100px;
+}
