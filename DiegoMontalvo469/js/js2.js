@@ -99,14 +99,14 @@ switch (numero) {
 
 // Ciclo for
 
-// for(let i=1; i<=100; i++){
-//    let codigo = "<marquee>" + i + "</marquee>"
-//    document.write(codigo);
-// }
+for(let i=1; i<=100; i++){
+   let codigo = "<marquee>" + i + "</marquee>"
+   document.write(codigo);
+}
 
-// for(let i=10;   ; i--){
-//     document.write(i + "<br>");
-// }
+for(let i=10;   ; i--){
+    document.write(i + "<br>");
+}
 
 
 
@@ -130,7 +130,11 @@ else (horas<40); {
     console.log ("Usted no trabajó horas extras")
 }
 
+// Escribir un programa que imprima los horarios en que debe tomar los medicamentos un paciente. Solicitar
+// al usuario la hora de la toma inicial (0-23) y la frecuencia de la toma diaria (1-12)
 
+let horaInicial = prompt("¿A qué hora tomó el medicamento?")
+let tomaDiaria = prompt
 
 
 
