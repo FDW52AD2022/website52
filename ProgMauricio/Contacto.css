@@ -1,0 +1,31 @@
+header {
+    background-color: #F7E2D6;
+    font-size: 25px;
+    /* float: right;
+    margin-left: 1em; */
+    text-align: center;
+}
+
+body {
+    background-color: #395B64;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+#navbar ul li {
+    display: flex;
+    float: left;
+    width: 20%; 
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 20px;    
+}
+
+p {
+    font-size: 20px;
+}
