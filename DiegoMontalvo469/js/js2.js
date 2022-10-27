@@ -109,32 +109,28 @@ for(let i=10;   ; i--){
 }
 
 
+/* Escribir un programa en js que permita calcular el total a pagar de un empleado. Solicitar el
+numero de horas trabajadas y el pago por hora. Pagar las horas extras al triple. Se
+consideran las primeras 40 horas como normales. */
 
+let horas = prompt("¿Cuantas horas trabajó ésta semana?");
+let sueldo = prompt("¿Cuanto gana por hora?");
 
-
-
-
-// Escribir un programa en js que permita calcular el total a pagar de un empleado. Solicitar el
-// numero de horas trabajadas y el pago por hora. Pagar las horas extras al triple. Se
-// consideran las primeras 40 horas como normales.
-
-let horas = prompt("¿Cuántas horas trabajó ésta semana?")
-let pagoHora = prompt("¿Cuánto le pagan por hora?")
-
-if (horas>40) {
-    horasExtra = 
-    pagoExtra = (horas * pagoHora - 40)*3
-    console.log ("Su sueldo extra es", pagoExtra);
+if (horas > 40) {
+    let horasExtra = horas - 40;
+    let sueldoExtra = (horasExtra * sueldo)*3;
+    let sueldoTotal = (40 * sueldo) + sueldoExtra;
+    let codigo1 = "<p>" + "Su sueldo de esta semana es: " + sueldoTotal + "</p>";
+    document.write(codigo1);
 }
-else (horas<40); {
-    console.log ("Usted no trabajó horas extras")
+else {
+    let total = horas * sueldo;
+    let codigo1 = "<p>" + "Su sueldo de esta semana es: " + total + "</p>";
+    document.write(codigo1);
 }
 
 // Escribir un programa que imprima los horarios en que debe tomar los medicamentos un paciente. Solicitar
 // al usuario la hora de la toma inicial (0-23) y la frecuencia de la toma diaria (1-12)
-
-let horaInicial = prompt("¿A qué hora tomó el medicamento?")
-let tomaDiaria = prompt
 
 
 
