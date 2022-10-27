@@ -65,7 +65,7 @@ body{
 
 .container .cards{
     width: 350px;
-    height: 380px;
+    height: 390px;
     border-radius: 8px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -90,7 +90,7 @@ body{
 
 .container .cards p{
     padding: 0 1rem;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
 
