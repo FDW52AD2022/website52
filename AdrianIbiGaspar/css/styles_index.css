@@ -1,0 +1,54 @@
+body {
+    background-color: teal;
+}
+
+a {
+    color: white;
+}
+
+#regresar-lista {
+    color: blue;
+    font-size: 17px;
+    background-color: white;
+}
+
+#imagenes-nav {
+    display: flex;
+}
+
+.logo-uanl {
+    margin-left: 10%;
+    margin-right: 10px;
+}
+
+.logo-facu {
+    margin-left: 10%;
+    margin-right: 10px;
+}
+h1 {
+    color:darkorange;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+#elefante {
+    text-align: center;
+}
+#elefante img {
+    width: 650px;
+    height: 350px;
+}
+
+footer {
+    text-align: center;
+}
+
+#evidencia-2 {
+    font-size: 17px;
+}
+
+#evidencia-2:hover{
+    border: 10px solid white;
+    border-radius: 10px;
+}
