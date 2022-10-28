@@ -63,7 +63,7 @@ default:
     break;
 }
  /*CICLO FOR */
-for(let i=1;i<=100;i++){
+for(let i=1;i<=10;i++){
     let codigo="<marquee>"+i+"</marquee>";
     document.write(codigo);
 }
