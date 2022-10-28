@@ -96,5 +96,15 @@ switch (numero) {
     default:
         console.log("error")
         break;
-}
+    }
 
+    /* Ciclo for  */
+
+    for(let i=1;i<100;i++) {
+    let codigo = ("<marquee>"+ i +"</marquee>");
+    document.write(codigo);
+      }
+
+    for(let i=10;i>=1;i--) {
+    document.write(i + "<br>");
+     }
