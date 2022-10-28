@@ -30,12 +30,12 @@ console.log(grupo52);
 
 let carrera=prompt("cual es tu carrera");
 document.write("hola mundo");
-document.write(<ul>
+document.write(`<ul>
     <li>lti </li>
     <li> la</li>
     <li>cp </li>  
     <li> lni</li>  
-             </ul>);
+             </ul>`);
 
 /*ejemplo if */
 let calif=90;
@@ -63,7 +63,7 @@ default:
     break;
 }
  /*CICLO FOR */
-for(let i=1;i<=100;i++){
+for(let i=1;i<=10;i++){
     let codigo="<marquee>"+i+"</marquee>";
     document.write(codigo);
 }
