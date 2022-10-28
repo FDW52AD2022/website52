@@ -10,3 +10,10 @@
     text-align: 3px initial black;
     font-family: "sans-serif";
 }
+
+.contenedor {
+    width: 98%;
+    max-width: 1000px;
+    margin: 10px auto;
+    display: grid;
+    }
