@@ -108,3 +108,28 @@ switch (numero) {
     for(let i=10;i>=1;i--) {
     document.write(i + "<br>");
      }
+
+     /*EJERCICIO EN CLASE */
+
+    /* Escribir un programa en javascrip que permita
+     calcular el total a pagar a un empleado.
+     Solicitar el numero de horas trabajadas y el pago
+     por hora. Pagar las horas extra al triple. 
+     Se consideran las primeras 40 hras como normales */
+
+     let hrs_trabajadas = 43;
+     let pago_hora = 10;
+
+      if (hrs_trabajadas <= 40 ) {
+      let pago_total = hrs_trabajadas * pago_hora;
+      console.log(pago_total );
+      }
+
+     else {/* 
+      let horaextra = hrs_trabajadas - 40;
+      Pagar las horas extra al triple. 
+      let pagoextra = horaextra * pago_xhra; */
+      let pago_total = (hrs_trabajadas * pago_hora);
+      console.log(pago_total);
+      }
+
