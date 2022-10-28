@@ -1,14 +1,8 @@
-let text
-let hora = prompt("Hora en la que ingirio su primera medicina del dia")
+let horainicial = prompt("Hora en la que ingirio su primera medicina del dia (1-23 hrs):")
+let tomafrecuencia = prompt("Con que frecuencia al dia toma su medicamento? (hasta 12 veces al dia):")
+let n = 1;
 
-switch(hora) {
-    case hora > 23:
-    document.write("ERROR,horario invalido")
-    break;
-
-    case hora = 23:
-    console.log(hora)
-    document.write("Horario maximo permitido")
-    break;
-
+for(let i=horainicial; i<=23; i++){
+    document.write("<p>La toma " + n + " es a las " + i + " horas</p>");
+    n = n + 1;
 }
