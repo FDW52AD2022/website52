@@ -36,7 +36,7 @@ console.log(grupo52);
 
 let carrera = prompt("Cual es tu carrera?")
 
-document.write("<marquee>Holaa</marquee>");
+document.write("<marquee>BUENAS TARDES:)</marquee>");
 
 document.write(`<ul>    
                     <li>LTI</li>
