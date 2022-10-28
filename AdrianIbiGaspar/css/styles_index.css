@@ -43,3 +43,12 @@ h1 {
 footer {
     text-align: center;
 }
+
+#evidencia-2 {
+    font-size: 17px;
+}
+
+#evidencia-2:hover{
+    border: 10px solid white;
+    border-radius: 10px;
+}
