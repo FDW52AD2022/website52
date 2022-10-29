@@ -64,8 +64,8 @@ body{
 }
 
 .container .cards{
-    width: 350px;
-    height: 390px;
+    width: 300px;
+    height: 320px;
     border-radius: 8px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -79,9 +79,13 @@ body{
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);   
 }
 
+#viduxlogon{
+    width: 250px;
+    height: 150px;
+}
 .container .cards img{
-    width: 330px;
-    height: 220px;
+    width: 100px;
+    height: 100px;
 }
 
 .container .cards h4{
