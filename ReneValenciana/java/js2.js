@@ -1,5 +1,5 @@
 /*ejemplo arreglo */
-
+/*
 let equipos = ["tigres", "rayados","america"];
 
 console.log("tipo de dato",
@@ -22,6 +22,7 @@ equipos.push("necaxa");
 console.log(equipos)
 
 /* definir un objeto */
+/*
 let materias = ["web", "conta" ,"costos"];
 
 let grupo52 = {
@@ -32,9 +33,9 @@ let grupo52 = {
 };
 
 console.log(grupo52)
-
 console.log("nombre:", grupo52[0]); /* error */
-console.log("nombre:", grupo52["nombre"]); /* error */  
+/*
+console.log("nombre:", grupo52["nombre"]); /* error   
 console.log("nombre:", grupo52.nombre);
 console.log("primer materia:", 
             grupo52["materias"][0]);
@@ -46,11 +47,11 @@ grupo52.facultad = "facpya";
 
 console.log(grupo52);
 
-/* let carrera = prompt("cual es tu carrera"); */
+/* let carrera = prompt("cual es tu carrera"); 
 
 document.write("<h1>Hola Mundo</h1>");
 
-/* ejemplo if */
+/* ejemplo if 
 
 let calif = 90;
 
@@ -87,4 +88,4 @@ else {
     console.log("su sueldo es de ", sueldo);
 }
 
-
+document.write("su sueldo es de: ", sueldo);
